@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  10 JUN 2020 15:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  10 JUN 2020 18:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -593,7 +593,7 @@ File: babel.def 2018/02/14 3.18 Babel common definitions
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
-)) (/home/rodrigo/Desktop/monografia/src/index.aux (/home/rodrigo/Desktop/monografia/src/content/resumo/index.aux) (/home/rodrigo/Desktop/monografia/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/src/content/objetivo/index.aux))
+)) (/home/rodrigo/Desktop/monografia/src/index.aux (/home/rodrigo/Desktop/monografia/src/content/resumo/index.aux) (/home/rodrigo/Desktop/monografia/src/content/objetivo/index.aux) (/home/rodrigo/Desktop/monografia/src/content/introducao/index.aux))
 \openout1 = `index.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -711,9 +711,9 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 
 ])
-\openout2 = `content/introducao/index.aux'.
+\openout2 = `content/objetivo/index.aux'.
 
- (/home/rodrigo/Desktop/monografia/src/content/introducao/index.tex
+ (/home/rodrigo/Desktop/monografia/src/content/objetivo/index.tex
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 1.
 
@@ -727,9 +727,9 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 
 
 ]
-\openout2 = `content/objetivo/index.aux'.
+\openout2 = `content/introducao/index.aux'.
 
- (/home/rodrigo/Desktop/monografia/src/content/objetivo/index.tex
+ (/home/rodrigo/Desktop/monografia/src/content/introducao/index.tex
 Cap\'{\i }tulo 2.
 )
 
@@ -754,20 +754,20 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 
 [7
 
-] (/home/rodrigo/Desktop/monografia/src/index.aux (/home/rodrigo/Desktop/monografia/src/content/resumo/index.aux) (/home/rodrigo/Desktop/monografia/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/src/content/objetivo/index.aux)) ) 
+] (/home/rodrigo/Desktop/monografia/src/index.aux (/home/rodrigo/Desktop/monografia/src/content/resumo/index.aux) (/home/rodrigo/Desktop/monografia/src/content/objetivo/index.aux) (/home/rodrigo/Desktop/monografia/src/content/introducao/index.aux)) ) 
 Here is how much of TeX's memory you used:
- 4399 strings out of 492982
- 58930 string characters out of 6134896
+ 4404 strings out of 492982
+ 58975 string characters out of 6134896
  137864 words of memory out of 5000000
- 7856 multiletter control sequences out of 15000+600000
- 6063 words of font info for 22 fonts, out of 8000000 for 9000
+ 7860 multiletter control sequences out of 15000+600000
+ 6410 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,45p,309b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on /home/rodrigo/Desktop/monografia/src/index.pdf (7 pages, 36980 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on /home/rodrigo/Desktop/monografia/src/index.pdf (7 pages, 49105 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 44 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
