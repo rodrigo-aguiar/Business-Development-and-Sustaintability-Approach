@@ -157,7 +157,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 OUTPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.tex
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/resumo/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/resumo/index.aux
