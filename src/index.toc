@@ -1,5 +1,33 @@
 \babel@toc {brazil}{}
 \contentsline {chapter}{Resumo}{}
-\contentsline {chapter}{\numberline {1}Objetivo}{4}
-\contentsline {chapter}{\numberline {2}Introdu\IeC {\c c}\IeC {\~a}o}{5}
-\contentsline {section}{\numberline {2.1}Motiva\IeC {\c c}\IeC {\~o}es}{5}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{5}
+\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~o}es}{5}
+\contentsline {chapter}{\numberline {2}Metodologia de pesquisa}{7}
+\contentsline {chapter}{\numberline {3}Objetivo}{8}
+\contentsline {chapter}{\numberline {4}Fundamentos conceituais}{9}
+\contentsline {section}{\numberline {4.1}An\IeC {\'a}lise geral sobre projetos de software}{9}
+\contentsline {subsection}{\numberline {4.1.1}Waterfall}{9}
+\contentsline {subsection}{\numberline {4.1.2}Metodologias \IeC {\'a}geis}{9}
+\contentsline {subsection}{\numberline {4.1.3}DevOps}{9}
+\contentsline {subsection}{\numberline {4.1.4}CI / CD}{9}
+\contentsline {subsection}{\numberline {4.1.5}Testes automatizados}{9}
+\contentsline {section}{\numberline {4.2}Qualidade de software}{9}
+\contentsline {subsection}{\numberline {4.2.1}Requisitos funcionais}{9}
+\contentsline {subsection}{\numberline {4.2.2}Requisitos n\IeC {\~a}o funcionais}{9}
+\contentsline {section}{\numberline {4.3}Escalabilidade}{9}
+\contentsline {subsection}{\numberline {4.3.1}Performance}{9}
+\contentsline {subsection}{\numberline {4.3.2}Falhas no projeto}{9}
+\contentsline {chapter}{\numberline {5}Proposta}{10}
+\contentsline {section}{\numberline {5.1}Como adquirir escalabilidade?}{10}
+\contentsline {section}{\numberline {5.2}Como manter a o sistema perform\IeC {\'a}tico?}{10}
+\contentsline {section}{\numberline {5.3}Como identificar falhas?}{10}
+\contentsline {subsection}{\numberline {5.3.1}O que fazer com as falhas identificadas?}{10}
+\contentsline {chapter}{\numberline {6}Resultados da proposta}{11}
+\contentsline {section}{\numberline {6.1}Um produto escal\IeC {\'a}vel}{11}
+\contentsline {subsection}{\numberline {6.1.1}Um produto com custo din\IeC {\^a}mico}{11}
+\contentsline {section}{\numberline {6.2}Um produto dispon\IeC {\'\i }vel}{11}
+\contentsline {section}{\numberline {6.3}Um produto com falhas planejadas}{11}
+\contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o}{12}
+\contentsline {section}{\numberline {7.1}Resultados em rela\IeC {\c c}\IeC {\~a}o ao objetivo}{12}
+\contentsline {section}{\numberline {7.2}Trabalhos futuros}{12}
+\contentsline {chapter}{\numberline {8}Refer\IeC {\^e}ncia Bibliogr\IeC {\'a}fica}{13}
