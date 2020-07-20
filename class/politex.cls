@@ -249,7 +249,7 @@
 	% ABNT strict
 	% Page style is empty until TOC
 	\renewcommand{\thepage}{}
-	
+
 	\renewcommand{\ABNTBeginOfTextualPart}{
 		\renewcommand{\thepage}{\arabic{page}}
 		\pagestyle{POLIheader}
@@ -260,7 +260,7 @@
 	% Use roman numerals for pretextual part
 	% Use arabic numerals for textual part (restart counter)
 	\renewcommand{\thepage}{\roman{page}}
-	
+
 	\renewcommand{\ABNTBeginOfTextualPart}{
 		\setcounter{page}{1}
 		\renewcommand{\thepage}{\arabic{page}}
@@ -337,7 +337,7 @@
 	\@afterindentfalse%
 	\secdef\@chapter\@schapter%
 }
-	
+
 %% Pre-textual chapter
 % Same as \chapter*{} without switching to textual part
 \newcommand{\pretextualchapter}{%
@@ -365,7 +365,7 @@
 	\endgroup%
 }
 
-%% Include item in TOC (or not) 
+%% Include item in TOC (or not)
 \newcommand{\ABNTaddcontentsline}[3]{%
 	\ifthenelse{\boolean{ABNTNextOutOfTOC}}%
 		{\setboolean{ABNTNextOutOfTOC}{false}}%
@@ -621,7 +621,7 @@
       #1\nobreak\hfil \nobreak%
       \ifthenelse{\boolean{ABNTpagenumstyle}}
          {%
-          \hb@xt@\@pnumwidth{\hss 
+          \hb@xt@\@pnumwidth{\hss
             \ifthenelse{\not\equal{#2}{}}{{\normalfont p.\thinspace#2}}{}}\par
          }
          {%
@@ -666,7 +666,7 @@
                            {2.3ex \@plus.2ex}%
                            {\espaco{simples}\normalfont%
                             \ABNTsectionfont\Large}}
-							
+
 %% \subsection
 \renewcommand\subsection{\ABNTstartsection{subsection}{2}{\z@}%
                            {-3.25ex\@plus -1ex \@minus -.2ex}%
@@ -708,7 +708,7 @@
          \begingroup
          \ifthenelse{\equal{#1}{}}
             {\def\thechapter{\anapchaptername{} \Alph{chapter}}}
-            {\def\thechapter{\anapchaptername{} \Alph{chapter}{} -- #1}} 
+            {\def\thechapter{\anapchaptername{} \Alph{chapter}{} -- #1}}
          \chaptermark{}
          \endgroup
          \if@twocolumn
@@ -740,7 +740,7 @@
 
   \vspace*{30pt}
 
-  \raggedright\espaco{1.2}\par  
+  \raggedright\espaco{1.2}\par
   \begin{list}{}{%
        \setlength{\listparindent}{0cm}%
        \setlength{\itemindent}{-\ABNTanapindent}%
@@ -808,7 +808,7 @@
 %% Portuguese name
 \let\sumario\tableofcontents\relax
 
-%% Contents shows up to subsubsection. 
+%% Contents shows up to subsubsection.
 \setcounter{tocdepth}{4}
 
 %% Section number will appear up to \subsubsection
@@ -896,7 +896,7 @@
    \thispagestyle{\chaptertitlepagestyle}%
    \global\@topnum\z@%
    \@afterindentfalse%
-   \markboth{\indexname}{\indexname}% 
+   \markboth{\indexname}{\indexname}%
     \ABNTaddcontentsline{toc}{chapter}{\indexname}
    \@makeschapterhead{\indexname}%
    \@afterheading%
@@ -1006,7 +1006,7 @@
 \newlength{\authorTitleLength}
 
 \newcommand{\capa}{%
-  \begin{center} 
+  \begin{center}
     \espaco{1.2}
     {\autorformat \ABNTautordata} \par
 	% Distance = 12cm - (margin top) - (authors height)
@@ -1016,12 +1016,12 @@
 
     % local e data
     \vfill
-    \begin{espacosimples} 
+    \begin{espacosimples}
       {\localformat\ABNTlocaldata}\\
       {\dataformat\ABNTdatadata}
     \end{espacosimples}
     \if@openright\cleardoublepage\else\clearpage\fi%
-  \end{center} 
+  \end{center}
 }
 
 
@@ -1031,7 +1031,7 @@
 
 \newcommand{\falsafolhaderosto}{%
   \setcounter{page}{1}
-  \begin{center} 
+  \begin{center}
     \espaco{1.2}
     {\autorformat \ABNTautordata} \par
 	% Distance = 12cm - (margin top) - (authors height)
@@ -1041,7 +1041,7 @@
 
     % comentário
     \vspace{2cm}
-    \hspace{.5\textwidth} % posicionando a minipage 
+    \hspace{.5\textwidth} % posicionando a minipage
     \begin{minipage}{.49\textwidth}
       \begin{espacoumemeio}
         \begin{sloppypar}
@@ -1049,14 +1049,14 @@
         \end{sloppypar}
 
       \end{espacoumemeio}
-    \end{minipage} 
+    \end{minipage}
 
     % local e data
     \vfill
-    \begin{espacosimples} 
+    \begin{espacosimples}
       {\localformat\ABNTlocaldata}\\
       {\dataformat\ABNTdatadata}
-    \end{espacosimples} 
+    \end{espacosimples}
     \if@openright\cleardoublepage\else\clearpage\fi%
   \end{center}
 }
@@ -1064,7 +1064,7 @@
 
 \newcommand{\folhaderosto}{%
   \setcounter{page}{1}
-  \begin{center} 
+  \begin{center}
     \espaco{1.2}
     {\autorformat \ABNTautordata} \par
 	% Distance = 12cm - (margin top) - (authors height)
@@ -1074,7 +1074,7 @@
 
     % comentário
     \vspace{2cm}
-    \hspace{.5\textwidth} % posicionando a minipage 
+    \hspace{.5\textwidth} % posicionando a minipage
     \begin{minipage}{.49\textwidth}
       \begin{espacoumemeio}
         \begin{sloppypar}
@@ -1098,15 +1098,15 @@
 					    {\coorientadornameformat\ABNTcoorientadorname}
 					    {\coorientadorformat\ABNTcoorientadordata}
 					  }
-      \end{espacoumemeio} 
-    \end{minipage} 
+      \end{espacoumemeio}
+    \end{minipage}
 
     % local e data
     \vfill
-    \begin{espacosimples} 
+    \begin{espacosimples}
       {\localformat\ABNTlocaldata}\\
       {\dataformat\ABNTdatadata}
-    \end{espacosimples} 
+    \end{espacosimples}
     \if@openright\cleardoublepage\else\clearpage\fi%
   \end{center}
 }
@@ -1123,6 +1123,14 @@
     Politécnica da Universidade de
     São Paulo para obtenção do
     Título de Engenheiro #1.}%
+}
+
+%% TCC
+\newcommand{\mba}[1]{%
+  \renewcommand{\PoliTipoDocData}{Trabalho de Conclusão de Curso}
+  \comentario{Trabalho apresentado à Escola
+    Politécnica da Universidade de
+    São Paulo para a conclusão do MBA de #1.}%
 }
 
 %% Dissertação de mestrado
@@ -1147,10 +1155,10 @@
 \newcommand{\teseLD}{%
   \renewcommand{\PoliTipoDocData}{Tese (Livre Docência)}
   \comentario{%
-    Tese apresentada à Escola 
+    Tese apresentada à Escola
     Politécnica da Universidade
-    de São Paulo como requisito 
-    para obtenção do Título de 
+    de São Paulo como requisito
+    para obtenção do Título de
     Professor Livre Docente junto ao
     \PoliDepartamentoData.}%
   \orientador[~]{}%
@@ -1161,11 +1169,11 @@
 \newcommand{\memorialLD}{%
   \renewcommand{\PoliTipoDocData}{Memorial (Livre Docência)}
   \comentario{%
-    Memorial apresentado à Escola 
+    Memorial apresentado à Escola
     Politécnica da Universidade
-    de São Paulo como requisito  
-    para obtenção do Título de 
-    Professor Livre Docente junto ao 
+    de São Paulo como requisito
+    para obtenção do Título de
+    Professor Livre Docente junto ao
     \PoliDepartamentoData.}%
   \orientador[~]{}%
   \coorientador[~]{}%
@@ -1277,7 +1285,7 @@
 \newcommand{\ABNTcsign}[1]%
   {\begingroup\par\centering\ABNTsign{#1}\par\endgroup}
 
-%% Environment folhadeaprovacao 
+%% Environment folhadeaprovacao
 \newenvironment{folhadeaprovacao}%
   {\if@openright\cleardoublepage\else\clearpage\fi\begingroup}%
   {\endgroup\if@openright\cleardoublepage\else\clearpage\fi}
@@ -1287,10 +1295,10 @@
 
 \ifthenelse{\boolean{ABNTtimesfont}}% if `times' option enabled...
  {\IfFileExists{mathptmx.sty}%  try `mathptmx' first
-    {\RequirePackage{mathptmx}}% 
+    {\RequirePackage{mathptmx}}%
     {\IfFileExists{mathptm.sty}% if not installed, try `mathptm'
        {\RequirePackage{mathptm}}%
-       {\IfFileExists{times.sty} % 
+       {\IfFileExists{times.sty} %
          {\RequirePackage{times}}%
          {\renewcommand{\rmdefault}{ptm}}%
        }%
