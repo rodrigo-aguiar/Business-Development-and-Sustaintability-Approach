@@ -97,6 +97,8 @@ INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.aux
+INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux
+INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux
 OUTPUT /home/rodrigo/Desktop/monografia/Trabalho/src/index.aux
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -162,11 +164,16 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 OUTPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.tex
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.tex
+OUTPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux
+INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.tex
+INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.tex
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.aux
+INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux
+INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
