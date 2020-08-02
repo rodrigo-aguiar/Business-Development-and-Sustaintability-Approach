@@ -95,6 +95,8 @@ INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux
+INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/metodologia/index.aux
+INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/metodologia/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux
@@ -161,6 +163,9 @@ INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+OUTPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/metodologia/index.aux
+INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/metodologia/index.tex
+INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/metodologia/index.tex
 OUTPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.tex
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.tex
@@ -170,6 +175,8 @@ INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.tex
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux
+INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/metodologia/index.aux
+INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/metodologia/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.aux
 INPUT /home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux
