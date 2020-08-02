@@ -1,34 +1,51 @@
 \babel@toc {brazil}{}
 \contentsline {chapter}{Resumo}{}
 \contentsline {chapter}{Abstract}{}
-\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{6}
-\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~o}es}{7}
-\contentsline {chapter}{\numberline {2}Metodologia de pesquisa}{8}
-\contentsline {chapter}{\numberline {3}Objetivo}{9}
-\contentsline {chapter}{\numberline {4}Fundamentos conceituais}{10}
-\contentsline {section}{\numberline {4.1}An\IeC {\'a}lise geral sobre projetos de software}{10}
-\contentsline {subsection}{\numberline {4.1.1}Waterfall}{10}
-\contentsline {subsection}{\numberline {4.1.2}Metodologias \IeC {\'a}geis}{10}
-\contentsline {subsection}{\numberline {4.1.3}DevOps}{10}
-\contentsline {subsection}{\numberline {4.1.4}CI / CD}{10}
-\contentsline {subsection}{\numberline {4.1.5}Testes automatizados}{10}
-\contentsline {section}{\numberline {4.2}Qualidade de software}{10}
-\contentsline {subsection}{\numberline {4.2.1}Requisitos funcionais}{10}
-\contentsline {subsection}{\numberline {4.2.2}Requisitos n\IeC {\~a}o funcionais}{10}
-\contentsline {section}{\numberline {4.3}Escalabilidade}{10}
-\contentsline {subsection}{\numberline {4.3.1}Disponibilidade}{10}
-\contentsline {subsection}{\numberline {4.3.2}Falhas no projeto}{10}
-\contentsline {chapter}{\numberline {5}Proposta}{11}
-\contentsline {section}{\numberline {5.1}Como adquirir escalabilidade?}{14}
-\contentsline {section}{\numberline {5.2}Como manter o sistema dispon\IeC {\'\i }vel?}{14}
-\contentsline {section}{\numberline {5.3}Como identificar falhas?}{14}
-\contentsline {subsection}{\numberline {5.3.1}O que fazer com as falhas identificadas?}{14}
-\contentsline {chapter}{\numberline {6}Resultados da proposta}{15}
-\contentsline {section}{\numberline {6.1}Um produto escal\IeC {\'a}vel}{15}
-\contentsline {subsection}{\numberline {6.1.1}Um produto com custo din\IeC {\^a}mico}{15}
-\contentsline {section}{\numberline {6.2}Um produto dispon\IeC {\'\i }vel}{15}
-\contentsline {section}{\numberline {6.3}Um produto com falhas planejadas}{15}
-\contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o}{16}
-\contentsline {section}{\numberline {7.1}Resultados em rela\IeC {\c c}\IeC {\~a}o ao objetivo}{16}
-\contentsline {section}{\numberline {7.2}Trabalhos futuros}{16}
-\contentsline {chapter}{\numberline {8}Refer\IeC {\^e}ncia Bibliogr\IeC {\'a}fica}{17}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{7}
+\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~o}es}{9}
+\contentsline {chapter}{\numberline {2}Metodologia de pesquisa}{11}
+\contentsline {chapter}{\numberline {3}Objetivo}{12}
+\contentsline {chapter}{\numberline {4}Fundamentos conceituais}{13}
+\contentsline {section}{\numberline {4.1}An\IeC {\'a}lise geral sobre desenvolvimento de software}{13}
+\contentsline {subsection}{\numberline {4.1.1}Metodologias \IeC {\'a}geis}{13}
+\contentsline {subsection}{\numberline {4.1.2}DevOps}{13}
+\contentsline {subsection}{\numberline {4.1.3}CI / CD}{13}
+\contentsline {subsection}{\numberline {4.1.4}Testes automatizados}{13}
+\contentsline {section}{\numberline {4.2}Qualidade de software}{13}
+\contentsline {subsection}{\numberline {4.2.1}Requisitos funcionais}{13}
+\contentsline {subsection}{\numberline {4.2.2}Requisitos n\IeC {\~a}o funcionais}{13}
+\contentsline {subsection}{\numberline {4.2.3}Escalabilidade}{13}
+\contentsline {subsection}{\numberline {4.2.4}Disponibilidade}{13}
+\contentsline {subsection}{\numberline {4.2.5}Falhas no projeto}{13}
+\contentsline {chapter}{\numberline {5}Proposta}{14}
+\contentsline {section}{\numberline {5.1}Como criar produtos com qualidade?}{15}
+\contentsline {subsection}{\numberline {5.1.1}Assumindo riscos}{15}
+\contentsline {subsection}{\numberline {5.1.2}Entendendo os requisitos de uma funcionalidade}{15}
+\contentsline {subsection}{\numberline {5.1.3}Arquitetura evolutiva}{15}
+\contentsline {subsection}{\numberline {5.1.4}Estruturando o fluxo de entrega}{15}
+\contentsline {subsection}{\numberline {5.1.5}Automatizando testes de qualidade}{15}
+\contentsline {section}{\numberline {5.2}Como adquirir escalabilidade?}{15}
+\contentsline {subsection}{\numberline {5.2.1}Descobrindo os limites do sistema}{15}
+\contentsline {subsection}{\numberline {5.2.2}Desenvolvendo estrat\IeC {\'e}gias de escalabilidade}{15}
+\contentsline {section}{\numberline {5.3}Como manter o sistema dispon\IeC {\'\i }vel?}{15}
+\contentsline {subsection}{\numberline {5.3.1}Utilizando o neg\IeC {\'o}cio para definir disponibilidade}{15}
+\contentsline {subsection}{\numberline {5.3.2}Analisando o desempenho do sistema}{15}
+\contentsline {subsection}{\numberline {5.3.3}Falando com os usu\IeC {\'a}rios}{15}
+\contentsline {subsection}{\numberline {5.3.4}Utilizando m\IeC {\'e}tricas para assegurar a disponibilidade}{15}
+\contentsline {subsection}{\numberline {5.3.5}Aplicando testes automatizados}{15}
+\contentsline {section}{\numberline {5.4}Como identificar falhas?}{15}
+\contentsline {subsection}{\numberline {5.4.1}Sentindo o cheiro do produto}{15}
+\contentsline {subsection}{\numberline {5.4.2}Utilizando o usu\IeC {\'a}rio para identificar falhas}{15}
+\contentsline {subsection}{\numberline {5.4.3}Solucionando falhas}{15}
+\contentsline {subsection}{\numberline {5.4.4}Aprendendo com os erros}{15}
+\contentsline {subsection}{\numberline {5.4.5}Testes automatizados como ferramenta de aprendizado}{15}
+\contentsline {subsection}{\numberline {5.4.6}Divulgando as descobertas de forma global}{15}
+\contentsline {chapter}{\numberline {6}Resultados da proposta}{16}
+\contentsline {section}{\numberline {6.1}Um produto escal\IeC {\'a}vel}{16}
+\contentsline {subsection}{\numberline {6.1.1}Um produto com custo din\IeC {\^a}mico}{16}
+\contentsline {section}{\numberline {6.2}Um produto dispon\IeC {\'\i }vel}{16}
+\contentsline {section}{\numberline {6.3}Um produto com falhas planejadas}{16}
+\contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o}{17}
+\contentsline {section}{\numberline {7.1}Resultados em rela\IeC {\c c}\IeC {\~a}o ao objetivo}{17}
+\contentsline {section}{\numberline {7.2}Trabalhos futuros}{17}
+\contentsline {chapter}{\numberline {8}Refer\IeC {\^e}ncia Bibliogr\IeC {\'a}fica}{18}
