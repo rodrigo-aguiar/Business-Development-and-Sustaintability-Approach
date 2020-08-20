@@ -1,9 +1,274 @@
 \chapter{Proposta}
-  \capepigrafe[0.5\textwidth]{``Software funcionando é a principal medida do
-  progresso.''}{Manifesto Ágil}
+  \capepigrafe[0.5\textwidth]{``Não tente se tornar uma pessoa de sucesso,
+  prefira tentar se tornar uma pessoa de valor.''}{Albert Einstein}
 
   \section{Como criar produtos com qualidade?}
+    Quando produzimos um \textit{software}, focamos sempre nas funcionalidades que
+    o sistema deve conter, pretendemos entregar o mais rápido possível e respeitar
+    as datas alinhadas com o negócio. Porem, na pressa de colocar as funcionalidades
+    em produção, desconsideramos os requisitos não-funcionais e por mais que a
+    funcionalidade tenha sido entregue conforme o específicado, o usuário não
+    consegue utiliza-la, consequentemente, está entrega não está gerando valor. \newline
+    Mas como assim, os requisitos foram atendidos mas o usuário não consegue utilizar?
+    Como ignoramos os requisitos não-funcionais, o usuário pode estar sofrendo por
+    diversos problemas, por exemplo, um \textit{layout} confuso, um desempenho baixo,
+    o sistema está forçando ele a realizar uma tarefa que ele não está acostumado a
+    fazer, ou pelo menos não no momento em que apareceu no sistema. Como entregamos
+    vizando a data da entrega e nãp o valor para o usuário, aceitamos o risco de
+    entregar algo que o usuário não vê valor, e por diversas vezes cometemos erros.
+    Ao testar uma funcionalidade, não costumamos ter a visão total do negócio,
+    focamos na funcionalidade, então questões como tempo de resposta, ordem lógica
+    no processo, localização das informações, nos passam despercebidos, não estamos
+    utilizando o sistema diariamente para entender estas questões sozinhos, e o
+    negócio muda frequentemente, então quando finalmente entendemos a realidade do
+    usuário, ela já mudou, e voltamos a estar sucetiveis ao erro. \newline
+    Como não atendemos a expectativa do usuário, e a funcionalidade não está gerando
+    valor, implementamos diversas melhorias, todas o mais rápido possível, o que
+    acaba gerando \textit{bugs}, como erramos uma vez, precisamos corrigir o erro
+    o mais rápido possível, o que nos faz ignorar novamente requisitos não-funcionais
+    e, por sua vez, ignoramos questões de arquitetura de \textit{software} o que
+    acaba deixando o sistema mais complexo, dificulta a sua manutenção, e deixa o
+    sistema mais sucetível a erros. \newline
+    Não queremos mais cometer estes erro, queremos cria o produto perfeito que
+    será totalmente aderente ao usuário e que irá gerar valor para o negócio. \newline
+    O primeiro passo para gerar um produto de qualidade, que auxilia a empresa a
+    concluir os seus objetivos e que traga valor ao negócio e entender que não
+    existe produto perfeito. Somos humanos, erramos constantemente, realizamos
+    escolhas erradas, nos equivocamos. Para realizar uma entrega de pouco risco
+    e extremamente acertiva, é necessário muito tempo de planejamento e de estudo,
+    como por exemplo a construção de uma avião, ou de um prédio, ou de um
+    equipamento hospitalar, este tipo de produto não pode ter falhas, pois caso
+    tenha, é um risco para a vida das pessoas. Porem, nosso negócio é mais
+    dinâmico, as necessidades muda com mais frequência do que as necessidades de
+    um avião, se utilizarmos tanto tempo para planejar como podemos seguir as
+    mudanças do negócio?
+
     \subsection{Assumindo riscos}
+    Para conseguirmos acompanhar o negócio e gerar valor para a empresa, evemos
+    escolher os riscos que vamos enfrentar. Mesmo um avião encara riscos em seu
+    projeto, por isso que é implementado diversas redundancias nas funcionalidades
+    mais importantes. Devemos pensar de forma semelhante, qual o objetivo do nosso
+    projeto? Qual é sua funcionalidade mais importante? Quais são os riscos que
+    vamos encarar? \newline
+    Com base nisso, podemos focar a maior parte de nosso tempo no \textit{core}
+    do produto, descobrindo o objetivo do sistema, podemos alinhar com os objetivos
+    da empresa, assim gerando o retorno esperado. Para realizar o levantamento
+    da funcionalidade é importante considerar o nome da funcionalidade, a sua
+    importância, os objetivos em que ela vai nos auxiliar a alcançar, os riscos
+    que vamos enfrentar com ela e as dependências para disponibilizar a
+    funcionalidade ao usuário.
+
+    \begin{table}[h!]
+      \centering
+      \begin{tabular}{|c|p{10cm}|}
+        \hline
+        \textbf{Funcionalidade} &
+        Nome da funcionalidade que será desenvolvida. \\ \hline
+        \textbf{Importância} &
+        A importância que a funcionalidade representa para o negócio, separa entre
+        alta, média e baixa. \\ \hline
+        \textbf{Objetivos} &
+        Os objetivos que está funcionalidade irá auxiliar à alcançar. \\ \hline
+        \textbf{Riscos} &
+        Quais os riscos que essa funcionalidade pode gerar para o negócio. \\ \hline
+        \textbf{Dependências} &
+        Quais são as dependências para a utilização e desenvolvimento dessa
+        funcionalidade. \\ \hline
+      \end{tabular}
+      \caption{Definição da tabela de funcionalidaes}
+      \label{Tabela:1}
+    \end{table}
+
+    Toda funcionalidade deve ter um nome que represente o que será desenvolvido
+    pois, durante o desenvolvimento, é através do nome que os desenvolvedores
+    vão se comunicar, sem um nome claro, que represente bem o negócio, os
+    desenvolvedores não vão conseguir se comunicar de forma clara para entender
+    as necessidades do negócio. Termos e nomeclaturas devem ser estabelecidas,
+    para que o usuário entenda como o sistema deve ser utilizado e para os
+    desenvolvedores compreenderem como o sistema será utilizado. Através desta
+    comunicação, o time de desenvolvimento consegue extrair os requisitos de forma
+    mais fácil e formular um padrão de qualidade. \newline
+    É necessário colocar a importância da funcionalidade que será desenvolvida pois,
+    com base nela podemos entender a ordem que vamos iniciar o desenvolvimento
+    e quais os riscos podemos enfrentar e através da importância podemos definir
+    o rigor dos testes que devemos realizar no desenvolvimento da funcionalidade
+    e o padrão de qualidade para cada nível de importância. Embora colocamos
+    somente três níveis de importância (alto, médio e baixo), cada negócio pode
+    ter mais níveis, porém recomendamos não exagerar e passar de cinco níveis,
+    pois o principal objetivo desta classificação é forçar escolhermos quais
+    funcionalidades são realmente mais importantes, se colocarmos muitos níveis,
+    a menor classificação será "alta". \newline
+    As funcionalidades que vamos desenvolver tem que estar relacinada com um
+    objetivo da empresa, pois é isso que dá propósito para ela, e a nossa base
+    para verificar se ela está gerando valor. Com base no uso da funcionalidade,
+    podemos verificar se o objetivo está sendo alcançado, e com base nesse
+    retorno, podemos decidir quais serão os nossos próximos passos. \newline
+    Quando pensamos em uma funcionalidade, devemos sempre considerar os riscos
+    para o negócio, a utilização de um sistema implica em com a operação da
+    empresa trabalha, e toda mudança gera riscos para a operação. Tudo que é
+    novo, deve ser ensinado, por mais que a funcionalidade reflita exatamente o
+    que os usuários já faziam, eles vão começar a eecutar essas atividades em
+    um outro lugar, o que no começo pode gerar dúvidas e frustrações. Devemos
+    sempre levantar os riscos com base na perspectiva do usuário, pois assim
+    podemos entender quais serão as reações delese e quais estratégias devemos
+    utilizar para engajar o uso da ferramenta e buscar por melhorias. \newline
+    Com base nos objetivos, nas funcionlidades e nos riscos, podemos mapear as
+    pendências das funcionalidades, onde conseguimos traçar quais os passos que
+    devemos tomar para iniciar o desenvolvimento até disponibilizar a funcionalidade
+    para o usuário. \newline
+    Para o levantamento dessas informações recomendamos utilizar o formato de
+    tabela. A tabela possibilita consolidar de forma clara cada tópico e sempre
+    que a empresa tiver um novo objetivo, é mais fácil analisar o que já foi listado,
+    possibilitando ver se o sistema se encaixa com essa nova necessidade ou se será
+    necessário uma nova funcionalidade, ou se será necessário um novo produto,
+    ou uma reformulação do negócio. Quando listamos tudo que estamos fazendo
+    junto com o que o negócio pretende alcançar, podemos tomar decisões mais
+    acertivas, entender dependências e otimizar o valor que será desenvolvido.
+    Muitas vezes focamos em desenvolver uma funcionalidade que não irá gerar
+    muito valor para o negócio, o que nos faz aceitar um risco que não precisamos
+    no momento, toda funcionalidade gera riscos, então é melhor nos concentrarmos
+    somente naqueles que podem gerar mais valor. \newline
+    Uma vez definido nossas funcionalidade, sua importância e os objetivos que
+    pretendemos com elas, podemos escolher quais vamos implementar primeiro e
+    quais riscos nós vamos enfrentar. \newline
+    Para exemplificar a utilização da tabela proposta vamos considerar uma
+    empresa que possuí vendores que entram em contato com outras empresas para
+    negociar a venda de computadores. Estes computadores podem ser customizados
+    pelo cliente, solicitando maior espaço de memória, se deseja um computador
+    com \textit{SSD} ou \textit{HD}, qual o processador, entre outras ecolhas.
+    Embora já existam computadores pré-montados, eles podem ser customizados
+    somente aproveitando a base do produto. \newline
+    Hoje a venda é feita sem a utilização de um sistema, a especificação que o
+    cliente deseja é feita de forma indivídual por cada vendedor e controlado por
+    meio de planilhas, onde cada vendedor possui a sua forma de organizar. Somente
+    o pedido final é colocado em um sistema de controle de pedidos, para emitir a
+    nota. A comunicação entre os vendedores e a área técnica é feita por meio de
+    telefone e email, os produtos base e os produtos vendidos são compartilhados
+    através de planilhas enviadas por email. Como cada vendedor negocia de uma
+    forma, nã há Padronização nas planilhas, o que acaba gera confusões na área
+    técnica na hora da montagem dos produtos. Outro ponto a destacar é que a área
+    administrativa não tem visibilidade de como as negociações estão sendo realizadas
+    o que dificulta o entendimento do negócio como um todo e a cração de
+    estratégias. \newline
+    Com base nessas necessidades, a empresa decidiu começar um projeto para a
+    criação de um sistema para os vendedores realizar as suas negociações.
+    Onde o produto base seria disponibilizado na ferramenta e os pedidos finais
+    seriam montados conforme a negociação avança. Outra necessidade, é que a
+    negociação deve ser faseada, para que seja possível rastrear os passos do
+    vendedor e ter uma melhor visão do negócio. \newline
+    Neste cenário, o primeiro passo é levantar as princípais funcionalidades para
+    atender o negócio, já colocando a sua importância e os objetivos que pretendemos
+    alcançar.
+
+    \begin{table}[h!]
+      \centering
+      \begin{tabular}{|c|c|p{8cm}|}
+        \hline
+        \textbf{Funcionalidade} &
+        \textbf{Importância}  &
+        \textbf{Objetivos} \\ \hline
+        %Funcionalidade
+        Cadastro de produtos &
+        %Importância
+        Alta &
+        %Objetivos
+        Padronização na criação de produtos; \newline
+        Reduzir o cadastro incorreto de produtos.
+        \\ \hline
+        %Funcionalidade
+        Venda de produtos &
+        %Importância
+        Alta &
+        %Objetivos
+        Venda faseada do produto; \newline
+        Melhor rastreabilidade da venda; \newline
+        Padronização da negociação.
+        \\ \hline
+        %Funcionalidade
+        \textit{Chat} interno &
+        %Importância
+        Baixa &
+        %Objetivos
+        Otimização da comunicação entre a área técnica e os vendedores.
+        \\ \hline
+      \end{tabular}
+      \caption{Exemplo de levantamento de funcionalidades}
+      \label{Tabela:2}
+    \end{table}
+
+    Na tabela dois, representamos três funcionalidades, o cadastro de produtos,
+    a venda de produtos, e o \textit{chat} interno. Podemos notar que a maior necessidade
+    da empresa é a de padronizar a venda do produto, onde a negociação deve ser
+    feita de forma mais uniforme e que facilite os vendedores a venderem produtos
+    mais aderentes com o que a área técnica consegue produzir. Com base nestas
+    necessidades, foi levantado as funcionalidades de cadastro de produtos e
+    venda de produtos, onde o cadastro está relacionada com a padrinização da
+    criação do produto e a venda está relacionada com a padronização da venda.
+    Porem, a funcionalidade de \textit{chat} interno, não é uma prioridade para
+    o negócio, as áreas estão se comunicando, o problema é que cada vendedor
+    trabalha de um jeito, o que dificulta as decisões da área técnica. Embora um
+    dos objetivos seja melhorar a comunicação entre as áreas, este não é o maior
+    dos problemas que precisamos resolver, então os riscos que desta funcionalidade
+    não precisam ser corridos até o desenvolvimento das outras duas. \newline
+    Outro ponto de destaque é a identificação das dependências, quando mapeamos
+    as dependências, conseguimos ver qual funcionalidade precisamos realizar
+    primeiro, como listado no exemplo, não é possível vender os produtos sem antes
+    cadastrá-los. Mas alem da dependências entre funcionalidades, podemos listar
+    o que precisamos fazer para disponibilizar a funcionalidade para o usuário,
+    como apresentado no exemplo, todas as funcionalidades precisam de treinamento,
+    como o sistema é novo e cada vendedor realiza as negociações do seu jeito,
+    é importante explicar como foi montado o processo de vendas e apresentar
+    como realizar as atividades no sistema. \newline
+    Cada funcionalidade tem os seus riscos, porem é através de sua importância que
+    podemos criar estratégias para enfrentar estes riscos e marcar estas ações
+    que definimos em nossa estratégia como dependências para liberar o uso da
+    funcionalidade, é importante atrelar estas ações como dependências, pois desta
+    forma os usuários não são surprendidos, e é através dos treinamentos e das
+    apresentações que podemos pegar o \textit{feedback} dos usuário e começar a
+    mapear novas funcionalidades e melhorias. Podemos ver o mapeamento dos riscos
+    e das dependências das funcionalidades exemplo na tabela três.\newline
+
+    \begin{table}[h!]
+      \centering
+      \begin{tabular}{|c|p{4cm}|p{6cm}|}
+        \hline
+        \textbf{Funcionalidade} &
+        \textbf{Riscos}  &
+        \textbf{Dependências}
+        \\ \hline
+        %Funcionalidade
+        Cadastro de produtos &
+        %Riscos
+        Processo de cadastro de produtos mais demorado; \newline
+        Criação de produtos menos flexível. &
+        %Dependências
+        Treinamento para cadastrar os produtos no sistema;\newline
+        Explicação das regras utilizadas para o cadastro dos produtos.
+        \\ \hline
+        %Funcionalidade
+        Venda de produtos &
+        %Riscos
+        Venda menos flexível; \newline
+        Mudança na forma de negociação dos vendedores; &
+        %Dependências
+        Funcionalidade de cadastro de produtos; \newline
+        Treinamento para realizar vendas no sistema; \newline
+        Explicação das fases na venda.
+        \\ \hline
+        %Funcionalidade
+        \textit{Chat} para clientes &
+        %Riscos
+        Não adoção do \textit{chat} como princípal meio de comunicação; \newline
+        Utilização do \textit{chat} para assuntos sem relação ao trabalho; &
+        %Dependências
+        Treinamento para a utilização do \textit{chat}; \newline
+        Treinamento sobre como se comunicar por \textit{chat}.
+        \\ \hline
+      \end{tabular}
+      \caption{Exemplo de levantamento dos riscos e dependências por funcionalidade}
+      \label{Tabela:3}
+    \end{table}
+
     \subsection{Entendendo os requisitos de uma funcionalidade}
     \subsection{Arquitetura evolutiva}
     \subsection{Estruturando o fluxo de entrega}
