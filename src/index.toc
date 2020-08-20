@@ -18,31 +18,31 @@
 \contentsline {section}{\numberline {5.1}Como criar produtos com qualidade?}{15}
 \contentsline {subsection}{\numberline {5.1.1}Assumindo riscos}{16}
 \contentsline {subsection}{\numberline {5.1.2}Entendendo os requisitos de uma funcionalidade}{20}
-\contentsline {subsection}{\numberline {5.1.3}Arquitetura evolutiva}{20}
-\contentsline {subsection}{\numberline {5.1.4}Estruturando o fluxo de entrega}{20}
-\contentsline {subsection}{\numberline {5.1.5}Automatizando testes de qualidade}{20}
-\contentsline {section}{\numberline {5.2}Como adquirir escalabilidade?}{20}
-\contentsline {subsection}{\numberline {5.2.1}Descobrindo os limites do sistema}{20}
-\contentsline {subsection}{\numberline {5.2.2}Desenvolvendo estrat\IeC {\'e}gias de escalabilidade}{20}
-\contentsline {section}{\numberline {5.3}Como manter o sistema dispon\IeC {\'\i }vel?}{20}
-\contentsline {subsection}{\numberline {5.3.1}Utilizando o neg\IeC {\'o}cio para definir disponibilidade}{20}
-\contentsline {subsection}{\numberline {5.3.2}Analisando o desempenho do sistema}{20}
-\contentsline {subsection}{\numberline {5.3.3}Falando com os usu\IeC {\'a}rios}{20}
-\contentsline {subsection}{\numberline {5.3.4}Utilizando m\IeC {\'e}tricas para assegurar a disponibilidade}{20}
-\contentsline {subsection}{\numberline {5.3.5}Aplicando testes automatizados}{20}
-\contentsline {section}{\numberline {5.4}Como identificar falhas?}{20}
-\contentsline {subsection}{\numberline {5.4.1}Sentindo o cheiro do produto}{20}
-\contentsline {subsection}{\numberline {5.4.2}Utilizando o usu\IeC {\'a}rio para identificar falhas}{20}
-\contentsline {subsection}{\numberline {5.4.3}Solucionando falhas}{20}
-\contentsline {subsection}{\numberline {5.4.4}Aprendendo com os erros}{20}
-\contentsline {subsection}{\numberline {5.4.5}Testes automatizados como ferramenta de aprendizado}{20}
-\contentsline {subsection}{\numberline {5.4.6}Divulgando as descobertas de forma global}{20}
-\contentsline {chapter}{\numberline {6}Resultados da proposta}{21}
-\contentsline {section}{\numberline {6.1}Um produto escal\IeC {\'a}vel}{21}
-\contentsline {subsection}{\numberline {6.1.1}Um produto com custo din\IeC {\^a}mico}{21}
-\contentsline {section}{\numberline {6.2}Um produto dispon\IeC {\'\i }vel}{21}
-\contentsline {section}{\numberline {6.3}Um produto com falhas planejadas}{21}
-\contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o}{22}
-\contentsline {section}{\numberline {7.1}Resultados em rela\IeC {\c c}\IeC {\~a}o ao objetivo}{22}
-\contentsline {section}{\numberline {7.2}Trabalhos futuros}{22}
-\contentsline {chapter}{\numberline {8}Refer\IeC {\^e}ncia Bibliogr\IeC {\'a}fica}{23}
+\contentsline {subsection}{\numberline {5.1.3}Arquitetura evolutiva}{25}
+\contentsline {subsection}{\numberline {5.1.4}Estruturando o fluxo de entrega}{25}
+\contentsline {subsection}{\numberline {5.1.5}Automatizando testes de qualidade}{25}
+\contentsline {section}{\numberline {5.2}Como adquirir escalabilidade?}{25}
+\contentsline {subsection}{\numberline {5.2.1}Descobrindo os limites do sistema}{25}
+\contentsline {subsection}{\numberline {5.2.2}Desenvolvendo estrat\IeC {\'e}gias de escalabilidade}{25}
+\contentsline {section}{\numberline {5.3}Como manter o sistema dispon\IeC {\'\i }vel?}{25}
+\contentsline {subsection}{\numberline {5.3.1}Utilizando o neg\IeC {\'o}cio para definir disponibilidade}{25}
+\contentsline {subsection}{\numberline {5.3.2}Analisando o desempenho do sistema}{25}
+\contentsline {subsection}{\numberline {5.3.3}Falando com os usu\IeC {\'a}rios}{25}
+\contentsline {subsection}{\numberline {5.3.4}Utilizando m\IeC {\'e}tricas para assegurar a disponibilidade}{25}
+\contentsline {subsection}{\numberline {5.3.5}Aplicando testes automatizados}{25}
+\contentsline {section}{\numberline {5.4}Como identificar falhas?}{25}
+\contentsline {subsection}{\numberline {5.4.1}Sentindo o cheiro do produto}{25}
+\contentsline {subsection}{\numberline {5.4.2}Utilizando o usu\IeC {\'a}rio para identificar falhas}{25}
+\contentsline {subsection}{\numberline {5.4.3}Solucionando falhas}{25}
+\contentsline {subsection}{\numberline {5.4.4}Aprendendo com os erros}{25}
+\contentsline {subsection}{\numberline {5.4.5}Testes automatizados como ferramenta de aprendizado}{25}
+\contentsline {subsection}{\numberline {5.4.6}Divulgando as descobertas de forma global}{25}
+\contentsline {chapter}{\numberline {6}Resultados da proposta}{26}
+\contentsline {section}{\numberline {6.1}Um produto escal\IeC {\'a}vel}{26}
+\contentsline {subsection}{\numberline {6.1.1}Um produto com custo din\IeC {\^a}mico}{26}
+\contentsline {section}{\numberline {6.2}Um produto dispon\IeC {\'\i }vel}{26}
+\contentsline {section}{\numberline {6.3}Um produto com falhas planejadas}{26}
+\contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o}{27}
+\contentsline {section}{\numberline {7.1}Resultados em rela\IeC {\c c}\IeC {\~a}o ao objetivo}{27}
+\contentsline {section}{\numberline {7.2}Trabalhos futuros}{27}
+\contentsline {chapter}{\numberline {8}Refer\IeC {\^e}ncia Bibliogr\IeC {\'a}fica}{28}

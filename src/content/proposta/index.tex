@@ -75,7 +75,7 @@
         Quais são as dependências para a utilização e desenvolvimento dessa
         funcionalidade. \\ \hline
       \end{tabular}
-      \caption{Definição da tabela de funcionalidaes}
+      \caption{Definição da classificação de funcionalidaes}
       \label{Tabela:1}
     \end{table}
 
@@ -270,6 +270,227 @@
     \end{table}
 
     \subsection{Entendendo os requisitos de uma funcionalidade}
+    Após entendermos os ricos, escolher quais vamos aceitar e definir a prioridade
+    das funcionalidades que queremos desenvolver, devemos começar a refinar cada
+    uma e definir quais são seus requisitos. É importante salientar que os
+    requisitos, assim como foi com os riscos, devem partir do negócio, para assim
+    fazer parte do sistema, a funcionalidade deve solucionar um problema e facilitar
+    a vida dos usuários, agregando valor para o cotidiano deles e consequentemente
+    agregando valor para o negócio. \newline
+    A funcionalidade deve ser desenvolvida com base no que os usuários já fazem
+    no dia a dia, temos que mapear todas as tarefas que o usuário executa,
+    identificando quais incomodam e quais não incomodam. Identificando quais tarefas
+    o usuário não gosta de fazer, já é um ponto de partida no que o sistema
+    automatizar, uma vez que o usuário não precise fazer determinada funcionalidade,
+    já facilitou o seu cotidiano. Outro ponto de atenção, são com as tarefas que
+    o usuário não se importa em executar, automatizar ou mudar a forma que ele
+    executa pode ser um problema em um promeiro momento, pois ele terá que se
+    acostumar com uma nova forma de trabalho. Muitas vezes esse tipo de mudança
+    pode se originar em uma nova fase da empresa, que está revendo os seus processos
+    e mudando a forma como de trabalho dos colaboradores, neste caso, é importante
+    implementar a funcionalidade de forma que seja um meio termo entre o que os
+    usuários realizavam e a nova forma da empresa, desta forma os usuários
+    começam a se adaptar a nova perspectiva e conforme o projeto for avançando,
+    podemos ir adaptando a funcionalidade a restruturação da empresa. Devemos
+    lembrar que nenhuma mudança acontece do dia para a noite, e uma mudança
+    brusca na forma de trabalho pode gerar desconforto nos usuários e deixar eles
+    confusos em como executar suas atividades. \newline
+    Uma funcionalidade deve sofrer melhorias constantes, como o negócio está
+    constantemente sofrendo mudanças, o sistema deve se adaptar para os novos
+    requisitos do mercado, por este motivo, os requisitos devem ser identificados
+    mas não podem ser considerados como certeza, o sistema deve estar pronto para
+    sofrer qualquer tipo de alterações e a qualquer hora porem, sabemos que certas
+    mudanças levam muito tempo e até a alteração, o requisito já sofreu mais uma
+    alteração, por este motivo, devemos classificar nossos requisitos em nível
+    de importância e em nível de mutabilidade. Enquanto nos riscos nós classificamos
+    a funcionalidade como um todo, aqui vamos classificar os requisitos que formam
+    essa funcionalidade, devemos sempre pensar, o que é essencial para a funcionalidade
+    atingir o objetivo? O que pode se tornar uma melhoria para o futuro? Desta
+    forma, conseguimos entregar valor mais rápido para diferentes áreas do negócio,
+    pois se focarmos todo o nosso tempo na funcionalidade mais importante, nunca
+    vamos realizar as outras funcionalidades. Para cada funcionalidade devemos
+    tambem atribuir um nível de mutabilidade, ou seja, qual é a chance dessa
+    funcionalidade sofrer alterações conforme o tempo vai passando, embora o
+    negócio esteja em constante mudança, sabemos que certos processos dificilmente
+    sofrem alterações, pois faz parte do \textit{core} da empresa, é a essência
+    do negócio. A forma de classificar a mutabilidade é através de porcentagem,
+    onde as primeiras classificações serão intuições com base na perspectiva do
+    negócio, mas as seguintes, é importante que conforme o sistema vá sofrendo
+    alterações e melhorias, estas taxas sejam atualizadas por funcionalidade.
+    A primeira regra na hora de classificar é que não existe zero porcento, toda
+    funcionalidade pode sofrer alterações, mesmo que demore anos para isso acontecer,
+    a sociedade muda, novas tecnologias vão surgindo e o que era comum é subtituido
+    por algo novo, que acaba se tornando o novo comum, e se a empresa não estiver
+    preparada para acompanhar essas mudanças, ela acaba se perdendo no tempo.
+    Realizando essa classificação podemos identificar quais processos estão
+    consolidados e quais processos ainda devem ser estruturados, com essa visão
+    sobre os processos, podemos identificar o novo \textit{core} do negócio e
+    desta forma trabalhar em uma tranformação na empresa para atender as novas
+    necessidades do mercado, assim evoluindo o sistema ou até mesmo desenvolvendo
+    um novo, garntindo que a empresa se mantenha sempre atualizada com as tendências
+    do mercado. Na tabela quatro está os atributos que devem ser levados em conta
+    quando calssificarmos um requisito.\newline
+
+    \begin{table}[h!]
+      \centering
+      \begin{tabular}{|c|p{10cm}|}
+        \hline
+        \textbf{Funcionalidade} &
+        Nome da funcionalidade que o requisito faz parte. \\ \hline
+        \textbf{Requisito} &
+        Nome do requisito que faz parte da funcionalidade. \\ \hline
+        \textbf{Importância} &
+        O nível de importância do requisito separado em baixo, médio e alto. \\ \hline
+        \textbf{Mutabilidade} &
+        O quanto este requisito pode sofrer alterações em porcentagem. \\ \hline
+        \textbf{Stakeholders} &
+        Quais áreas são impactadas com esta funcionalidade. \\ \hline
+        \textbf{Descrição} &
+        A descrição do requisito da funcionalidade. \\ \hline
+      \end{tabular}
+      \caption{Definição da classificação de requisitos}
+      \label{Tabela:4}
+    \end{table}
+
+    Agora que temos mapeado os processos que fazem parte de determindada funcionalidade,
+    e sabemos como classificar, podemos começar a levantar eles. Todo requisito
+    deve possuir uma descrição, algo que instrua o time de desenvolvimento a entender
+    o seu propósito e auxilie eles a desenvolver a funcionalidade. Quando analisamos
+    um requisito, outros requisitos vão surgindo pois, a um primeiro momento,
+    quando levantamos os requisitos, ficamos sempre na funcionalidade, e como o
+    sistema deve se comportar mas alem de estrutrar como determinada funcionalidade
+    deve se comportar, devemos utilizar os requisitos como forma de garantir a
+    qualidade do que será desenvolvido. É atrvés de como os usuários vão utilizar
+    o sistema que podemos identifcar o que precisamos garantir que funcione durante
+    a utilização do usuário. Questões como quantidade de acessos, tempo de resposta,
+    usabilidade, métricas, devem ser consideradas como requisitos do sistema, algo
+    diretamente realcionado ao que vai ser desenvido e estabelcer um critério de
+    aceitável ou não para a utilização em produção. Quando identificamos os requisitos
+    devemos tambem identificar quais áreas da empresa será impactada pelo requisito.
+    Para os requisitos funcionais, devemos identificar quais são as áreas que vão
+    utilizar esta funcionalidade, para os requisitos não-funcionais, identificamos
+    as áreas que caso o requisito não seja atendido, serão impactadas, caso o
+    requisito não seja atendido, quais áreas terão seu processo afetado, podendo
+    criar um bloquio ou deixando ele mais longo. Para exemplificar o levantamento
+    dos requisitos, vamos utilizar a funcionalidade de "Cadastro de produtos",
+    utilizado no exemplo de identificação dos riscos. \newline
+    Para realizar o cadastro de produtos, vamos supor que envolva três áreas, o
+    \textit{marketing}, a equipe técnica e vendas. A equipe de \textit{marketing},
+    com base em suas análises de mercado e nas solicitações dos vendedores, analisam
+    as tendências dos pedidos do cliente e montam projetos para novos produtos,
+    este projeto é enviado para a área técnica que avalia se é viável ou não a
+    sua execução, podendo aprovar ou recusar a montagem desse produto. Caso o
+    produto o seja recusado, o solicitação é devolvida para a equipe técnica,
+    com os motivos da recusa, onde eles podem realizar as devidas alterações ou
+    cancelar o projeto. Caso seja aceito, a equipe técnica começa a montagem,
+    realizam seu testes e validam se está aderente com o que foi proposto no
+    projeto, uma vez encerrado está etapa, é anunciado aos vendedores que há um
+    novo produto no catálogo e caso tenha relação à algum pedido de algum vendedor,
+    ele é notificado que determinado produto foi produzido. Há casos, em que o
+    vendedor pega um produto base e este deve ser customizado com base nas
+    especificações do cliente. \newline
+
+    \begin{table}[h!]
+      \centering
+      \begin{tabular}{|c|p{10cm}|}
+        \hline
+        \textbf{Funcionalidade} &
+        Cadasto de produtos \\ \hline
+        \textbf{Requisito} &
+        Notificação de projeto de produto base \\ \hline
+        \textbf{Importância} &
+        Média \\ \hline
+        \textbf{Mutabilidade} &
+        45\% \\ \hline
+        \textbf{Stakeholders} &
+        Área técnica \\ \hline
+        \textbf{Descrição} &
+        Quando um projeto de produto base for cadastrado, o sistema deve
+        enviar uma notificação para a área técnica, que um novo produto
+        foi cadastrdo e agurda aprovação. \\ \hline
+      \end{tabular}
+      \caption{Exemplo de classificação de requisito funcional}
+      \label{Tabela:5}
+    \end{table}
+
+    \begin{table}[h!]
+      \centering
+      \begin{tabular}{|c|p{10cm}|}
+        \hline
+        \textbf{Funcionalidade} &
+        Cadasto de produtos \\ \hline
+        \textbf{Requisito} &
+        A notificação deve ser enviada imediatamente para a área técnica \\ \hline
+        \textbf{Importância} &
+        Média \\ \hline
+        \textbf{Mutabilidade} &
+        10\% \\ \hline
+        \textbf{Stakeholders} &
+        \textit{Marketing}, área técnica \\ \hline
+        \textbf{Descrição} &
+        A notificação da criação do projeto deve ser enviada em um intervalo de
+        menos de um segundo para a área técnica. \\ \hline
+      \end{tabular}
+      \caption{Exemplo de classificação de requisito não-funcional}
+      \label{Tabela:6}
+    \end{table}
+
+    \begin{table}[h!]
+      \centering
+      \begin{tabular}{|c|p{10cm}|}
+        \hline
+        \textbf{Funcionalidade} &
+        Cadasto de produtos \\ \hline
+        \textbf{Requisito} &
+        O cadastro é destinado somente para produtos base \\ \hline
+        \textbf{Importância} &
+        Alta \\ \hline
+        \textbf{Mutabilidade} &
+        7\% \\ \hline
+        \textbf{Stakeholders} &
+        Vendas \\ \hline
+        \textbf{Descrição} &
+        Os produtos que serão cadastrados nesta funcionalidade deve somente ser
+        somente produtos base, customizações serão feitas na venda do prostudo. \\ \hline
+      \end{tabular}
+      \caption{Exemplo de classificação de requisito inverso}
+      \label{Tabela:7}
+    \end{table}
+
+    Embora a funcionalidade de "Cadastro de produtos" tanham muitos outros requisitos,
+    vamos exemplificar somente os que estão nas tabelas cinco, seis e sete.
+    O requisito da tabela cinco se trata de um requisito funcional, o requisito de
+    enviar a notificação para a área técnica quando um projeto for criado. Podemos
+    notar que sua mutabilidade é média, embora o processo dificilmente possa mudar,
+    a área técnica sempre deve ser informada quando um projeto for criado pois,
+    são eles que aprovam se o projeto é válido ou não porem, no futuro é possível
+    que seja criada uma nova área somente para análise de projetos, hoje está
+    concentrado dentro da mesma área que monta o produto, outra alteração é a
+    adição de outra área, hoje o negócio esntende que somente a área técnica deve
+    ser informada porem, os vendedores tambem fazem parte do processo, uma vez que
+    o projeto pode se tratar de uma solicitação deles, por este motivo, a área de
+    vendas pode ser incluída no recebimento da requisição. Embora os vendedores
+    tambem participem desse processo, a notificação é destinada somente para a área
+    técnica, desta forma, somente a else são um \textit{stakeholder} desse
+    requisito. Na tabela seis, temos um requisito não-funcional, é um requisito
+    que está atrelado diretamente a qualidade da fincionalidade, ela está definindo
+    que a notificação deve ser disparado com no máximo um \textit{delay} de um
+    segundo da criação do produto. Para o negócio é importante que a área seja
+    informada que um novo projeto foi criado imediatamene após sua criação, este
+    requisito deve ser utilizado como critério de qualidade e utilizado como cenário
+    de teste, não somente da criação de um projeto, mas para a criação de vários
+    projeto de uma vez só. Na tabela sete, possuímos um requisito inverso, algo
+    que o sistema não deve fazer, que no caso, é que a funcionalidade de "Cadastro
+    de produtos" se destina somete para produtos base, ou seja, as customizações
+    dos vendedores não estão incluidas nessa funcionaliade, é interessante na
+    descrição deste requisito, sempre colocar em qual funcionaliade este requisito
+    se aplica, caso ele se aplique a alguma funcionalidade. Como a customização
+    dos produtos base está sempre atrelada a venda do produto e não ao seu
+    cadastro, podemos ver que dos tês exemplos, este é o de menor mutabilidade,
+    pois este processo dificilmente será mudado e atribuir a responsábilidade ao
+    vendedor de cadastrar um produto, somente por causas das customizações é uma
+    mudança muito grande no processo de como é realizada a venda.
+
     \subsection{Arquitetura evolutiva}
     \subsection{Estruturando o fluxo de entrega}
     \subsection{Automatizando testes de qualidade}
