@@ -482,8 +482,8 @@
     projeto de uma vez só. Na tabela sete, possuímos um requisito inverso, algo
     que o sistema não deve fazer, que no caso, é que a funcionalidade de "Cadastro
     de produtos" se destina somete para produtos base, ou seja, as customizações
-    dos vendedores não estão incluidas nessa funcionaliade, é interessante na
-    descrição deste requisito, sempre colocar em qual funcionaliade este requisito
+    dos vendedores não estão incluidas nessa funcionalidade, é interessante na
+    descrição deste requisito, sempre colocar em qual funcionalidade este requisito
     se aplica, caso ele se aplique a alguma funcionalidade. Como a customização
     dos produtos base está sempre atrelada a venda do produto e não ao seu
     cadastro, podemos ver que dos tês exemplos, este é o de menor mutabilidade,
@@ -492,7 +492,212 @@
     mudança muito grande no processo de como é realizada a venda.
 
     \subsection{Arquitetura evolutiva}
+    Conforme o produto vai evoluindo, mudanças deverão ser feitas para acompanhar
+    as necessidades do negócio e para isso, devemos construir o nosso sistema de
+    forma que seja fácil implementar novas funcionalidades e aplicar mudanças e
+    melhorias em funcionalidades já desenvolvidas. Para que isso seja possível,
+    devemos desenvolver um \textit{software} com alto nível de abstração, cada
+    parte do sistema deve funcionar de forma quase indivídual, para que desta
+    forma uma alteração realizada em alguma parte do sistema, não afeta as demais
+    e assim, minizamos \textit{bugs} e tempo de manutenção e desenvolvimento de
+    melhorias. \newline
+    O mundo perfeito, realmente é desenvolver um sistema como o descrito anteriormente,
+    com alto nível de abstração e cada parte do sistema funcionando de forma indivídual,
+    mas para montar determindado sistema, é necessário que o produto e a equipe
+    de desenvolvimento esteja extremamente madura, no começo do projeto ainda não
+    sabemos quais são as partes do sistema, não conseguimos separar o que deve
+    funcionar de forma indívidual e o que faz parte desse indívidual. Para
+    descobrirmos é importante quando desenharmos a arquitetura de nosso sistema,
+    nos atentarmos na mutabilidade de cada requisito, devemos desenvolver cada
+    funcionalidade como se ela pudesse mudar a qualquer hora, mas quando tivermos
+    que tomar a decisão em qual parte deverá ficar mais abstraída do sistema,
+    a mutabilidade dos requisitos deverá ser considerada. Com base na mutabilidade,
+    podemos montar a base de nosso sistema, as funcionalidades que muito dificilmente
+    deverão ser modificadas, e a partir delas evoluir o sistema para as outras
+    funcionalidades, que dependendo do nível de mutabilidade, deverá funcionar de
+    forma quase independente, desta forma, conforme o tempo for passando, podemos
+    ir isolando as partes do sistema cada vez mais, a medida que a mutabilidade
+    dos requisitos vão ficando mais acertivas com a realidade e novos requisitos
+    vão surgindo, pois desta forma, a equipe de desenvolvimento terá um melhor
+    entendimento do negócio e conseguirá abstrair o sistema de forma mais condizente
+    de como o negócio funciona. \newline
+    Após tivermos um sistema extremamente abstraído e um time de desenvolvimento
+    com um grande entendimento do negócio, podemos evoluir nossa arquitetura para
+    microserviços, de forma que, cada parte do sistema é verdadeiramente um sistema
+    apartado, com seu próprio time e requisitos, onde todas essas funcionalidades
+    se encontram na mesma plataforma. Quando conseguimos evoluir nosso produto
+    para este nível, ele deixa de ser um sistema para se tornar uma plataforma,
+    um lugar onde vários sistemas vão ser executado para cumprir diversos Objetivos
+    relacionados. Lembrando, que embora agora temos vários sistemas, realizando
+    diversas tarefas diferentes, o objetivo da plataforma deve ser o mesmo de
+    quando iniciamos o projeto, nunca devemos esquecer o objetivo do produto ter
+    sido criado, porque é com base nele que as melhorias e os requisitos devem ser
+    levanrados, uma vez que esqucemos desse objetivo, nosso produto começa a
+    realizar diversas ações que não estão relaciondas, sua arquitetura fica cada
+    vez mais complexa e nosso produto perde seu propósito. \newline
+    Uma vez que nosso produto esteja separado em vários sistemas, podemos reaproveitar
+    as funcionalidades que desenvolvemos em outros produtos, e como cada sistema
+    da plataforma tem a sua própria equipe, as análises realizadas no produto
+    serão realizdas em cada parte de valor do que foi desenvolvido, com esses
+    dados, podemos analisar qual parte do negócio está sofrendo maior alteração,
+    qual está gerando mais valor, qual precisa ser reestruturada, qual precisa
+    de mais investimento, quais áreas podem ser dividas, entre outras. Como
+    cada parte da nossa plataforma está se preocupando com uma determindada parte
+    do negócio e como, nosso time já conseguiu separar essas partes de uma forma
+    que esteja completamente aderente a como o negócio funciona, conseguimos ter
+    a visão de todas as atuações da empresa no mercado. Conseguimos ter a visão
+    do todo separada em várias equipes diferentes, preocupadas em evoluir a sua
+    parte e contribuir com as outras. Com essa visão, podemos evoluir nossos
+    sistemas para outras plataformas, com objetivos diferentes, e agregrando
+    valor para o negócio de forma distinta. Podemos através das necessidades do
+    mercado, e com os requisitos do sistema, reformular a forma que a empresa
+    atua no mercado, identificar atuações secundárias da empresa, que tem potencial
+    para se tornar primárias, fazer os sócios e diretores enxergarem cada pedaço
+    que gera valor para a empresa e definir estratégias não tradicionais, algo
+    diferente, para adquirir uma possível vantagem no mercado.
+
     \subsection{Estruturando o fluxo de entrega}
+    Para alcançarmos nossos objetivos e desenvolvermos as nossas funcionalidades
+    em tempo ágil, com qualidade e se preocupando em manter nossa arquitetura
+    simple e evolutiva, precisamos estruturar o nosso fluxo de entrega, ou seja,
+    precisamos definir como será o processo de desenvolvimento, verificação de
+    qualidade, homologação e subida em produção. \newline
+    Para cada requisito, devemos escrever os critérios de aceite, para que eles
+    sejam considerados cumpridos, para que desta forma, quem for testar as
+    funcionalidades, consigam compreender o que devem verificar e para que os
+    desenvolvedores, compreendam como devem desenvolver a funcionalidade. Desta
+    forma, alem de termos desenvolvedores e testadores cientes de como deve
+    o sistema deve funcionar, conseguimos criar um padrão de qualidade, que será
+    documentado e revisado conforme o produto for evoluindo pois, conforme o tempo
+    for passando, novos requisitos forem surgindo e os requisitos já mapeados
+    forem mudando. Com os critérios de aceite escritos, podemos mapear quais
+    testes deverão ser feitos para cada funcionalidade, teste de regressão, teste
+    de fumaça, teste de integração, teste em massa, teste unitário, cada requisito
+    vai exigir um determindao tipo diferente de teste, e com o critério de aceite
+    é importante mapearmos não somente quais testes, mas tambem em quais cenários
+    e como eles devem ser executados, pois é nos testes que devemos procurar simular
+    os momentos mais importantes para o negócio, os momentos em que o sistema não
+    pode falhar. Embora cada requisito tenha o seu próprio conjunto de testes,
+    é importante padronizar que todas as novas funcionalidades tenham sempre testes
+    unitários e em massa, e para melhorias ou mudanças seja sempre realizado testes
+    de regressão, caso uma nova funcionalidade esteja relacionada com outra, é
+    importante tambem realizar os testes de regressão nas funcionalidades
+    relacionadas. Os critérios de aceite devem ser escritos se baseando diretamente
+    nos riscos que aceitamos, quando mapeamos as funcionalidades, nossos testes,
+    alem de garantir que os requisitos da funcionalidade sejam cumpridos, deve
+    direcionar os nossos testes para que realizemos as situações que mapeamos como
+    risco, embora os riscos tenham sido aceite, precisamos verificar como o sistema
+    vai se comportar nestes cenários, desta forma conseguimos antes de disponibilizar
+    para o usuário, averiguar se realmente faz sentido correr esse risco ou não. \newline
+    Para exemplificar a escrita dos critérios de aceite, vamos utilizar o requisito
+    da tabela seis. \newline
+
+    \begin{table}[h!]
+      \centering
+      \begin{tabular}{|c|p{10cm}|}
+        \hline
+        \textbf{Funcionalidade} &
+        Cadasto de produtos \\ \hline
+        \textbf{Requisito} &
+        A notificação deve ser enviada imediatamente para a área técnica \\ \hline
+        \textbf{Critério} &
+        Deve ser disparado a notificação para todos os produtos que forem criados. \\ \hline
+        \textbf{Critério} &
+        Na notificação deve conter o nome do produto e quando ele foi criado. \\ \hline
+        \textbf{Critério} &
+        A área técnica deverá identificar se uma notificação já foi lida ou não. \\ \hline
+        \textbf{Critério} &
+        A notificação somente deve ser marcada como lida caso o usuário da área
+        técnica acesse a notificação. \\ \hline
+      \end{tabular}
+      \caption{Exemplo de especificação de critérios de aceite}
+      \label{Tabela:8}
+    \end{table}
+
+    Na tabela oito, podemos verificar os critérios de aceite para o requisito de
+    notificação da funcionalidade de "Cadastro de produtos". Podemos notar que cada
+    requisito descreve como a funcionalidade deve funcionar, assim como auxilia
+    como este requisito deve ser testado, conseguimos identificar tambem que este
+    requisito deve ser testado de forma massiva, pois um dos critérios é de que
+    cada produto deve disparar obrigatóriamente uma notificação, desta forma, se
+    eu criar nove produtos de uma vez, deve ser gerada uma notificação para os
+    nove produtos. \newline
+    Agora que definimos como nosso requisito será desenvolvido e como ele será
+    testado, precisamos definir em qual momento cada uma dessas ações deverá ser
+    realizada e em qual ambiente. Quando estamos desenvolvendo uma funcionalidade
+    devemos sempre testar ela por completo, mas para sermos ágeis, não podemos
+    esperar todos os requisitos serem desenvolvidos para iniciarmos os testes,
+    da mesma forma que os desenvolvedores não podem ficar aguardando todos os
+    testes serem realizados para iniciarem um novo desenvolvimente. Enquanto os
+    testadores só podem iniciar um teste assim que um desenvolvedor finalizar
+    uma atividade e os desenvolvedores não podem alterar a funcionalidade para não
+    influenciar nos testes, é interessante realizar estas ações em ambientes
+    separados. Os desenvolvedores realizam os seus desenvolvimento em um ambiente
+    exclusivo para desenvolvimento, enquanto os testadores realizam seus testes
+    em um ambiente exclusivo para testes. Cada critério, cada cenário deverá ser
+    simulado neste ambiente, devido a isso a qualidade dos dados deste ambiente
+    deverá ser o mais fiel possível ao que os usuários irão utilizar, por outro
+    lado, os desenvolvedores necessitam de dados somente para verificar se a
+    funcionalidade está funcionando e os critérios foram atendidos, devido a isso,
+    é importante ter uma boa qualidade nos dados, mas não é preciso investir
+    tanto tempo nos dados deste ambiente. Vamos chamar o ambiente dos desenvolvrdores
+    de \textbf{DEV} (desenvolvimento) e o ambiente dos testadores de \textbf{QA}
+    (\textit{Quality Assurance}). \newline
+    Os desenvolvedores tem a obrigação de garantir que todos os critérios do
+    requisito desenvolvido seja atendido, ou seja, só é permitido disponibilizar
+    o requisito para ser testado no ambiente de \textbf{QA} após o desenvolvedor
+    testar todos os crtérios no ambiente de \textbf{DEV}. O requisito disponibilizado
+    em \textbf{QA}, o testador deverá testar todos os critérios nos mais diversos
+    cenários possíveis, dando foco nos riscos que foram mapeados na especificação
+    do requisito e conforme mais requisitos vão sendo disponibilizados, ele deverá
+    testar novamente todos cenários novamente, mas agora validando os critérios
+    dos outros requisitos. Desta forma, conseguimos garantir que as situações de
+    maior necessidade do negócio está sendo contemplada. Para que possamos gerar
+    valor de forma ágil, é importante que na primeira iteração do time, seja
+    desenvolvida somente as funcionalidades de maior importância, pois dessa
+    forma conseguimos integrar uma funcionalidade de forma rápida, embora ela
+    realizando o minimo planejado, já podemos como será a reação dos usuários e
+    identificar se há a necessidade de mudanças ou melhorias para serem desenvolvidas
+    na próximas iteração, além de reavaliar a importância dos requisitos mapeados. \newline
+    Logo após todos os testes em todos os cenários de risco da funcionalidade,
+    podemos disponibilizar a funcionalidade para homologação, ou seja, devemos
+    realizar todas as atividades que o usuário irá executar, com o objetivo de
+    verificar se o que foi desenvolvido está aderente com o negócio, podemos
+    tambem realizar apresentações para os usuários, afim de adiantar para eles
+    o que será entregue e preparar uma documentação de como determinada funcionalidade
+    funciona, com o intuíto de disponibilizar esta informação para os usuários e
+    para novos integrantes do projeto. Todo esse processo deve ser realizado em
+    um ambiente separado que vamos nomear de \textbf{HOMOL} (homologação). Este ambiente deve
+    estar separado pois os dados que contem nele, devem ser preparados para
+    apresentações, como ele será utilizado para compreender o que será entregue
+    para o usuário e para apresentar uma prévia para eles, as funcionalidades
+    não devem ser influênciadas por funcionalidades em desenvolvimento e os
+    dados presente nelas, não devem ser influênciadas pelos testes realizados
+    pelos testadores. Os dados neste ambiente deve ser o mais limpo possível,
+    ele deve ser o mais próximo possível do que os usuários irão utilizar em
+    produção, e as funcionalidades que estão neste ambiente devem estar completamente
+    testadas e com todos os critério garantidos. \newline
+    Após realizarmos a homologação da nossa funcionalidade, devemos nos preparar
+    para entregar essa funcionalidade para os usuários, para isso, vale realizarmos
+    uma ultima validação, em um ambiente que vamos nomear de \textbf{PREPROD}
+    (pré-produção). Este ambiente deve ser uma cópia perfeita de produção, nele
+    devemos realizar novamente todos os princípais testes que já realizamos em
+    \textbf{QA} e \textbf{HOMOL}, para verificar que todos os critérios continuam
+    sendo cumpridos, alem de aplicarmos treinamentos para os usuários da nova
+    funcionalidade, permitindo que eles utilizem esta funcionalidade de forma
+    controlada, para que eles aprendam a utilizar o sistema antes de colcoar ele
+    no ar. Com essa abordagem, antes de disponilizar o sistema em produção,
+    conseguimos verificar a reação deles com o que será entregue, alem de ter uma
+    prévia de como o sistema será utilizado, desta forma já conseguimos identifcar
+    melhorias para as próximas iterações. \newline
+
+    \begin{figure}[!h]
+      \centering
+      \includegraphics[width=15cm]{enviromentStream.png}
+      \caption{Fluxo de ambientes}
+      \label{Imagem:1}
+    \end{figure}
+
     \subsection{Automatizando testes de qualidade}
 
   \section{Como adquirir escalabilidade?}

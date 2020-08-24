@@ -6,6 +6,8 @@
 \usepackage{graphicx,cite,enumerate}
 \usepackage[brazil]{babel}
 
+\graphicspath{{images/}}
+
 \titulo{Abordagem para o desenvolvimento de softwares escaláveis focando em
 disponibilidade e detecção de falhas}
 
@@ -29,6 +31,8 @@ disponibilidade e detecção de falhas}
   \begin{abstract}
   \end{abstract}
 
+  \listadefiguras
+
   \listadetabelas
 
   \sumario
@@ -41,7 +45,7 @@ disponibilidade e detecção de falhas}
 
   \chapter{Fundamentos conceituais}
 
-    \section{Análise geral sobre desenvolvimento de software}
+    \section{Análise geral sobre desenvolvimento de \textit{software}}
 
       \subsection{Metodologias ágeis}
 
@@ -49,17 +53,27 @@ disponibilidade e detecção de falhas}
 
       \subsection{CI / CD}
 
-      \subsection{Testes automatizados}
-
     \section{Qualidade de software}
 
       \subsection{Requisitos funcionais}
 
       \subsection{Requisitos não funcionais}
 
+      \subsection{Requisitos inversos}
+
       \subsection{Escalabilidade}
 
-      \subsection{Disponibilidade}
+    \section{Testes no desenvolvimento de \textit{software}}
+
+      \subsection{Testes unitarios}
+
+      \subsection{Testes de regrssão}
+
+      \subsection{Testes de fumaça}
+
+      \subsection{Testes de integração}
+
+      \subsection{Testes automatizados}
 
   \include{content/proposta/index}
 

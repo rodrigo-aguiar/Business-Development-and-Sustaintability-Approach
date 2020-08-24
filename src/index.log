@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  20 AUG 2020 00:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  24 AUG 2020 02:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -613,18 +613,18 @@ Package babel Info: Making " an active character on input line 145.
 )) (/home/rodrigo/Desktop/monografia/Trabalho/src/index.aux (/home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/metodologia/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux))
 \openout1 = `index.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -714,21 +714,21 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 23.
+LaTeX Font Info:    Try loading font information for U+msa on input line 25.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 23.
+LaTeX Font Info:    Try loading font information for U+msb on input line 25.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
 
  []
 
@@ -739,19 +739,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--24
 
 ] [3
 
-] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.lot)
-\tf@lot=\write3
-\openout3 = `index.lot'.
+] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.lof)
+\tf@lof=\write3
+\openout3 = `index.lof'.
 
  [4
 
-] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.toc [5
+] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.lot)
+\tf@lot=\write4
+\openout4 = `index.lot'.
 
-] [6])
-\tf@toc=\write4
-\openout4 = `index.toc'.
+ [5
 
- [7]
+] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.toc [6
+
+] [7])
+\tf@toc=\write5
+\openout5 = `index.toc'.
+
+ [8]
 \openout2 = `content/introducao/index.aux'.
 
  (/home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.tex
@@ -762,20 +768,20 @@ Cap\'{\i }tulo 1.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 105.
 
-[8
+[9
 
 
 
-] [9]) [10] [11]
+] [10]) [11] [12]
 \openout2 = `content/metodologia/index.aux'.
 
  (/home/rodrigo/Desktop/monografia/Trabalho/src/content/metodologia/index.tex
 Cap\'{\i }tulo 2.
 )
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 38.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 42.
 
-[12
+[13
 
 
 
@@ -786,18 +792,18 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 Cap\'{\i }tulo 3.
 )
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 40.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 44.
 
-[13
+[14
 
 
 
 ]
 Cap\'{\i }tulo 4.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 64.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 78.
 
-[14
+[15
 
 
 ]
@@ -808,10 +814,10 @@ Cap\'{\i }tulo 5.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 45.
 
-[15
+[16
 
 
-] [16] [17]
+] [17] [18]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -820,7 +826,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--230
 
  []
 
-[18]
+[19]
 Underfull \hbox (badness 1484) in paragraph at lines 242--243
 \OT1/cmr/m/n/12 Cria^^Xc~ao de pro-du-tos
  []
@@ -858,7 +864,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 273--333
 
  []
 
-[19] [20]
+[20] [21]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -867,42 +873,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 355--392
 
  []
 
-[21] [22] [23]) [24] [25]
+[22] [23] [24] [25] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 560--594
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 617--693
+
+ []
+
+[28] [29]
+<images/enviromentStream.png, id=107, 1144.275pt x 200.75pt>
+File: images/enviromentStream.png Graphic file (type png)
+<use images/enviromentStream.png>
+Package pdftex.def Info: images/enviromentStream.png  used on input line 696.
+(pdftex.def)             Requested size: 426.79134pt x 74.87671pt.
+) [30 </home/rodrigo/Desktop/monografia/Trabalho/src/images/enviromentStream.png>] [31]
 Cap\'{\i }tulo 6.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 76.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 90.
 
-[26
+[32
 
 
 ]
 Cap\'{\i }tulo 7.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 82.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 96.
 
-[27
+[33
 
 ]
 Cap\'{\i }tulo 8.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 84.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 98.
 
-[28
+[34
 
 ] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.aux (/home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/metodologia/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux)) ) 
 Here is how much of TeX's memory you used:
- 4888 strings out of 492982
- 66392 string characters out of 6134896
- 163483 words of memory out of 5000000
- 8298 multiletter control sequences out of 15000+600000
- 10796 words of font info for 40 fonts, out of 8000000 for 9000
+ 4902 strings out of 492982
+ 66711 string characters out of 6134896
+ 163512 words of memory out of 5000000
+ 8305 multiletter control sequences out of 15000+600000
+ 11155 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,45p,318b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on /home/rodrigo/Desktop/monografia/Trabalho/src/index.pdf (30 pages, 119350 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on /home/rodrigo/Desktop/monografia/Trabalho/src/index.pdf (36 pages, 146539 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
+ 146 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
