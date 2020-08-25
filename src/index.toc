@@ -25,29 +25,29 @@
 \contentsline {subsection}{\numberline {5.1.2}Entendendo os requisitos de uma funcionalidade}{21}
 \contentsline {subsection}{\numberline {5.1.3}Arquitetura evolutiva}{25}
 \contentsline {subsection}{\numberline {5.1.4}Estruturando o fluxo de entrega}{27}
-\contentsline {subsection}{\numberline {5.1.5}Automatizando testes de qualidade}{31}
+\contentsline {subsection}{\numberline {5.1.5}Automatizando testes de qualidade}{30}
 \contentsline {section}{\numberline {5.2}Como adquirir escalabilidade?}{31}
 \contentsline {subsection}{\numberline {5.2.1}Descobrindo os limites do sistema}{31}
-\contentsline {subsection}{\numberline {5.2.2}Desenvolvendo estrat\IeC {\'e}gias de escalabilidade}{31}
-\contentsline {section}{\numberline {5.3}Como manter o sistema dispon\IeC {\'\i }vel?}{31}
-\contentsline {subsection}{\numberline {5.3.1}Utilizando o neg\IeC {\'o}cio para definir disponibilidade}{31}
-\contentsline {subsection}{\numberline {5.3.2}Analisando o desempenho do sistema}{31}
-\contentsline {subsection}{\numberline {5.3.3}Falando com os usu\IeC {\'a}rios}{31}
-\contentsline {subsection}{\numberline {5.3.4}Utilizando m\IeC {\'e}tricas para assegurar a disponibilidade}{31}
-\contentsline {subsection}{\numberline {5.3.5}Aplicando testes automatizados}{31}
-\contentsline {section}{\numberline {5.4}Como identificar falhas?}{31}
-\contentsline {subsection}{\numberline {5.4.1}Sentindo o cheiro do produto}{31}
-\contentsline {subsection}{\numberline {5.4.2}Utilizando o usu\IeC {\'a}rio para identificar falhas}{31}
-\contentsline {subsection}{\numberline {5.4.3}Solucionando falhas}{31}
-\contentsline {subsection}{\numberline {5.4.4}Aprendendo com os erros}{31}
-\contentsline {subsection}{\numberline {5.4.5}Testes automatizados como ferramenta de aprendizado}{31}
-\contentsline {subsection}{\numberline {5.4.6}Divulgando as descobertas de forma global}{31}
-\contentsline {chapter}{\numberline {6}Resultados da proposta}{32}
-\contentsline {section}{\numberline {6.1}Um produto escal\IeC {\'a}vel}{32}
-\contentsline {subsection}{\numberline {6.1.1}Um produto com custo din\IeC {\^a}mico}{32}
-\contentsline {section}{\numberline {6.2}Um produto dispon\IeC {\'\i }vel}{32}
-\contentsline {section}{\numberline {6.3}Um produto com falhas planejadas}{32}
-\contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o}{33}
-\contentsline {section}{\numberline {7.1}Resultados em rela\IeC {\c c}\IeC {\~a}o ao objetivo}{33}
-\contentsline {section}{\numberline {7.2}Trabalhos futuros}{33}
-\contentsline {chapter}{\numberline {8}Refer\IeC {\^e}ncia Bibliogr\IeC {\'a}fica}{34}
+\contentsline {subsection}{\numberline {5.2.2}Desenvolvendo estrat\IeC {\'e}gias de escalabilidade}{34}
+\contentsline {section}{\numberline {5.3}Como manter o sistema dispon\IeC {\'\i }vel?}{36}
+\contentsline {subsection}{\numberline {5.3.1}Utilizando o neg\IeC {\'o}cio para definir disponibilidade}{36}
+\contentsline {subsection}{\numberline {5.3.2}Analisando o desempenho do sistema}{36}
+\contentsline {subsection}{\numberline {5.3.3}Falando com os usu\IeC {\'a}rios}{36}
+\contentsline {subsection}{\numberline {5.3.4}Utilizando m\IeC {\'e}tricas para assegurar a disponibilidade}{36}
+\contentsline {subsection}{\numberline {5.3.5}Aplicando testes automatizados}{36}
+\contentsline {section}{\numberline {5.4}Como identificar falhas?}{36}
+\contentsline {subsection}{\numberline {5.4.1}Sentindo o cheiro do produto}{36}
+\contentsline {subsection}{\numberline {5.4.2}Utilizando o usu\IeC {\'a}rio para identificar falhas}{36}
+\contentsline {subsection}{\numberline {5.4.3}Solucionando falhas}{36}
+\contentsline {subsection}{\numberline {5.4.4}Aprendendo com os erros}{36}
+\contentsline {subsection}{\numberline {5.4.5}Testes automatizados como ferramenta de aprendizado}{36}
+\contentsline {subsection}{\numberline {5.4.6}Divulgando as descobertas de forma global}{36}
+\contentsline {chapter}{\numberline {6}Resultados da proposta}{37}
+\contentsline {section}{\numberline {6.1}Um produto escal\IeC {\'a}vel}{37}
+\contentsline {subsection}{\numberline {6.1.1}Um produto com custo din\IeC {\^a}mico}{37}
+\contentsline {section}{\numberline {6.2}Um produto dispon\IeC {\'\i }vel}{37}
+\contentsline {section}{\numberline {6.3}Um produto com falhas planejadas}{37}
+\contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o}{38}
+\contentsline {section}{\numberline {7.1}Resultados em rela\IeC {\c c}\IeC {\~a}o ao objetivo}{38}
+\contentsline {section}{\numberline {7.2}Trabalhos futuros}{38}
+\contentsline {chapter}{\numberline {8}Refer\IeC {\^e}ncia Bibliogr\IeC {\'a}fica}{39}

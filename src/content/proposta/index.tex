@@ -693,16 +693,246 @@
 
     \begin{figure}[!h]
       \centering
-      \includegraphics[width=15cm]{enviromentStream.png}
+      \includegraphics[width=15cm]{enviromentStream.jpeg}
       \caption{Fluxo de ambientes}
       \label{Imagem:1}
     \end{figure}
 
     \subsection{Automatizando testes de qualidade}
+    Para otimizar a execução dos testes, e facilitar o trbalho dos testadores,
+    podemos automatizar os testes que realizamos no sistema, para que sempre que
+    uma funcionalidade nova, uma melhoria, uma alteração ou uma correção for
+    implementada podemos realizar novamente todos os testes no sistema
+    automaticamente. Desta forma, não consumimos tanto tempo dos testadores e
+    garantimos que o tudo no nosso sistema continua funcionando da forma que
+    esperamos. A fase de automação dos testes, é importante ser realizada assim
+    que o requisito for homologado, com a homologação, estamos mais certos que o
+    requisito está aderente com o negócio e por causa da etapa de testes, temos
+    todos os princípais cenários que presisam ser garantidos, desta forma podemos
+    montar testes automatizados para após homologado, qualquer alteração que seja
+    realizada nos ambientes de \textbf{QA} e adiante, inicie os testes e garanta
+    que os cenários de risco continuem não apresentando problemas para o sistema. \newline
+    Os testes devem estar diretamente vinculados com o \textit{deploy} para os
+    ambiente, ou seja, é importante que seja um processo do \textit{pipeline},
+    onde todo \textit{deploy} realizado, rode novamente todos os testes, em cada
+    um dos ambientes, pois desta forma, conseguimos averiguar se alguma alteração
+    no sistema impactou em alguma parte que não estavamos prevendo e com essa
+    descobertra, conseguimos uma visão mais detalhada do quanto o nosso sistema
+    está estruturado, auxiliando nas decisões de arquitetura.
 
   \section{Como adquirir escalabilidade?}
+    Conforme o nosso sistema vai aumentando, mais usuários vão utilizando ele,
+    mais funcnionalidade ele possui, e mais poder computacional ele necessita.
+    Garantir que um sistema se mantenha no ar é uma tarefa complicada, embora
+    estejamos desenvolvendo o sistema da melhor forma possível, realizando testes
+    na maioria dos cenários e evoluindo a arquitetura para se adequar a atual
+    realidade do sistema, não conseguimos prever tudo, e muitas vezes, quando
+    mais precisamos que ele funcione, ele apresenta algum problema. Muitas vezes
+    podemos subestimar alguma situação ou superestimar outra situação, e se não
+    estivermos preparados para os imprevistos, a qualidade de nosso produto pode
+    cair e a confiança dos nossos usuários diminuir. \newline
+    Vamos imaginar, que a empresa que utilizamos como exemplo anteriormente,
+    conseguiu criar um computador base, que atendende muitas necessidades do seus
+    clietes, devido a isso, o número de pedidos aumentou, e a empresa teve que
+    contratar mais vendedores, mais colaboradores da área técnica e a equipe de
+    \textit{marketing} está com várias idéias para novos produtos. O sistema
+    nessa situação vai estar constantemente executando vendas, assim como vários
+    projetos serão criados, e várias notificações deverão ser disparadas. Certo
+    dia, a utilização no sistema foi tão intensa, que o sistema não enviou mais
+    notificações durante dois minutos, estes dois minutos foi o suficiente para
+    que a área técnica não analisasse três projetos, estes projetos que a equipe
+    de \textit{marketing} tinha uma grande expectativa, o tempo passou foi gerado
+    o conflito entre as duas áreas, e foi identificado este erro no sistema,
+    agora o momento para a produção dos produtos base se perdeu, este conflito
+    abalou as duas áreas e a confiança com o sistema pelos usuários diminuiu.
+
     \subsection{Descobrindo os limites do sistema}
+    Para nos prepararmos para as situações inesperadas, precisamos descobrir os
+    limites do nosso sistema, precisamos tentar fazer o sistema falhar em um
+    ambiente controlado, antes que ele falhe em produção, quando os nossos usuários
+    estiverem utilizando. Entender que nosso sistema tem limites e que ele está
+    sucetível a erros é o primeiro passo para descobrirmos como podemos encontrar
+    estes erros, devemos utilizar os riscos que mapeamos, e simular diversas vezes
+    estes cenários, o que levantamos em nossos requisitos não-funcionais, devem
+    ser levado ao extremo, então caso levantamos que um determinado requisito
+    deve ter um tempo de resposta de no máximo dois segundos, devemos foçar o
+    processamento do nosso sistema para que o tempo de resposta supere dois segundos
+    e neste cenário, rodar novamente todos os testes novamente, desta forma nós
+    conseguimos ver se o fato do requisito não ser atendido tem algum impacto nos
+    critérios que levantamos. Uma vez conseguido simular este cenário, podemos
+    mapear os limites do sistema, como nos esforçamos para forçar o sistema a
+    funcinoar no seu limite, agora podemos documentar qual é o seu limite e
+    analisar se devemos aumentar este limite ou se aceitamos o risco que ele
+    representa. \newline
+    Definir limites para o sistema é definir novamente os riscos que pretendemos
+    aceitar, quando estávamos especificando as nossas funcnionalidades, os riscos
+    que mapeamos era com a pespectiva de negócio, nosso objetivo era garantir que
+    o que iria ser desenvolvido, gerasse valor e não teria impactos negativos para
+    os usuários, agora devemos utilizr estes riscos, em conjunto com os nossos
+    requisitos, para mapearmos os limites do sistema. Estamos utilizando o negócio
+    para aprender até onde o sistema deve aguentar, e por outro lado, estamos
+    utilizando o sistema para aprender o que o negócio precisa e quais riscos
+    podemos enfrentar. \newline
+    Quando mapeamos os limites do sistema, é importante separarmos os limites por
+    funcinalidae e não buscar valores absolutos, mas sim valores estatísticos.
+    Por mais testes que realizamos e por mais cenários que simulamos, não podemos
+    garantir que em um situação extrema, o sistema vai se comportar sempre da
+    mesma forma. Como estamos buscando o extremo, e esperando que o que desenvelvemos
+    pare de funcinoar, por mais que tenhamos uma idéia de qual parte do sistema
+    vai falhar, não é garantido que as nossas expectativas sempre se cumpram,
+    realizando o mesmo teste mais de uma vez, podemos ter diversos retornos
+    diferentes. Por este motivo, é interessante, com base na importância da
+    funcionalidade, estipular uma quantidade de testes para cada situação extrema,
+    com base nos retornos gerados, podemos documentar o que aconteceu e qual foi
+    a frequência deste ocorrido, pois caso algum dia venha a ocorrer em produção,
+    já temos mapeado os princípais problemas ou uma vez que, produção comece a
+    trablhar no limite do sistema, já sabemos o que é mais provável de ocorrer.
+    Para armazenarmos os testes que ocorreram, é importante colcoar anotar a
+    funcionalidade que testamos, o cenário que estava o sistema e quais foram
+    resultados com as porcentagens. Na tabelas nove e dez, exemplificamos está análise
+    utilizando a funcnionalidade exemplo de "Cadasto de produtos". \newline
+
+    \begin{table}[h!]
+      \centering
+      \begin{tabular}{|c|p{10cm}|}
+        \hline
+        \textbf{Funcionalidade} &
+        Cadasto de produtos \\ \hline
+        \textbf{Cenário} &
+        O processamento do servidor utilizado para a funcnionalidade se encontra
+        com 95\% de uso. \\ \hline
+        \textbf{Resultado} &
+        Em 89\% do cadastro novos projetos, a notificação demorou aproximadamente
+        três segundos para aparecer. \\ \hline
+        \textbf{Resultado} &
+        Em 96\% do cadastro dos novos projetos, levou um aproximadamente dois
+        segundos para realizar a criação do projeto. \\ \hline
+      \end{tabular}
+      \caption{Exemplo de análise de limite de sistema - limite de processamento}
+      \label{Tabela:9}
+    \end{table}
+
+    \begin{table}[h!]
+      \centering
+      \begin{tabular}{|c|p{10cm}|}
+        \hline
+        \textbf{Funcionalidade} &
+        Cadasto de produtos \\ \hline
+        \textbf{Cenário} &
+        Realizado 500 criações de novos projetos ao mesmo tempo. \\ \hline
+        \textbf{Resultado} &
+        Em 98\% dos cadastros a concexão com o banco de dados foi perdida ao tentar
+        inserir os produtos. \\ \hline
+      \end{tabular}
+      \caption{Exemplo de análise de limite de sistema - limite de requisições}
+      \label{Tabela:9}
+    \end{table}
+
+    As análises devem ser feitas em um ambiente que seja uma cópia perfeita de
+    produção, sempre que algo for entregue em produção, deve ser automaticamente
+    replicado para este ambiente, vamos chamá-lo de \textbf{CHAOSPROD} (produção
+    caótica). \newline
+    Estas análises são prevendo cenários adversos, imaginando situações inesperadas,
+    por este motivo, é interessante realizar estas análises sempre após que um
+    requisito for entregue em produção, desta forma, conseguimos maior produtividade
+    na entrega dos requisitos em desenvolvimento, e uma vez que ele tenha sido
+    homologado, e temos o retorno de como os usuários estão utilizando o sistema,
+    conseguimos realizar as análises nos baseando não somente no que mapeamos como
+    risco, mas também com base em como o usuário está utilizando o sistema e no
+    \textit{feedback} que estamos tendo com eles, seja esse \textit{feedback} dito
+    diretamente pelo usuário ou através de alguma análise realizada em produção.
+
+    \begin{figure}[!h]
+      \centering
+      \includegraphics[width=15cm]{enviromentStream_CHAOSPROD.jpeg}
+      \caption{Fluxo de ambientes com CHAOSPROD}
+      \label{Imagem:2}
+    \end{figure}
+
     \subsection{Desenvolvendo estratégias de escalabilidade}
+    Uma vez identificado os nossos limites, devemos criar estratégias para lidar
+    com elas, ser aumentar o poder de processamento dos nossos servidores,
+    migrar a nosso aplicação para um banco de dados mais robusto, melhorar o
+    desenempendo da funcnionalidade desenvolvida através do código, existem
+    várias ações que podemos tomar, para podermos enfrentarmos os riscos que
+    mapeamos. \newline
+    Para cada cenário que mapearmos precisamos criar um plano, para caso esta
+    situação venha a ocorrer. Este plano, deve estar atrelado diretamente a
+    importância da funcionalidade e os impactos que sua execução irá gerar,
+    devemos considerar os gastos financeiros, o tempo que o plano vai demorar
+    para ser executado, os times que irão atuar nele, as áres de negócio que vão
+    ser impactadas, como devemos avisar os usuários, entre outras ações. Com a
+    realização deste plano, nos preparamos para o imprevisto, caso algum dos
+    cenários que mapeamos aconteça, já vamos estar preparado, embora não sabemos
+    exatamente o que vai acontecer, temos a probabilidade de cada situação. Podemos
+    tambem nos antecipar a esse limite, caso a funcnionalidade seja muito importante
+    para o negócio, e identificamos que o limite identificado pode ser atingido,
+    podemos trabalhar para aumentá-lo, como sabemos aonde precisamos melhorar,
+    basta realizar uma exploração mais aprofundada da melhor forma que podemos
+    aumentar este limite. Outro ponto de destaque, é que conseguimos adaptar o
+    nosso sistema conforme as necessidades de negócio, caso um determinada
+    funcnionalidade necessite de mais processamento, podemos alocar mais servidores
+    para esta funcnionalidade, caso um não tenhamos os servidores disponíveis,
+    podemos aumentar nosos servidores de forma horizontal, caso não haja verba
+    disponível, para aumentar a quantidade de servidores, podemos desativar uma
+    funcnionalidade menos importante para realocar os recursos para a funcionalidade
+    de maior importância, desta forma, assim que este periodo de maior necessidade
+    passar, reativamos a funcnionalidade antiga. \newline
+    Para cada caso devemos estruturar uma estratégia e devemos utilizar de métricas
+    no ambiente de produção para supervisionar a saúde do ambiente e anteciparmos
+    algum tipo de erro. Devemos monitorar o armazenamento já utilizado pelo nosso
+    sistema, para caso ele esteja no fim, podemos aumentar o nível de armazenamento
+    ou excluir registros antigos, devemos monitorar os nossos servidores, para
+    caso algum deles estejam começando a apresentar defeito, ou algum conjunto
+    de servidores estejam sendo mais utilizados que outros, assim podemos realocar
+    as nossas funcnionalidades em servidores diferentes e aprendemos qual parte
+    do sistema utiliza maior quantidade de recursos dos nossos servidores. Podemos
+    utilizar diversas acompanhamentos e implementar diversas métricas em nosso
+    produto, mas é importante sempre lembrar, que devemos gerar as nossas métricas
+    e basear os nossos acompanhamentos com base em como o sistema está sendo
+    utilizado, ou seja, é através das necessidades do negócio, que aprendemos
+    aonde devemos olhar. Na tabela dez, específicamos como estruturar uma
+    estratégia.\newline
+
+    \begin{table}[h!]
+      \centering
+      \begin{tabular}{|c|p{10cm}|}
+        \hline
+        \textbf{Funcionalidades} &
+        Nome das funcnionalidades que foram impactadas \\ \hline
+        \textbf{Cenário} &
+        Descrição do cenário em que ocorreu os erros. \\ \hline
+        \textbf{Stakeholders} &
+        Quais são as áreas de negócio que serão impactadas no cenário descrito. \\ \hline
+        \textbf{Times} &
+        Quais são os time realcionados para a execução deste plano. \\ \hline
+        \textbf{Plano} &
+        O que deverá ser feito caso produção se encontre neste cenário. \\ \hline
+        \textbf{Tempo de Execução} &
+        Tempo para a execução do plano. \\ \hline
+      \end{tabular}
+      \caption{Especificação para estruturação de estratégias}
+      \label{Tabela:10}
+    \end{table}
+
+    Com o ambiente de \textbf{CHAOSPROD}, conseguimos descobrir os limites do
+    sistema, com o ambiente de produção, conseguimos descobrir como o sistema é
+    utilizado, é através dos usuários, e da persepção de valor gerado para eles
+    e para o negócio que devemos basear as nossas prioridades e ajustar a
+    importância das nossas funcionalidades. Com está visão podemos tomar a decisão
+    aonde precisamos testar mais, e também onde precisamos de maior supervisão,
+    embora estamos constantemente procurando por erros, não estamos livres de
+    falhas, erros em produção vão acontecer. É nestas horas que as ferramentas
+    que implementamos para supervisionar o sistema tem sua maior utilidade, é
+    através delas que vamos descobrir o que aconteceu e uma vez descoberto, vamos
+    utilizar este ocorrido como aprendizado, alem de resolver o problema, vamos
+    identificar o porquê ele aconteceu, se realmente resolvemos o problema ou
+    mitigamos, se ele pode acontecer e como podemos nos preparar para ele. Este
+    erro pode se tornar mais um teste automatizado para ser realizado durante os
+    desenvolvimentos ou pode se tornar mais uma análise a ser feita em
+    \textbf{CHASOPROD}. De toda forma, ele se tornou um aprendizado para o produto
+    e agora faz parte de um cenário que estamos prevendo, pode ser que ele
+    aconteça novamente mas desta vez estaremos preparados.
 
   \section{Como manter o sistema disponível?}
     \subsection{Utilizando o negócio para definir disponibilidade}
