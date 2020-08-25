@@ -50,4 +50,4 @@
 \contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o}{38}
 \contentsline {section}{\numberline {7.1}Resultados em rela\IeC {\c c}\IeC {\~a}o ao objetivo}{38}
 \contentsline {section}{\numberline {7.2}Trabalhos futuros}{38}
-\contentsline {chapter}{\numberline {8}Refer\IeC {\^e}ncia Bibliogr\IeC {\'a}fica}{39}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{39}

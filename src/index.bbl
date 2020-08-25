@@ -1,0 +1,16 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem{SiteReliabilityEngineering}
+\abntrefinfo{Beyer}{BEYER}{2018}
+{BEYER, B. \emph{Site Reliability Engineering}. [S.l.]: O'Reilly, 2018.}
+
+\bibitem{TheDevOpsHandbook}
+\abntrefinfo{Kim et al.}{KIM et al.}{2016}
+{KIM, G. et al. \emph{The DevOps Handbook}. [S.l.]: IT Revolution, 2016.}
+
+\end{thebibliography}
