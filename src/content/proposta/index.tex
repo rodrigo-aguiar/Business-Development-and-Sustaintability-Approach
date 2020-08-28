@@ -112,7 +112,7 @@
     sempre levantar os riscos com base na perspectiva do usuário, pois assim
     podemos entender quais serão as reações delese e quais estratégias devemos
     utilizar para engajar o uso da ferramenta e buscar por melhorias. \newline
-    Com base nos objetivos, nas funcionlidades e nos riscos, podemos mapear as
+    Com base nos objetivos, nas funcionalidades e nos riscos, podemos mapear as
     pendências das funcionalidades, onde conseguimos traçar quais os passos que
     devemos tomar para iniciar o desenvolvimento até disponibilizar a funcionalidade
     para o usuário. \newline
@@ -825,7 +825,7 @@
         inserir os produtos. \\ \hline
       \end{tabular}
       \caption{Exemplo de análise de limite de sistema - limite de requisições}
-      \label{Tabela:9}
+      \label{Tabela:10}
     \end{table}
 
     As análises devem ser feitas em um ambiente que seja uma cópia perfeita de
@@ -912,7 +912,7 @@
         Tempo para a execução do plano. \\ \hline
       \end{tabular}
       \caption{Especificação para estruturação de estratégias}
-      \label{Tabela:10}
+      \label{Tabela:11}
     \end{table}
 
     Com o ambiente de \textbf{CHAOSPROD}, conseguimos descobrir os limites do
@@ -934,17 +934,192 @@
     e agora faz parte de um cenário que estamos prevendo, pode ser que ele
     aconteça novamente mas desta vez estaremos preparados.
 
-  \section{Como manter o sistema disponível?}
-    \subsection{Utilizando o negócio para definir disponibilidade}
-    \subsection{Analisando o desempenho do sistema}
-    \subsection{Falando com os usuários}
-    \subsection{Utilizando métricas para assegurar a disponibilidade}
-    \subsection{Aplicando testes automatizados}
+  \section{Como manter o seu produto?}
+    Para assegurar que o produto continue disponível, gerando valor, confiável
+    para o usuário e que ele continue evoluindo junto com o negócio, nós
+    precisamos enxergar a saúde do produto. Enxergar a saúde do produto não quer
+    dizer apenas analisar questões do sistema como, desempenho, \textit{bugs},
+    quantidade de armazenamento e entre outros. Nós precisamos vizualisar como o
+    sistema está impactando o negócio, qual o valor que ele está produzindo e
+    qual a persepção do usuário durante a sua utilização, precisamos além de
+    captar se o sistema ainda está funcionando, de um ponto de vista operacional,
+    temos que verificar se ele ainda está funcnionando para o negócio, temos que
+    garantir todo dia que ele seja um facilitador para os usuários e não um
+    problema e principalmente, precisamos sempre verificar se o sistema está indo
+    de encontro com os objetivos do negócio. \newline
+    Para conseguirmos estes ensumos, precisamos primeiramente garantir a confiança
+    do usuário, eles precisam estar seguros nas ações que eles vão realizar no
+    sistema e caso uma melhoria mude a forma que eles realizam as suas atividades,
+    é importante informar os usuários o motivo desta alteração e apresentar o
+    objetivo da empresa com a mudança do processo. Um usuário informado com
+    confiança que o sistema funciona e atende as necessidades dele, se torna
+    um colaborador do sistema, é através do \textit{feedback} dele que conseguimos
+    mapear as melhorias que devemos realizar e como realizar as comunicações de
+    novas implementações. Com base no como o usuário está utilizando o sistema
+    é que conseguimos melhorar os nossos testes automatizados e garantir cada vez
+    mais qualidade para o nosso produto, o negócio está sempre em constante
+    mudança, então precisamos sempre adaptar as nossas funcionalidades para essas
+    mudanças. Através dessas mudanças, novos requisitos vão surgindo, novos
+    limites serão encontrados e novos riscos irão surgir, com isso mais escolhas
+    e mais testes serão necessários para garantir que o sistema continue
+    disponível e aderente ao negócio.
 
-  \section{Como identificar falhas?}
-    \subsection{Sentindo o cheiro do produto}
-    \subsection{Utilizando o usuário para identificar falhas}
-    \subsection{Solucionando falhas}
+    \subsection{Ouvindo os usuários}
+    Há diversas ações que podemos realizar para conseguirmos captar as percepções
+    do usuário. A primeira delas é perguntar diretamente para eles, utilizar o
+    a opinião de cada usuário para tentar identificar um censo comum, buscando
+    entender se o produto está aderente ao negócio, melhorias que devem ser
+    implementadas e novas funcnionalidades que devem ser desenvolvidas, todos
+    lembrando de classificar a importância de cada nova funcnionalidade ou de
+    cada novo requisito. Nestas perguntas é essencial que seja identificado tambem
+    questões de usabilidade do que já foi desenvolvido, identificar se as
+    operações que eles realizam estão com um bom tempo de resposta, se o
+    \textit{layout} não está confuso, se a forma que eles estão interagindo com
+    as funcnionalidades faz sentido para eles, se houve algum \textit{bug} ou
+    situação que alguma operação não funcionou como o esperado. Através destas
+    perspectivas é que conseguimos garantir que os usuários estão satisfeitos
+    ao utilizar o sistema. \newline
+    Outra ação que devemos realizar para verificar a interação do usuário com o
+    sistema é criar métricas no sistema que informe como ele está sendo utilizado.
+    Podemos medir o tempo que um usuário leva para realizar uma operação, para
+    verificar se determinada operação está com um bom desempenho, quantidade de
+    cliques em tela, para verificar se o usuário precisa realizar muitas atividades
+    para concluir o seu objetivo, campos em um formulário, para identificar se
+    todas as informações ainda fazem sentido o usuário preencher, assim podemos
+    ou automatizar o preenchimento de alguns campos ou até mesmo remover eles.
+    Para cada funcnionalidade devemos elaborar quais métricas produzir para
+    conseguir supervisionar a interação do usuário com o sistema e identificar
+    um \textit{bug} durante a utilização do usuário antes mesmo que ele reporte
+    o problema para o suporte. Outra análise que podemos fazer com esses dados é
+    a de verificar se determinada funcionalidade está apresentando sinais de
+    defeito, podemos avriguar por exemplo, que determinada funcnionalidade nos
+    ultimos três dias, está apresentando maior lentidão em sua execução. Com
+    essa informação podemos investigar se esta lentidão está ocorrendo por causa
+    de alguma implementação recente, se um servidor está apresentando defeito,
+    se os usuários estão realizando mais requisições para está funcionalidade,
+    se a distribuição de processamento nos servidores está aderente a utilização
+    dos usuários para cada funcionalidade, entre outras análises. Podemos ver que
+    somente este dado, nos abriu diversos pontos de análise, que combinando com
+    outras métricas, podemos encontrar a origem do problema, antes mesmo que o
+    usuário perceba. Conseguimos assegurar que o sistema se mantenha disponível
+    e conseguimos manter a confiança do usuário no produto.
+
     \subsection{Aprendendo com os erros}
+    Com o frequentemente acompanhamento das funcnionalidades, vamos conseguir
+    diversos erros cometidos no produto, um \textit{layout} confuso, algum
+    \textit{bug} devido a alguma implementação, um requisito levantado de
+    forma errada, gerando uma funcnionalidade funcionando de forma errada, um
+    limite que foi alcançado, um risco que não deveriamos ter aceito, pode
+    acontecer diversos erros, mesmo com nosso monitoramento contínuo, e o nosso
+    desenvolvimento centrado no negócio. O fato de estarmos monitoramendo o nosso
+    produto e de desenvolvermos as funcnionalidades centrado no negócio, é o que
+    vai nos fazer perceber os nossos erros mais rápido, e também vai nos auxiliar
+    a encontrar a solução de forma mais rápida. Uma equipe que entende o negócio,
+    sabe os requisitos de cada funcionalidade, sabe os riscos que aceitamos,
+    conhece os limites do sistema e consegue monitorar a saúde do produto, tem
+    completa capácidade de resolver os problemas e aprender com eles. \newline
+    Quando nos deparamos com algum problema em produção, devemos analisar ele
+    imediatamene, envolvendo todas as pessoas da equipe que tem realação com o
+    acontecido, seja porque trabalhou na funcnionalidade ou as métricas apontram
+    que é necessário a participação de um equipe especifica, como por exemplo a
+    equipe de infraestrutura, é necessário juntar todos os envolvidos para que
+    possamos realizar a análise de forma conjunta e identificar a tratativa de
+    uma forma ágil. No momento da análise, é importante lembrar que não há
+    culpados, devemos focar na solução do problema, depois de solucionado, é
+    importante documentar o ocorrido com a solução que foi realizada e a origem
+    do problema. Quando aprendemos com os nossos erros e não repreendemos o
+    time por um erro cometido, conseguimos garantir que qualquer problema que
+    ocorra, os membros do nosso time não vão sentir medo de reportar e todos vão
+    trabalhar em conjunto para resolver o ocorrido. Após resolvido o problemo,
+    devemos mapear o que podemos desenvolver para supervisionar o sistema com o
+    objetivo de identificar sinais que o erro vai voltar a ocorrer e que caso
+    ele ocorra novamente, facilite a nossa análise para a sua resolução. \newline
+
+    \begin{table}[h!]
+      \centering
+      \begin{tabular}{|c|p{10cm}|}
+        \hline
+        \textbf{Funcionalidades} &
+        Nome das funcnionalidades que foram impactadas. \\ \hline
+        \textbf{Cenário} &
+        Descrição do cenário em que ocorreu os erros. \\ \hline
+        \textbf{Stakeholders} &
+        Quais são as áreas de negócio que foram impactadas no cenário descrito. \\ \hline
+        \textbf{Problema} &
+        Descrição do problema que ocorreu. \\ \hline
+        \textbf{Origem do Problema} &
+        O que foi que causou o problema descrito. \\ \hline
+        \textbf{Equipes Envovidas} &
+        Quais equipes foram envolvidas para a resolução. \\ \hline
+        \textbf{Solução} &
+        O que foi realizado para resolver o problema. \\ \hline
+        \textbf{Novos Desenvolvimentos} &
+        O que deve ser desenvolvido para monitorar o cenário descrito com o
+        objetivo de nos alertar ou facilitar a análise caso o erro volte a
+        acontecer. \\ \hline
+      \end{tabular}
+      \caption{Especificação para documentação de resolução de problemas}
+      \label{Tabela:12}
+    \end{table}
+
+    Vale lembrar que um erro, não é somente um mau funcionamento de alguma
+    funcionalidade, mas sim qualquer impacto negativo para o negócio. Uma
+    funcionalidade que não esteja aderente com as necessidades do usuário, deve
+    ser tratada conforme descrevemos anteriormente, todos os envolvidos devem
+    se reunir e discutir o que deve ser feito para atender as necessidades do
+    usuário. Muitas vezes neste caso, os requisitos irão sofrer alterações e o
+    teremos que refazer alguma determinada parte de uma funcionalidade, esta
+    alteração deverá gerar novos testes automatizados e a arquitetura construída
+    terá que se adaptar a estas mudanças, podendo ter que mudar um componente
+    inteiro para garantir a aderência ao negócio.
+
     \subsection{Testes automatizados como ferramenta de aprendizado}
-    \subsection{Divulgando as descobertas de forma global}
+    Conforme vamos realizando mudanças no produto, seja proveniente de algum erro,
+    por mudanças no negócio ou na implementação de alguma melhoria, devemos produzir
+    novos testes automatizados para garantir que os novos requisitos dessas mudanças
+    estejam sendo testados e garantidos. \newline
+    Alem de garantir a qualidade de nossos, os testes eles tem a funlção de servir
+    como base de conhecimento, é a partir deles que podemos analisar todos os
+    processos que desenvolvemos para o negócio e explicar o funcionamento das
+    funcnionalidades. Nos testes automatizados temos sempre como o usuário vai
+    interagir com o sistema, onde verificamos se todos os tipos requisitos estão
+    sendo garantidos, funcionais, não-funcionais e inversos, conseguimos demonstar
+    tudo o que foi feito para garantir a qualidade das funcnionalidades assim
+    como o seu funcionamento. Desta forma, conseguimos utilizar os testes automatizados,
+    como apresentção do produto como todo, seja para um novo membro da equipe ou
+    para um novo usuário, podemos demonstrar o funcionamento de uma nova funcnionalidade,
+    para os usuários envolvidos, podemos explicar como funciona um determinado
+    processo da empresa. Conseguimos através destes testes, uma grande fonte de
+    conhecimento onde com a utilização de um versionador de código, conseguimos
+    apresentar as mudanças que foram realizadas na utilização das funcionalidades.
+    Através dos testes, conseguimos já prever se uma determinada implantação pode
+    gerar algum erro para os usuários, como podemos observar todo um processo sendo
+    realizado, conseguimos já na etapa de desenvolvimento averiguar se a solução
+    está aderente as necessidades do negócio, verificando se esta nova implementação
+    não dificultou o processo que os usuários já estão realizando ou se gerou algum
+    impacto em outra parte do sistema, que pode ser visto como um erro para o
+    usuário. Conseguimos validar nos testes automatizados, se as mudanças realizadas
+    estão seguindo as mudanças que o negócio está sofrendo, como o time tem um
+    grande entendimento do negócio e está realizando seus desenvolvimentos com
+    foco nos objetivos do negócio, podemos verificar o fluxo que será executado
+    pelos usuários nos testes automatizados e validar se as mudanças que ocorreram
+    no negócio foram refletidas corretamente para o sistema. \newline
+    Devemos ficar atentos as mudanças no negócio, um requisito pode mudar conforme
+    o tempo for passando, e nestes casos, ele pode conflitar com o \textit{core}
+    do que desenvolvemos, quando isto ocorrer, devemos análisar se realmente faz
+    sentido realizar está alteração no sistema ou se devemos começar a construção
+    de um novo produto pois, dependendo da mudança, podemos ter que alterar muito
+    a forma que o produto funciona, assim gerando muitos riscos na implementação
+    dessa nova mudança, os requisitos que mapeamos até então e os testes que
+    geramos não estão mais aderentes ao que o negócio está se tornando e muitas
+    vezes adaptar o sistema por completo é mais trabalhoso do que desenvolver um
+    novo, desta forma conseguimos já na concepção do novo produto, atender os
+    novos requisitos e desenvolver funcnionalidades mais aderentes com o caminho
+    que negócio está trilhando. Para identificar se a algum ocorrido se trata de
+    um erro ou de uma mudança, devemos análisar quanto tempo implementamos os
+    requisitos que estão mudando, uma mudança em uma implementação recente, pode
+    siginificar um erro ao levantarmos os requisitos, devemos analisar a situação
+    em que a sociedade se encontra, pois pode ocorre que algum fator externo, como
+    uma nova lei, redefinição de processo, fusão ou aquisição de alguma empresa,
+    possa ocasionar em uma mudança, onde nesses casos os requirementos mudaram
+    de repente.

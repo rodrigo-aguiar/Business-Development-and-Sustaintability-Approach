@@ -1,53 +1,44 @@
 \babel@toc {brazil}{}
-\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{9}
-\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~o}es}{11}
-\contentsline {chapter}{\numberline {2}Metodologia de pesquisa}{13}
-\contentsline {chapter}{\numberline {3}Objetivo}{14}
-\contentsline {chapter}{\numberline {4}Fundamentos conceituais}{15}
-\contentsline {section}{\numberline {4.1}An\IeC {\'a}lise geral sobre desenvolvimento de \textit {software}}{15}
-\contentsline {subsection}{\numberline {4.1.1}Metodologias \IeC {\'a}geis}{15}
-\contentsline {subsection}{\numberline {4.1.2}DevOps}{15}
-\contentsline {subsection}{\numberline {4.1.3}CI / CD}{15}
-\contentsline {section}{\numberline {4.2}Qualidade de software}{15}
-\contentsline {subsection}{\numberline {4.2.1}Requisitos funcionais}{15}
-\contentsline {subsection}{\numberline {4.2.2}Requisitos n\IeC {\~a}o funcionais}{15}
-\contentsline {subsection}{\numberline {4.2.3}Requisitos inversos}{15}
-\contentsline {subsection}{\numberline {4.2.4}Escalabilidade}{15}
-\contentsline {section}{\numberline {4.3}Testes no desenvolvimento de \textit {software}}{15}
-\contentsline {subsection}{\numberline {4.3.1}Testes unitarios}{15}
-\contentsline {subsection}{\numberline {4.3.2}Testes de regrss\IeC {\~a}o}{15}
-\contentsline {subsection}{\numberline {4.3.3}Testes de fuma\IeC {\c c}a}{15}
-\contentsline {subsection}{\numberline {4.3.4}Testes de integra\IeC {\c c}\IeC {\~a}o}{15}
-\contentsline {subsection}{\numberline {4.3.5}Testes automatizados}{15}
-\contentsline {chapter}{\numberline {5}Proposta}{16}
-\contentsline {section}{\numberline {5.1}Como criar produtos com qualidade?}{16}
-\contentsline {subsection}{\numberline {5.1.1}Assumindo riscos}{17}
-\contentsline {subsection}{\numberline {5.1.2}Entendendo os requisitos de uma funcionalidade}{21}
-\contentsline {subsection}{\numberline {5.1.3}Arquitetura evolutiva}{25}
-\contentsline {subsection}{\numberline {5.1.4}Estruturando o fluxo de entrega}{27}
-\contentsline {subsection}{\numberline {5.1.5}Automatizando testes de qualidade}{30}
-\contentsline {section}{\numberline {5.2}Como adquirir escalabilidade?}{31}
-\contentsline {subsection}{\numberline {5.2.1}Descobrindo os limites do sistema}{31}
-\contentsline {subsection}{\numberline {5.2.2}Desenvolvendo estrat\IeC {\'e}gias de escalabilidade}{34}
-\contentsline {section}{\numberline {5.3}Como manter o sistema dispon\IeC {\'\i }vel?}{36}
-\contentsline {subsection}{\numberline {5.3.1}Utilizando o neg\IeC {\'o}cio para definir disponibilidade}{36}
-\contentsline {subsection}{\numberline {5.3.2}Analisando o desempenho do sistema}{36}
-\contentsline {subsection}{\numberline {5.3.3}Falando com os usu\IeC {\'a}rios}{36}
-\contentsline {subsection}{\numberline {5.3.4}Utilizando m\IeC {\'e}tricas para assegurar a disponibilidade}{36}
-\contentsline {subsection}{\numberline {5.3.5}Aplicando testes automatizados}{36}
-\contentsline {section}{\numberline {5.4}Como identificar falhas?}{36}
-\contentsline {subsection}{\numberline {5.4.1}Sentindo o cheiro do produto}{36}
-\contentsline {subsection}{\numberline {5.4.2}Utilizando o usu\IeC {\'a}rio para identificar falhas}{36}
-\contentsline {subsection}{\numberline {5.4.3}Solucionando falhas}{36}
-\contentsline {subsection}{\numberline {5.4.4}Aprendendo com os erros}{36}
-\contentsline {subsection}{\numberline {5.4.5}Testes automatizados como ferramenta de aprendizado}{36}
-\contentsline {subsection}{\numberline {5.4.6}Divulgando as descobertas de forma global}{36}
-\contentsline {chapter}{\numberline {6}Resultados da proposta}{37}
-\contentsline {section}{\numberline {6.1}Um produto escal\IeC {\'a}vel}{37}
-\contentsline {subsection}{\numberline {6.1.1}Um produto com custo din\IeC {\^a}mico}{37}
-\contentsline {section}{\numberline {6.2}Um produto dispon\IeC {\'\i }vel}{37}
-\contentsline {section}{\numberline {6.3}Um produto com falhas planejadas}{37}
-\contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o}{38}
-\contentsline {section}{\numberline {7.1}Resultados em rela\IeC {\c c}\IeC {\~a}o ao objetivo}{38}
-\contentsline {section}{\numberline {7.2}Trabalhos futuros}{38}
-\contentsline {chapter}{Refer\IeC {\^e}ncias}{39}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{8}
+\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~o}es}{10}
+\contentsline {chapter}{\numberline {2}Metodologia de pesquisa}{12}
+\contentsline {chapter}{\numberline {3}Objetivo}{13}
+\contentsline {chapter}{\numberline {4}Fundamentos conceituais}{14}
+\contentsline {section}{\numberline {4.1}An\IeC {\'a}lise geral sobre desenvolvimento de \textit {software}}{14}
+\contentsline {subsection}{\numberline {4.1.1}Metodologias \IeC {\'a}geis}{14}
+\contentsline {subsection}{\numberline {4.1.2}DevOps}{14}
+\contentsline {subsection}{\numberline {4.1.3}CI / CD}{14}
+\contentsline {section}{\numberline {4.2}Qualidade de software}{14}
+\contentsline {subsection}{\numberline {4.2.1}Requisitos funcionais}{14}
+\contentsline {subsection}{\numberline {4.2.2}Requisitos n\IeC {\~a}o funcionais}{14}
+\contentsline {subsection}{\numberline {4.2.3}Requisitos inversos}{14}
+\contentsline {subsection}{\numberline {4.2.4}Escalabilidade}{14}
+\contentsline {section}{\numberline {4.3}Testes no desenvolvimento de \textit {software}}{14}
+\contentsline {subsection}{\numberline {4.3.1}Testes unitarios}{14}
+\contentsline {subsection}{\numberline {4.3.2}Testes de regrss\IeC {\~a}o}{14}
+\contentsline {subsection}{\numberline {4.3.3}Testes de fuma\IeC {\c c}a}{14}
+\contentsline {subsection}{\numberline {4.3.4}Testes de integra\IeC {\c c}\IeC {\~a}o}{14}
+\contentsline {subsection}{\numberline {4.3.5}Testes automatizados}{14}
+\contentsline {chapter}{\numberline {5}Proposta}{15}
+\contentsline {section}{\numberline {5.1}Como criar produtos com qualidade?}{15}
+\contentsline {subsection}{\numberline {5.1.1}Assumindo riscos}{16}
+\contentsline {subsection}{\numberline {5.1.2}Entendendo os requisitos de uma funcionalidade}{20}
+\contentsline {subsection}{\numberline {5.1.3}Arquitetura evolutiva}{24}
+\contentsline {subsection}{\numberline {5.1.4}Estruturando o fluxo de entrega}{26}
+\contentsline {subsection}{\numberline {5.1.5}Automatizando testes de qualidade}{29}
+\contentsline {section}{\numberline {5.2}Como adquirir escalabilidade?}{30}
+\contentsline {subsection}{\numberline {5.2.1}Descobrindo os limites do sistema}{30}
+\contentsline {subsection}{\numberline {5.2.2}Desenvolvendo estrat\IeC {\'e}gias de escalabilidade}{33}
+\contentsline {section}{\numberline {5.3}Como manter o seu produto?}{34}
+\contentsline {subsection}{\numberline {5.3.1}Ouvindo os usu\IeC {\'a}rios}{35}
+\contentsline {subsection}{\numberline {5.3.2}Aprendendo com os erros}{36}
+\contentsline {subsection}{\numberline {5.3.3}Testes automatizados como ferramenta de aprendizado}{38}
+\contentsline {chapter}{\numberline {6}Resultados da proposta}{40}
+\contentsline {section}{\numberline {6.1}Um produto escal\IeC {\'a}vel}{40}
+\contentsline {subsection}{\numberline {6.1.1}Um produto com custo din\IeC {\^a}mico}{40}
+\contentsline {section}{\numberline {6.2}Um produto dispon\IeC {\'\i }vel}{40}
+\contentsline {section}{\numberline {6.3}Um produto com falhas planejadas}{40}
+\contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o}{41}
+\contentsline {section}{\numberline {7.1}Resultados em rela\IeC {\c c}\IeC {\~a}o ao objetivo}{41}
+\contentsline {section}{\numberline {7.2}Trabalhos futuros}{41}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{42}
