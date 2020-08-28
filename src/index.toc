@@ -37,5 +37,5 @@
 \contentsline {section}{\numberline {6.1}Um produto com qualidade}{40}
 \contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o}{42}
 \contentsline {section}{\numberline {7.1}Resultados em rela\IeC {\c c}\IeC {\~a}o ao objetivo}{42}
-\contentsline {section}{\numberline {7.2}Trabalhos futuros}{42}
-\contentsline {chapter}{Refer\IeC {\^e}ncias}{43}
+\contentsline {section}{\numberline {7.2}Trabalhos futuros}{43}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{44}
