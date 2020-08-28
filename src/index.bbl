@@ -6,11 +6,41 @@
 \abntbstabout{v-1.9.6 }
 
 \bibitem{SiteReliabilityEngineering}
-\abntrefinfo{Beyer}{BEYER}{2018}
-{BEYER, B. \emph{Site Reliability Engineering}. [S.l.]: O'Reilly, 2018.}
+\abntrefinfo{Beyer et al.}{BEYER et al.}{2016}
+{BEYER, B. et al. \emph{Site Reliability Engineering: How Google Runs
+  Production Systems}. 1st. ed. [S.l.]: O'Reilly Media, Inc., 2016.
+ISBN 149192912X.}
 
 \bibitem{TheDevOpsHandbook}
 \abntrefinfo{Kim et al.}{KIM et al.}{2016}
-{KIM, G. et al. \emph{The DevOps Handbook}. [S.l.]: IT Revolution, 2016.}
+{KIM, G. et al. \emph{The DevOps Handbook: How to Create World-Class Agility,
+  Reliability, and Security in Technology Organizations}. [S.l.]: IT Revolution
+  Press, 2016.
+ISBN 1942788002.}
+
+\bibitem{O'BrienQualityAttributes2005}
+\abntrefinfo{O'Brien, Bass e Merson}{O'BRIEN; BASS; MERSON}{2005}
+{O'BRIEN, L.; BASS, L.; MERSON, P. \emph{Quality Attributes and
+  Service-Oriented Architectures}.
+Pittsburgh, PA, 2005. Dispon{\'\i}vel em:
+  \url{http://resources.sei.cmu.edu/library/asset-view.cfm?AssetID=7405}.}
+
+\bibitem{KazmanTheArchitecture1998}
+\abntrefinfo{Kazman et al.}{KAZMAN et al.}{1998}
+{KAZMAN, R. et al. \emph{The Architecture Tradeoff Analysis Method}.
+Pittsburgh, PA, 1998. Dispon{\'\i}vel em:
+  \url{http://resources.sei.cmu.edu/library/asset-view.cfm?AssetID=13091}.}
+
+\bibitem{DomainDrivenDesign}
+\abntrefinfo{Evans}{EVANS}{2003}
+{EVANS. \emph{Domain-Driven Design: Tacking Complexity In the Heart of
+  Software}. USA: Addison-Wesley Longman Publishing Co., Inc., 2003.
+ISBN 0321125215.}
+
+\bibitem{CleanCode}
+\abntrefinfo{Martin}{MARTIN}{2008}
+{MARTIN, R.~C. \emph{Clean Code: A Handbook of Agile Software Craftsmanship}.
+  1. ed. USA: Prentice Hall PTR, 2008.
+ISBN 0132350882.}
 
 \end{thebibliography}

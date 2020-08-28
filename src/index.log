@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  27 AUG 2020 02:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  28 AUG 2020 01:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -610,7 +610,7 @@ File: babel.def 2018/02/14 3.18 Babel common definitions
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
-)) (/home/rodrigo/Desktop/monografia/Trabalho/src/index.aux (/home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/metodologia/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux))
+)) (/home/rodrigo/Desktop/monografia/Trabalho/src/index.aux (/home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/metodologia/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/resultadoProposta/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/conclusao/index.aux))
 \openout1 = `index.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -911,42 +911,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 1008--1037
  []
 
 [36]) [37] [38] [39]
-Cap\'{\i }tulo 6.
+\openout2 = `content/resultadoProposta/index.aux'.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 90.
+ (/home/rodrigo/Desktop/monografia/Trabalho/src/content/resultadoProposta/index.tex
+Cap\'{\i }tulo 6.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 80.
 
 [40
 
 
-]
+
+] [41]
+\openout2 = `content/conclusao/index.aux'.
+
+ (/home/rodrigo/Desktop/monografia/Trabalho/src/content/conclusao/index.tex
 Cap\'{\i }tulo 7.
-(/home/rodrigo/Desktop/monografia/Trabalho/src/index.bbl
+)
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 3.
-
-[41
-
-])
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 100.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 82.
 
 [42
 
 
-] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.aux (/home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/metodologia/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux)) ) 
+
+] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.bbl)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 88.
+
+[43
+
+
+
+] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.aux (/home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/metodologia/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/objetivo/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/resultadoProposta/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/conclusao/index.aux)) ) 
 Here is how much of TeX's memory you used:
- 4927 strings out of 492982
- 67400 string characters out of 6134896
- 163617 words of memory out of 5000000
- 8326 multiletter control sequences out of 15000+600000
+ 4969 strings out of 492982
+ 69166 string characters out of 6134896
+ 164374 words of memory out of 5000000
+ 8352 multiletter control sequences out of 15000+600000
  11155 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,45p,318b,375s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on /home/rodrigo/Desktop/monografia/Trabalho/src/index.pdf (44 pages, 221147 bytes).
+ 41i,10n,45p,318b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on /home/rodrigo/Desktop/monografia/Trabalho/src/index.pdf (45 pages, 237216 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
+ 181 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
