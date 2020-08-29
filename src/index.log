@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  29 AUG 2020 01:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  29 AUG 2020 02:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -610,7 +610,7 @@ File: babel.def 2018/02/14 3.18 Babel common definitions
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
-)) (/home/rodrigo/Desktop/monografia/Trabalho/src/index.aux (/home/rodrigo/Desktop/monografia/Trabalho/src/content/agradecimentos/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/conclusao/index.aux))
+)) (/home/rodrigo/Desktop/monografia/Trabalho/src/index.aux (/home/rodrigo/Desktop/monografia/Trabalho/src/content/agradecimentos/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/resumo/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/conclusao/index.aux))
 \openout1 = `index.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -766,15 +766,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 [4
 
 
-] [5
+]
+\openout2 = `content/resumo/index.aux'.
 
-] [6
+ (/home/rodrigo/Desktop/monografia/Trabalho/src/content/resumo/index.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--16
 
-] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.lof)
+ []
+
+[5
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 21--32
+
+ []
+
+[6
+
+]) (/home/rodrigo/Desktop/monografia/Trabalho/src/index.lof)
 \tf@lof=\write3
 \openout3 = `index.lof'.
 
  [7
+
 
 ] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.lot)
 \tf@lot=\write4
@@ -817,7 +832,7 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 Cap\'{\i }tulo 3.
 )
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 51.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 47.
 
 [17
 
@@ -827,21 +842,21 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 ]
 Cap\'{\i }tulo 4.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 63.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 59.
 
 [19
 
 ]
 Cap\'{\i }tulo 5.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 73.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 69.
 
 [20
 
 ]
 Cap\'{\i }tulo 6.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 85.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 81.
 
 [21
 
@@ -980,7 +995,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Cap\'{\i }tulo 10.
 )
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 85.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 81.
 
 [49
 
@@ -1002,29 +1017,29 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 Cap\'{\i }tulo 12.
 )
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 87.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 83.
 
 [53
 
 ] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.bbl)
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 93.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 89.
 
 [54
 
 
 
-] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.aux (/home/rodrigo/Desktop/monografia/Trabalho/src/content/agradecimentos/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/conclusao/index.aux)) ) 
+] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.aux (/home/rodrigo/Desktop/monografia/Trabalho/src/content/agradecimentos/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/resumo/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/conclusao/index.aux)) ) 
 Here is how much of TeX's memory you used:
- 4953 strings out of 492982
- 68083 string characters out of 6134896
- 164044 words of memory out of 5000000
- 8353 multiletter control sequences out of 15000+600000
+ 4962 strings out of 492982
+ 68602 string characters out of 6134896
+ 164342 words of memory out of 5000000
+ 8354 multiletter control sequences out of 15000+600000
  11475 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,45p,318b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on /home/rodrigo/Desktop/monografia/Trabalho/src/index.pdf (56 pages, 230403 bytes).
+Output written on /home/rodrigo/Desktop/monografia/Trabalho/src/index.pdf (56 pages, 232703 bytes).
 PDF statistics:
  212 PDF objects out of 1000 (max. 8388607)
  144 compressed objects within 2 object streams

@@ -2,6 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: index.aux
 A level-1 auxiliary file: content/agradecimentos/index.aux
+A level-1 auxiliary file: content/resumo/index.aux
 A level-1 auxiliary file: content/introducao/index.aux
 A level-1 auxiliary file: content/proposta/index.aux
 A level-1 auxiliary file: content/conclusao/index.aux
@@ -28,7 +29,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 7 entries,
             6714 wiz_defined-function locations,
-            1246 strings with 10804 characters,
+            1247 strings with 10828 characters,
 and the built_in function-call counts, 8174 in all, are:
 = -- 949
 > -- 206
