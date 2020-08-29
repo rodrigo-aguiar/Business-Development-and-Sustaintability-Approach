@@ -969,9 +969,10 @@
 \providecommand{\ABNTuppercasetitulodata}{}
 \newcommand{\titulo}[1]{
 \renewcommand{\ABNTtitulodata}{#1}
-\renewcommand{\ABNTuppercasetitulodata}{\uppercase{#1}}
+\renewcommand{\ABNTuppercasetitulodata}{#1}
 }
 \newcommand{\tituloformat}{\ABNTtitulosize\ABNTchapterfont}
+
 
 \providecommand{\ABNTcomentariodata}{}
 \newcommand{\comentario}[1]{\renewcommand{\ABNTcomentariodata}{#1}}
@@ -982,7 +983,7 @@
 
 \providecommand{\ABNTareaconcdata}{}
 \providecommand{\ABNTareaconcname}{}
-\newcommand{\areaConcentracao}[2][\'Area de Concentra\c{c}\~ao:\vspace{1mm}\\]%
+\newcommand{\areaConcentracao}[2][Área de concentração:\vspace{1mm}\\]%
   {\renewcommand{\ABNTareaconcname}{#1}%
    \renewcommand{\ABNTareaconcdata}{#2}}
 \newcommand{\areaconcnameformat}{}
@@ -1117,6 +1118,14 @@
 \newcommand{\PoliTipoDocData}{}
 
 %% TCC
+\newcommand{\mba}[1]{%
+  \renewcommand{\PoliTipoDocData}{Trabalho de Conclusão de Curso}
+  \comentario{Trabalho apresentado à Escola
+    Politécnica da Universidade de
+    São Paulo para a conclusão do MBA #1.}%
+}
+
+%% TCC
 \newcommand{\tcc}[1]{%
   \renewcommand{\PoliTipoDocData}{Trabalho de Conclusão de Curso}
   \comentario{Trabalho apresentado à Escola
@@ -1125,30 +1134,22 @@
     Título de Engenheiro #1.}%
 }
 
-%% TCC
-\newcommand{\mba}[1]{%
-  \renewcommand{\PoliTipoDocData}{Trabalho de Conclusão de Curso}
-  \comentario{Trabalho apresentado à Escola
-    Politécnica da Universidade de
-    São Paulo para a conclusão do MBA de #1.}%
-}
-
 %% Dissertação de mestrado
 \newcommand{\dissertacao}[1]{%
   \renewcommand{\PoliTipoDocData}{Dissertação (Mestrado)}
-  \comentario{Dissertação apresentada à Escola
-    Politécnica da Universidade de
-    São Paulo para obtenção do
-    Título de Mestre em #1.}%
+  \comentario{Disserta\c{c}\~{a}o apresentada \`{a} Escola Polit\'{e}cnica da Universidade de S\~{a}o Paulo para obten\c{c}\~{a}o do T\'{i}tulo de Mestre em Ci\^{e}ncias.}%
+}
+
+%% Qualificação de mestrado
+\newcommand{\qualificacao}[1]{%
+	\renewcommand{\PoliTipoDocData}{Qualificação (Mestrado)}
+	\comentario{Texto de qualifica\c{c}\~{a}o apresentada \`{a} Escola Polit\'{e}cnica da Universidade de S\~{a}o Paulo.}%
 }
 
 %% Tese de doutorado
 \newcommand{\teseDOC}[1]{%
   \renewcommand{\PoliTipoDocData}{Tese (Doutorado)}
-  \comentario{Tese apresentada à Escola
-    Politécnica da Universidade de
-    São Paulo para obtenção do
-    Título de Doutor em #1.}%
+  \comentario{Tese apresentada \`{a} Escola Polit\'{e}cnica da Universidade de S\~{a}o Paulo para obten\c{c}\~{a}o do T\'{i}tulo de Doutor em Ci\^{e}ncias}%
 }
 
 %% Tese de livre docência

@@ -8,13 +8,13 @@
 
 \graphicspath{{images/}}
 
-\titulo{Abordagem para o desenvolvimento de softwares escaláveis focando em
-disponibilidade e detecção de falhas}
+\titulo{Abordagem de desenvolvimento e sustentação de software orientado a negócio}
 
 \autor{Rodrigo Aguiar Ordonis da Silva}
 \orientador{Reginaldo Arakaki}
 
 \mba{Transformações Digítais}
+\areaConcentracao{3141 – Engenharia de Computação}
 \departamento{Laboratório de Arquitetura e Redes de Computadores}
 
 \local{São Paulo}
@@ -24,6 +24,17 @@ disponibilidade e detecção de falhas}
   \capa
   \falsafolhaderosto
   \folhaderosto
+
+  \dedicatoria{A minha mãe e meu pai, por todo o apoio, amor e carinho.}
+
+  \include{content/agradecimentos/index}
+
+  \epigrafe{%
+    \emph{"Truth can only be found in one place: the code."}
+    \begin{flushright}
+      -{\cite{CleanCode}}
+    \end{flushright}
+  }
 
   \begin{resumo}
   \end{resumo}
@@ -39,49 +50,43 @@ disponibilidade e detecção de falhas}
 
   \include{content/introducao/index}
 
-  \include{content/metodologia/index}
+  \part{Fundamentos conceituais}
 
-  \include{content/objetivo/index}
+    \chapter{Análise geral sobre desenvolvimento de \textit{software}}
 
-  \chapter{Fundamentos conceituais}
+      \section{Metodologias ágeis}
 
-    \section{Análise geral sobre desenvolvimento de \textit{software}}
+      \section{DevOps}
 
-      \subsection{Metodologias ágeis}
+      \section{CI / CD}
 
-      \subsection{DevOps}
+    \chapter{Qualidade de software}
 
-      \subsection{CI / CD}
+      \section{Requisitos funcionais}
 
-    \section{Qualidade de software}
+      \section{Requisitos não funcionais}
 
-      \subsection{Requisitos funcionais}
+      \section{Requisitos inversos}
 
-      \subsection{Requisitos não funcionais}
+      \section{Escalabilidade}
 
-      \subsection{Requisitos inversos}
+    \chapter{Testes no desenvolvimento de \textit{software}}
 
-      \subsection{Escalabilidade}
+      \section{Testes unitarios}
 
-    \section{Testes no desenvolvimento de \textit{software}}
+      \section{Testes de regrssão}
 
-      \subsection{Testes unitarios}
+      \section{Testes de fumaça}
 
-      \subsection{Testes de regrssão}
+      \section{Testes de integração}
 
-      \subsection{Testes de fumaça}
-
-      \subsection{Testes de integração}
-
-      \subsection{Testes automatizados}
+      \section{Testes automatizados}
 
   \include{content/proposta/index}
 
-  \include{content/resultadoProposta/index}
-
   \include{content/conclusao/index}
 
-  \bibliographystyle{abntex2-num}
+  \bibliographystyle{../styles/bibliographyStyles/abntex2-alf}
 
   \bibliography{bibliography}
 

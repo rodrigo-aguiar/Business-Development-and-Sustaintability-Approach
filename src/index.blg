@@ -1,13 +1,11 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: index.aux
+A level-1 auxiliary file: content/agradecimentos/index.aux
 A level-1 auxiliary file: content/introducao/index.aux
-A level-1 auxiliary file: content/metodologia/index.aux
-A level-1 auxiliary file: content/objetivo/index.aux
 A level-1 auxiliary file: content/proposta/index.aux
-A level-1 auxiliary file: content/resultadoProposta/index.aux
 A level-1 auxiliary file: content/conclusao/index.aux
-The style file: abntex2-num.bst
+The style file: ../styles/bibliographyStyles/abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -24,40 +22,40 @@ Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
-| Estilo bibliográfico abntex2-num.bst versão v-1.9.6           |
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
 You've used 7 entries,
             6714 wiz_defined-function locations,
-            1248 strings with 10833 characters,
-and the built_in function-call counts, 7864 in all, are:
-= -- 938
-> -- 169
+            1246 strings with 10804 characters,
+and the built_in function-call counts, 8174 in all, are:
+= -- 949
+> -- 206
 < -- 133
-+ -- 245
-- -- 50
-* -- 489
-:= -- 1045
++ -- 256
+- -- 61
+* -- 522
+:= -- 1111
 add.period$ -- 26
 call.type$ -- 7
 change.case$ -- 70
 chr.to.int$ -- 13
 cite$ -- 6
 duplicate$ -- 618
-empty$ -- 387
-format.name$ -- 266
-if$ -- 1684
+empty$ -- 399
+format.name$ -- 299
+if$ -- 1751
 int.to.chr$ -- 0
 int.to.str$ -- 0
 missing$ -- 121
 newline$ -- 38
-num.names$ -- 24
-pop$ -- 174
+num.names$ -- 30
+pop$ -- 167
 preamble$ -- 1
 purify$ -- 29
 quote$ -- 0
-skip$ -- 694
+skip$ -- 705
 stack$ -- 1
 substring$ -- 286
 swap$ -- 227
@@ -66,6 +64,6 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 34
+while$ -- 40
 width$ -- 0
-write$ -- 87
+write$ -- 100

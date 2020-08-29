@@ -1,41 +1,41 @@
 \babel@toc {brazil}{}
-\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{8}
-\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~o}es}{10}
-\contentsline {chapter}{\numberline {2}Metodologia de pesquisa}{12}
-\contentsline {chapter}{\numberline {3}Objetivo}{13}
-\contentsline {chapter}{\numberline {4}Fundamentos conceituais}{14}
-\contentsline {section}{\numberline {4.1}An\IeC {\'a}lise geral sobre desenvolvimento de \textit {software}}{14}
-\contentsline {subsection}{\numberline {4.1.1}Metodologias \IeC {\'a}geis}{14}
-\contentsline {subsection}{\numberline {4.1.2}DevOps}{14}
-\contentsline {subsection}{\numberline {4.1.3}CI / CD}{14}
-\contentsline {section}{\numberline {4.2}Qualidade de software}{14}
-\contentsline {subsection}{\numberline {4.2.1}Requisitos funcionais}{14}
-\contentsline {subsection}{\numberline {4.2.2}Requisitos n\IeC {\~a}o funcionais}{14}
-\contentsline {subsection}{\numberline {4.2.3}Requisitos inversos}{14}
-\contentsline {subsection}{\numberline {4.2.4}Escalabilidade}{14}
-\contentsline {section}{\numberline {4.3}Testes no desenvolvimento de \textit {software}}{14}
-\contentsline {subsection}{\numberline {4.3.1}Testes unitarios}{14}
-\contentsline {subsection}{\numberline {4.3.2}Testes de regrss\IeC {\~a}o}{14}
-\contentsline {subsection}{\numberline {4.3.3}Testes de fuma\IeC {\c c}a}{14}
-\contentsline {subsection}{\numberline {4.3.4}Testes de integra\IeC {\c c}\IeC {\~a}o}{14}
-\contentsline {subsection}{\numberline {4.3.5}Testes automatizados}{14}
-\contentsline {chapter}{\numberline {5}Proposta}{15}
-\contentsline {section}{\numberline {5.1}Como criar produtos com qualidade?}{15}
-\contentsline {subsection}{\numberline {5.1.1}Assumindo riscos}{16}
-\contentsline {subsection}{\numberline {5.1.2}Entendendo os requisitos de uma funcionalidade}{20}
-\contentsline {subsection}{\numberline {5.1.3}Arquitetura evolutiva}{24}
-\contentsline {subsection}{\numberline {5.1.4}Estruturando o fluxo de entrega}{26}
-\contentsline {subsection}{\numberline {5.1.5}Automatizando testes de qualidade}{29}
-\contentsline {section}{\numberline {5.2}Como adquirir escalabilidade?}{30}
-\contentsline {subsection}{\numberline {5.2.1}Descobrindo os limites do sistema}{30}
-\contentsline {subsection}{\numberline {5.2.2}Desenvolvendo estrat\IeC {\'e}gias de escalabilidade}{33}
-\contentsline {section}{\numberline {5.3}Como manter o seu produto?}{34}
-\contentsline {subsection}{\numberline {5.3.1}Ouvindo os usu\IeC {\'a}rios}{35}
-\contentsline {subsection}{\numberline {5.3.2}Aprendendo com os erros}{36}
-\contentsline {subsection}{\numberline {5.3.3}Testes automatizados como ferramenta de aprendizado}{38}
-\contentsline {chapter}{\numberline {6}Resultados da proposta}{40}
-\contentsline {section}{\numberline {6.1}Um produto com qualidade}{40}
-\contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o}{42}
-\contentsline {section}{\numberline {7.1}Resultados em rela\IeC {\c c}\IeC {\~a}o ao objetivo}{42}
-\contentsline {section}{\numberline {7.2}Trabalhos futuros}{43}
-\contentsline {chapter}{Refer\IeC {\^e}ncias}{44}
+\contentsline {chapter}{Parte~I:~\MakeUppercase {Introdu\IeC {\c c}\IeC {\~a}o e motiva\IeC {\c c}\IeC {\~o}es}}{11}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{12}
+\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~o}es}{14}
+\contentsline {chapter}{\numberline {2}Metodologia de pesquisa}{16}
+\contentsline {chapter}{\numberline {3}Objetivo}{17}
+\contentsline {chapter}{Parte~II:~\MakeUppercase {Fundamentos conceituais}}{18}
+\contentsline {chapter}{\numberline {4}An\IeC {\'a}lise geral sobre desenvolvimento de \textit {software}}{19}
+\contentsline {section}{\numberline {4.1}Metodologias \IeC {\'a}geis}{19}
+\contentsline {section}{\numberline {4.2}DevOps}{19}
+\contentsline {section}{\numberline {4.3}CI / CD}{19}
+\contentsline {chapter}{\numberline {5}Qualidade de software}{20}
+\contentsline {section}{\numberline {5.1}Requisitos funcionais}{20}
+\contentsline {section}{\numberline {5.2}Requisitos n\IeC {\~a}o funcionais}{20}
+\contentsline {section}{\numberline {5.3}Requisitos inversos}{20}
+\contentsline {section}{\numberline {5.4}Escalabilidade}{20}
+\contentsline {chapter}{\numberline {6}Testes no desenvolvimento de \textit {software}}{21}
+\contentsline {section}{\numberline {6.1}Testes unitarios}{21}
+\contentsline {section}{\numberline {6.2}Testes de regrss\IeC {\~a}o}{21}
+\contentsline {section}{\numberline {6.3}Testes de fuma\IeC {\c c}a}{21}
+\contentsline {section}{\numberline {6.4}Testes de integra\IeC {\c c}\IeC {\~a}o}{21}
+\contentsline {section}{\numberline {6.5}Testes automatizados}{21}
+\contentsline {chapter}{Parte~III:~\MakeUppercase {Proposta}}{22}
+\contentsline {chapter}{\numberline {7}Como criar produtos com qualidade?}{23}
+\contentsline {section}{\numberline {7.1}Assumindo riscos}{24}
+\contentsline {section}{\numberline {7.2}Entendendo os requisitos de uma funcionalidade}{28}
+\contentsline {section}{\numberline {7.3}Arquitetura evolutiva}{32}
+\contentsline {section}{\numberline {7.4}Estruturando o fluxo de entrega}{34}
+\contentsline {section}{\numberline {7.5}Automatizando testes de qualidade}{37}
+\contentsline {chapter}{\numberline {8}Como adquirir escalabilidade?}{39}
+\contentsline {section}{\numberline {8.1}Descobrindo os limites do sistema}{39}
+\contentsline {section}{\numberline {8.2}Desenvolvendo estrat\IeC {\'e}gias de escalabilidade}{42}
+\contentsline {chapter}{\numberline {9}Como manter o seu produto?}{44}
+\contentsline {section}{\numberline {9.1}Ouvindo os usu\IeC {\'a}rios}{45}
+\contentsline {section}{\numberline {9.2}Aprendendo com os erros}{46}
+\contentsline {section}{\numberline {9.3}Testes automatizados como ferramenta de aprendizado}{47}
+\contentsline {chapter}{\numberline {10}Resultados da proposta}{49}
+\contentsline {chapter}{Parte~IV:~\MakeUppercase {Conclus\IeC {\~a}o}}{51}
+\contentsline {chapter}{\numberline {11}Resultados em rela\IeC {\c c}\IeC {\~a}o ao objetivo}{52}
+\contentsline {chapter}{\numberline {12}Trabalhos futuros}{53}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{54}
