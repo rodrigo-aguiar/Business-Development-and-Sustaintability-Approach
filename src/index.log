@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  29 AUG 2020 02:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  30 AUG 2020 20:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -610,7 +610,7 @@ File: babel.def 2018/02/14 3.18 Babel common definitions
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
-)) (/home/rodrigo/Desktop/monografia/Trabalho/src/index.aux (/home/rodrigo/Desktop/monografia/Trabalho/src/content/agradecimentos/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/resumo/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/conclusao/index.aux))
+)) (/home/rodrigo/Desktop/monografia/Trabalho/src/index.aux (/home/rodrigo/Desktop/monografia/Trabalho/src/content/agradecimentos/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/resumo/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/fundamentos/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/conclusao/index.aux))
 \openout1 = `index.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -817,14 +817,14 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 ]
 Cap\'{\i }tulo 1.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 104.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 103.
 
 [12
 
 ] [13] [14] [15]
 Cap\'{\i }tulo 2.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 134.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 133.
 
 [16
 
@@ -836,27 +836,32 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 
 [17
 
-] [18
+]
+\openout2 = `content/fundamentos/index.aux'.
+
+ (/home/rodrigo/Desktop/monografia/Trabalho/src/content/fundamentos/index.tex [18
+
 
 
 ]
 Cap\'{\i }tulo 4.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 59.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 10.
 
 [19
 
 ]
 Cap\'{\i }tulo 5.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 69.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 20.
 
 [20
 
 ]
 Cap\'{\i }tulo 6.
+)
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 81.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 49.
 
 [21
 
@@ -864,6 +869,7 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 \openout2 = `content/proposta/index.aux'.
 
  (/home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.tex [22
+
 
 
 ]
@@ -995,7 +1001,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Cap\'{\i }tulo 10.
 )
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 81.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 51.
 
 [49
 
@@ -1017,24 +1023,24 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 Cap\'{\i }tulo 12.
 )
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 83.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 53.
 
 [53
 
 ] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.bbl)
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 89.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 59.
 
 [54
 
 
 
-] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.aux (/home/rodrigo/Desktop/monografia/Trabalho/src/content/agradecimentos/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/resumo/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/conclusao/index.aux)) ) 
+] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.aux (/home/rodrigo/Desktop/monografia/Trabalho/src/content/agradecimentos/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/resumo/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/fundamentos/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/conclusao/index.aux)) ) 
 Here is how much of TeX's memory you used:
- 4962 strings out of 492982
- 68602 string characters out of 6134896
- 164342 words of memory out of 5000000
- 8354 multiletter control sequences out of 15000+600000
+ 4971 strings out of 492982
+ 69166 string characters out of 6134896
+ 164641 words of memory out of 5000000
+ 8355 multiletter control sequences out of 15000+600000
  11475 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,45p,318b,397s stack positions out of 5000i,500n,10000p,200000b,80000s

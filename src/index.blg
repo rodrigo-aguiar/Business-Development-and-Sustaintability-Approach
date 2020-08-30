@@ -4,6 +4,7 @@ The top-level auxiliary file: index.aux
 A level-1 auxiliary file: content/agradecimentos/index.aux
 A level-1 auxiliary file: content/resumo/index.aux
 A level-1 auxiliary file: content/introducao/index.aux
+A level-1 auxiliary file: content/fundamentos/index.aux
 A level-1 auxiliary file: content/proposta/index.aux
 A level-1 auxiliary file: content/conclusao/index.aux
 The style file: ../styles/bibliographyStyles/abntex2-alf.bst
@@ -29,7 +30,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 7 entries,
             6714 wiz_defined-function locations,
-            1247 strings with 10828 characters,
+            1248 strings with 10857 characters,
 and the built_in function-call counts, 8174 in all, are:
 = -- 949
 > -- 206
