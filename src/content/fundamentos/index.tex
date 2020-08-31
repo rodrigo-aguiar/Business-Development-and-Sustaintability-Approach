@@ -1,11 +1,139 @@
 \part{Fundamentos conceituais}
   \chapter{Análise geral sobre desenvolvimento de \textit{software}}
 
-    \section{Metodologias ágeis}
+    \section{Práticas ágeis}
+      Na história, no começo no desenvolvimento de \textit{software}, a metodologia
+      mais utilizada para realizar a produção de \textit{software} era a \textit{waterfall},
+      que consiste em um desenvolvimento faseado, primeiro específicamos todo o sistema,
+      depois desenvolvemos, depois testamos e por fim colocamos em produção. Porém,
+      muitas vezes quando terminávamos de especificar o sistema todo, as necessidades
+      do negócio havia mudado, o que gerava mudança no desenho do sistema e fazia
+      o time voltar para a fase de especificação. O que tambem acontecia, era que
+      durante o desenvolvimento, as necessidade do negócio mudavam novamente e
+      o time precisava fazer a escolha de voltar para a fase de desenho ou continuar
+      o desenvolvimento da forma que foi desenhado. Esta decisão não era fácil e
+      gerava muitos conflitos entre a área de negócio e o time de desenvolvimento
+      pois muito do que foi realizado teria que ser refeito. \newline
+      Para solucionar este problema em fevereiro de 2001 foi publicado o manifesto
+      ágil, um conjunto de valores e princípios para auxiliar o desenvolvimento de
+      \textit{software} seja realizada de forma mais rápida e adaptativa as
+      necessidades do negócio, onde era mais enfatizado a necessidade de comunicação
+      entre as pessoas do que o planejamento excessivo, a adaptação a mudanças ao
+      invés de soluções definitivas e a priorização da realização do produto ao
+      invés de seguir processos e ferramentas.
 
-    \section{DevOps}
+      \begin{center}
+        \textbf{Manifesto para Desenvolvimento Ágil de Software}
+
+        Estamos descobrindo maneiras melhores de desenvolver software, fazendo-o
+        nós mesmos e ajudando outros a fazerem o mesmo. Através deste trabalho,
+        passamos a valorizar: \newline
+        \textbf{Indivíduos e interações} mais que processos e ferramentas \newline
+        \textbf{Software em funcionamento} mais que documentação abrangente \newline
+        \textbf{Colaboração com o cliente} mais que negociação de contratos \newline
+        \textbf{Responder a mudanças} mais que seguir um plano \newline
+        Ou seja, mesmo havendo valor nos itens à direita, valorizamos mais os
+        itens à esquerda.
+
+        \begin{tabular}{c c c}
+          Kent Beck & James Grenning & Robert C. Martin \\
+          Mike Beedle & Jim Highsmith & Steve Mellor \\
+          Arie van Bennekum & Andrew Hunt & Ken Schwaber \\
+          Alistair Cockburn & Ron Jeffries & Jeff Sutherland \\
+          Ward Cunningham & Jon Kern & Dave Thomas \\
+          Martin Fowler & Brian Marick \\
+        \end{tabular}
+
+        \cite{manifestoAgile}
+
+      \end{center}
+
+      Conforme apresentado no Agile Principles, Patterns, and Practices in C\#
+      \cite{martin2007agile}, o manifesto ágil valoriza as pessoas que estão
+      no desenvolvendo o \textit{sofware}, mais do que processos e contratos,
+      não é ncessário ter desenvolvedores extramamente experientes, mas sim
+      um time que esteja unido e que seja multidisciplinar, ou seja, que alem de
+      desenvolvedores, é necessário manter as pessoas com entendimento sobre o
+      negócio para que durante o desenvolvimento, dúvidas e mudanças no negócio
+      possam ser explicadas e o time cpmseguir desenvolver um produto de maior
+      valor para o negócio. É importante notar, que sob a visão ágil, mudanças
+      nos requisitos do projeto são bem vindas pois, o produto que está sendo
+      construído pe mais importante do que documentos e processos, é mais
+      importante atender as necessidades do negócio do que seguir um planejamento,
+      ou seja, embora seja importante planejar, precisamos estar preparados para
+      mudanças e imprevistos. Desta forma, os desenvolvedores devem construir
+      uma sistema que seja fácil de alterar, é necessário que o que está sendo
+      desenvolvido, possa ser alterado conforme as necessidades do negócio. \newline
+      Com esse valores e princípios, a produção de \textit{software} se tornou
+      mais rápida, o que antes demorava anos para ser produzido começou a ser
+      realizado em meses pois, o sistema começou a ser desenhado conforme era
+      desenvolvido, os desenvolvedores não desenhavam promeiro todo o sistema
+      para só depois começar o desenvolvimento, ao invés, eles já começavam a
+      desenvolver sem se preocupar muito com a documentação, e a cada mudança
+      que ocorria, não é mais necessário desenhar novamente toda a solução, mas
+      sim adaptar o que já foi desenvolvido. \newline
+      As metodologias advindas das práticas ageis, promovem o conceito de iterações,
+      que consiste em um curto espaço de tempo, normalmente semanas, seja produzido
+      \textit{software} em produção, para que desta forma consigamos avaliar os
+      impactos que o \textit{software} produz para o negócio e em menos de um
+      mês seja possível já mensurar o valor que está sendo produzido para o
+      negócio. Como o tempo de desenvolvimento é curto, está previsto que vamos
+      errar diversas, muitas vezes as soluções que vamos produzir não vai atender
+      todas as necessidades do negócio porém, é através do aprendizado destes erros
+      que vamos aprendendo as necessidades do negócio e corrigindo o sistema para
+      que ele se torne cada vez mais aderente as necessidades, temos que errar o
+      mais rápido possível para que possamos aprender com os nossos erros e acertar
+      o mais rápido possível.
+
+    \section{\textit{DevOps}}
+      Através dos valores e das práticas ágeis e com o surgimento de novas
+      tecnologias, mais práticas foram sendo criadas e novas ferramentas surgiram
+      para auxiliar o desenvolvimento de \textit{software}, já com a perspectiva
+      ágil. Desta forma surgiu o conjunto de práticas denonimado \textit{DevOps}, que
+      consiste auxiliar o time de desenvolvimento e de operação, trabalharem de
+      forma mais unida. Conforme o tempo de desenvolvimento dos produtos foi
+      encurtando, surgiu a necessidade de realizar o \textit{deploy} em produção
+      diversas vezes ao longo do dia pois, como trabalhamos de forma adaptativa
+      e valorizamos o produto sendo estregue de forma rápida, para gerar valor
+      o mais rápido possível, a infraestrutura montada e o time de operações,
+      precisam estar preparados. Embora seja importante realizar entregas rápidas,
+      ainda é necessário avaliar a qualidade do que está sendo entregue, para
+      evitar erros em produção e não tornar algo que deveria gerar valor se
+      tornar um problema para o negócio. \newline
+      As práticas de \textit{DevOps}, nos fornece um conjunto de ações que podemos
+      realizar para que consigamos evitar que os erros aconteçam e que caso venham
+      a acontecerm, teremos as informações necessárias para avaliar o ocorrido e
+      resolver da melhor forma o mais rápido possível. \newline
+      Entre as princípais práticas está o de \textit{code review}, que consiste
+      que antes de um \textit{deploy} ocorrer, o código que foi produzido será
+      verificado em busca de falhas, má qualidade de código, erros de lógica,
+      brechas de segurança, ou seja, qualquer coisa que possa causar algum erro
+      em produção. Outra prática importante é a de estratégias de ambientes,
+      quando estamos produzindo um \textit{software} não é aconselhável realizar
+      alterações direto em produção, sem antes ela ter sido testada e o código
+      ter sido avaliado, desta forma, é importante ter um ambientes separado de
+      produção, onde seja possível os desenvolvedores realizar testes das
+      funcionalidades que estão sendo produzidas, para assegurar a qualidade do
+      que foi desenvolvido e conseguir avaliar se está aderente a necessidade do
+      negócio. \newline
+      O \textit{DevOps} apresenta que o processo de desenvolvimento de levar em
+      considerção todos os processos de verificação de qualidade e efetivamente
+      o \textit{deploy} em produção. A equipe de operação, que é responsável por
+      realizar o \textit{deploy}, faz parte do time de desenvolvimento e o tempo
+      que será utilizado para realizar o \textit{deploy}, levando em conta
+      \textit{code review}, alterações na infraestrutura do sistema, o tempo do
+      \textit{deploy}, análises de segurança, entre outro qualquer processo que
+      deva ser realizado para assegurar um \textit{deploy} com qualidade, verificando
+      a presença de possíveis \textit{bugs}, deve ser levado em conta durante o
+      planejamento da iteração, e caso venha a aparecer algum ponto que deve ser
+      ajustado pelos desenvolvedores, eles devem ser notificados o mais rápido o
+      possível, para que seja realizado o ajuste e o \textit{deploy} possa acontecer.
 
     \section{CI / CD}
+      Para otimizar esta comunicação, e facilitar adicionar estes processos de
+      verificação do código para possibilitar o \textit{deploy}, foi criado os
+      conceitos de CI (\textit{continuous integration}) e CD
+      (\textit{continuous delivery}), que consiste [...]
 
   \chapter{Qualidade de software}
 

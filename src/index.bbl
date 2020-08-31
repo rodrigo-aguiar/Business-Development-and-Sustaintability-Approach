@@ -30,6 +30,17 @@ Pittsburgh, PA, 1998. Dispon{\'\i}vel em:
   Press, 2016.
 ISBN 1942788002.}
 
+\bibitem[manifesto for agile software development]{manifestoAgile}
+\abntrefinfo{manifesto\ldots}{MANIFESTO\ldots}{}
+{MANIFESTO for agile software development.
+Dispon{\'\i}vel em: \url{https://agilemanifesto.org/}.}
+
+\bibitem[Martin e Martin 2007]{martin2007agile}
+\abntrefinfo{Martin e Martin}{MARTIN; MARTIN}{2007}
+{MARTIN, R.; MARTIN, M. \emph{Agile Principles, Patterns, and Practices in
+  C\#}. [S.l.]: Prentice Hall, 2007.  (Robert C. Martin series).
+ISBN 9780131857254.}
+
 \bibitem[Martin 2008]{CleanCode}
 \abntrefinfo{Martin}{MARTIN}{2008}
 {MARTIN, R.~C. \emph{Clean Code: A Handbook of Agile Software Craftsmanship}.
