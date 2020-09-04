@@ -5,17 +5,35 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Beck 2002]{TestDrivenDevelopment}
+\abntrefinfo{Beck}{BECK}{2002}
+{BECK, K. \emph{Test Driven Development: By Example}. USA: Addison-Wesley
+  Longman Publishing Co., Inc., 2002.
+ISBN 0321146530.}
+
 \bibitem[Beyer et al. 2016]{SiteReliabilityEngineering}
 \abntrefinfo{Beyer et al.}{BEYER et al.}{2016}
 {BEYER, B. et al. \emph{Site Reliability Engineering: How Google Runs
   Production Systems}. 1st. ed. [S.l.]: O'Reilly Media, Inc., 2016.
 ISBN 149192912X.}
 
+\bibitem[Chacon e Straub 2014]{ProGit}
+\abntrefinfo{Chacon e Straub}{CHACON; STRAUB}{2014}
+{CHACON, S.; STRAUB, B. \emph{Pro Git}. 2nd. ed. USA: Apress, 2014.
+ISBN 1484200772.}
+
 \bibitem[Evans 2003]{DomainDrivenDesign}
 \abntrefinfo{Evans}{EVANS}{2003}
 {EVANS. \emph{Domain-Driven Design: Tacking Complexity In the Heart of
   Software}. USA: Addison-Wesley Longman Publishing Co., Inc., 2003.
 ISBN 0321125215.}
+
+\bibitem[Humble e Farley 2010]{ContinuousDelivery}
+\abntrefinfo{Humble e Farley}{HUMBLE; FARLEY}{2010}
+{HUMBLE, J.; FARLEY, D. \emph{Continuous Delivery: Reliable Software Releases
+  through Build, Test, and Deployment Automation}. 1st. ed. [S.l.]:
+  Addison-Wesley Professional, 2010.
+ISBN 0321601912.}
 
 \bibitem[Kazman et al. 1998]{KazmanTheArchitecture1998}
 \abntrefinfo{Kazman et al.}{KAZMAN et al.}{1998}
