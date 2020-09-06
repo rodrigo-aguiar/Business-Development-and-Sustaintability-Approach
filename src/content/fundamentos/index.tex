@@ -2,223 +2,223 @@
   \chapter{Manifesto Ágil}
     Na história, no começo no desenvolvimento de \textit{software}, a metodologia
     mais utilizada para realizar a produção de \textit{software} era a \textit{waterfall},
-    que consiste em um desenvolvimento faseado, primeiro específicamos todo o sistema,
-    depois desenvolvemos, depois testamos e por fim colocamos em produção. Porém,
-    muitas vezes quando terminávamos de especificar o sistema todo, as necessidades
+    que consiste em um desenvolvimento faseado, primeiro especificamos todo o sistema,
+    depois desenvolvemos, depois testamos e por fim colocamos em produção.
+    Muitas vezes quando terminávamos de especificar o sistema todo, as necessidades
     do negócio havia mudado, o que gerava mudança no desenho do sistema e fazia
-    o time voltar para a fase de especificação. O que tambem acontecia, era que
-    durante o desenvolvimento, as necessidade do negócio mudavam novamente e
-    o time precisava fazer a escolha de voltar para a fase de desenho ou continuar
+    a equipe voltar para a fase de especificação. O que também acontecia, era que
+    durante o desenvolvimento, as necessidades do negócio mudavam novamente e
+    a equipe precisava fazer a escolha de voltar para a fase de desenho ou continuar
     o desenvolvimento da forma que foi desenhado. Esta decisão não era fácil e
-    gerava muitos conflitos entre a área de negócio e o time de desenvolvimento
+    gerava muitos conflitos entre a área de negócio e a equipe de desenvolvimento,
     pois muito do que foi realizado teria que ser refeito. \newline
     Para solucionar este problema em fevereiro de 2001 foi publicado o manifesto
     ágil, um conjunto de valores e princípios para auxiliar o desenvolvimento de
-    \textit{software} seja realizada de forma mais rápida e adaptativa as
+    \textit{software} seja realizada de forma rápida e adaptativa as
     necessidades do negócio, onde é mais enfatizado a necessidade de comunicação
     entre as pessoas do que o planejamento excessivo, a adaptação a mudanças ao
     invés de soluções definitivas e a priorização da realização do produto ao
     invés de seguir processos e ferramentas \cite{manifestoAgile}. \newline
     Conforme apresentado no Agile Principles, Patterns, and Practices in C\#
     \cite{martin2007agile}, o manifesto ágil valoriza as pessoas que estão
-    no desenvolvendo o \textit{sofware}, mais do que processos e contratos,
-    não é ncessário ter desenvolvedores extramamente experientes, mas sim
-    um time que esteja unido e que seja multidisciplinar, ou seja, que alem de
+    no desenvolvendo o \textit{software}, mais do que processos e contratos,
+    não é necessário ter desenvolvedores extremamente experientes, mas sim
+    uma equipe que esteja unida e que seja multidisciplinar, ou seja, que além de
     desenvolvedores, é necessário manter as pessoas com entendimento sobre o
     negócio para que durante o desenvolvimento, dúvidas e mudanças no negócio
-    possam ser explicadas e o time cpmseguir desenvolver um produto de maior
+    possam ser explicadas e a equipe conseguir desenvolver um produto de maior
     valor para o negócio. É importante notar, que sob a visão ágil, mudanças
-    nos requisitos do projeto são bem vindas pois, o produto que está sendo
-    construído pe mais importante do que documentos e processos, é mais
+    nos requisitos do projeto são bem-vindas, pois o produto que está sendo
+    construído é mais importante do que documentos e processos, é mais
     importante atender as necessidades do negócio do que seguir um planejamento,
     ou seja, embora seja importante planejar, precisamos estar preparados para
     mudanças e imprevistos. Desta forma, os desenvolvedores devem construir
-    uma sistema que seja fácil de alterar, é necessário que o que está sendo
+    um sistema que seja fácil de alterar, deve o que está sendo
     desenvolvido, possa ser alterado conforme as necessidades do negócio. \newline
-    Com esse valores e princípios, a produção de \textit{software} se tornou
+    Com esses valores e princípios, a produção de \textit{software} se tornou
     mais rápida, o que antes demorava anos para ser produzido começou a ser
-    realizado em meses pois, o sistema começou a ser desenhado conforme era
-    desenvolvido, os desenvolvedores não desenhavam promeiro todo o sistema
+    realizado em meses, pois o sistema começou a ser desenhado conforme era
+    desenvolvido, os desenvolvedores não desenhavam primeiro todo o sistema
     para só depois começar o desenvolvimento, ao invés, eles já começavam a
     desenvolver sem se preocupar muito com a documentação, e a cada mudança
     que ocorria, não é mais necessário desenhar novamente toda a solução, mas
     sim adaptar o que já foi desenvolvido. \newline
-    As metodologias advindas das práticas ageis, promovem o conceito de iterações,
+    As metodologias advindas das práticas ágeis, promovem o conceito de iterações,
     que consiste em um curto espaço de tempo, normalmente semanas, seja produzido
     \textit{software} em produção, para que desta forma consigamos avaliar os
     impactos que o \textit{software} produz para o negócio e em menos de um
     mês seja possível já mensurar o valor que está sendo produzido para o
     negócio. Como o tempo de desenvolvimento é curto, está previsto que vamos
     errar diversas, muitas vezes as soluções que vamos produzir não vai atender
-    todas as necessidades do negócio porém, é através do aprendizado destes erros
+    todas as necessidades do negócio, porém é através do aprendizado destes erros
     que vamos aprendendo as necessidades do negócio e corrigindo o sistema para
     que ele se torne cada vez mais aderente as necessidades, temos que errar o
     mais rápido possível para que possamos aprender com os nossos erros e acertar
     o mais rápido possível.
 
-  \chapter{DevOps}
-    Através dos valores e das práticas ágeis e com o surgimento de novas
-    tecnologias, mais práticas foram sendo criadas e novas ferramentas surgiram
-    para auxiliar o desenvolvimento de \textit{software}, já com a perspectiva
-    ágil. Desta forma surgiu o conjunto de práticas denonimado \textit{DevOps},
-    que consiste auxiliar o time de desenvolvimento e de operação, trabalharem de
-    forma mais unida \cite{TheDevOpsHandbook}. Conforme o tempo de desenvolvimento
-    dos produtos foi encurtando, surgiu a necessidade de realizar o \textit{deploy}
-    em produção diversas vezes ao longo do dia pois, como trabalhamos de forma
-    adaptativa e valorizamos o produto sendo estregue de forma rápida, para gerar
-    valor o mais rápido possível, a infraestrutura montada e o time de operações,
-    precisam estar preparados. Embora seja importante realizar entregas rápidas,
-    ainda é necessário avaliar a qualidade do que está sendo entregue, para
-    evitar erros em produção e não tornar algo que deveria gerar valor se
-    tornar um problema para o negócio. \newline
-    As práticas de \textit{DevOps}, nos fornece um conjunto de ações que podemos
-    realizar para que consigamos evitar que os erros aconteçam e que caso venham
-    a acontecerm, teremos as informações necessárias para avaliar o ocorrido e
-    resolver da melhor forma o mais rápido possível. \newline
-    Entre as princípais práticas está o de \textit{code review}, que consiste
-    que antes de um \textit{deploy} ocorrer, o código que foi produzido será
-    verificado em busca de falhas, má qualidade de código, erros de lógica,
-    brechas de segurança, ou seja, qualquer coisa que possa causar algum erro
-    em produção. Outra prática importante é a de estratégias de ambientes,
-    quando estamos produzindo um \textit{software} não é aconselhável realizar
-    alterações direto em produção, sem antes ela ter sido testada e o código
-    ter sido avaliado, desta forma, é importante ter um ambientes separado de
-    produção, onde seja possível os desenvolvedores realizar testes das
-    funcionalidades que estão sendo produzidas, para assegurar a qualidade do
-    que foi desenvolvido e conseguir avaliar se está aderente a necessidade do
-    negócio. \newline
-    O \textit{DevOps} apresenta que o processo de desenvolvimento de levar em
-    considerção todos os processos de verificação de qualidade e efetivamente
-    o \textit{deploy} em produção. A equipe de operação, que é responsável por
-    realizar o \textit{deploy}, faz parte do time de desenvolvimento e o tempo
-    que será utilizado para realizar o \textit{deploy}, levando em conta
-    \textit{code review}, alterações na infraestrutura do sistema, o tempo do
-    \textit{deploy}, análises de segurança, entre outro qualquer processo que
-    deva ser realizado para assegurar um \textit{deploy} com qualidade, verificando
-    a presença de possíveis \textit{bugs}, deve ser levado em conta durante o
-    planejamento da iteração, e caso venha a aparecer algum ponto que deve ser
-    ajustado pelos desenvolvedores, eles devem ser notificados o mais rápido o
-    possível, para que seja realizado o ajuste e o \textit{deploy} possa acontecer. \newline
-    Para otimizar esta comunicação, e facilitar adicionar estes processos de
-    verificação do código e possibilitar o \textit{deploy}, foi criado os
-    conceitos de CI (\textit{continuous integration}) e CD
-    (\textit{continuous delivery}). \newline
-    CI, é a prática de integrar o código de todas as pessoas do time diariamente
-    de uma forma que os conflitos gerados entre os desenvolvimentos sejam
-    identificados e tradados. Quando estamos trabalhando em times, é natural
-    que em determinados momentos seja necessário que dois desenvolveres tenham
-    que alterar o mesmo arquivo, se não trabalharmos utilizando o conceito de
-    CI, só vamos descobrir houve esse conflito quando um dos dois desenvolvedores
-    perceberem que o seu código foi sobrescrito. Uma das princípais ferramentas
-    utilizadas para auxiliar no CI são os sistemas de controle de versões
-    (Git, Mercurial, SVN, etc.) que tem a capacidade de criar versões do seu
-    código em sua máquina local que pode ser compartilhada para um servidor,
-    chamado de repositório (GitHub, Bitbucket, GitLab, etc.) e compartilhado
-    com outras máquinas apresentando os conflitos nos arquivos e possibilitando
-    que o desenvolvedor realize as mudanças necessárias \cite{ProGit}. \newline
-    Com a utlização de um sistema de controle de versões, devemos separar o
-    nosso trabalho em \textit{branch} \cite{TheDevOpsHandbook}, que possibilita
-    separar as alterações que realizamos em uma outra linha de mudanças, onde
-    o que for realizado nesta \textit{branch} não terá impacto até na linha
-    princípal do código até que seja solicitado realizar o \textit{merge}
-    (juntar as duas \textit{branch}) \cite{ProGit}, desta forma garantimos maior
-    controle sobre o que está sendo implementado em nossas funcionalidades pois,
-    cada \textit{branch} deve tratar somente de uma implementação, podendo ser
-    uma funcionalidade nova ou uma melhoria em uma funcionalidade já existente,
-    com as \textit{branch}, somente disponibilizamos que o nosso código seja
-    integrado com os desenvolvedores que estão atuando em outras \textit{branch}
-    somente depois de finalizado os nossos desenvolvimentos e realizar o \textit{merge}
-    para a \textit{branch} princípal, desta forma evitamos integrar um código
-    que pode impactar o desenvolvimento de outras pessoas no nosso time por
-    cause dele estar inacabado. \newline
-    Agora que conseguimos integrar o nosso código de forma que os conflitos são
-    apresentados para a gente e as implementações são realizadas em \textit{branch}
-    separadas, conseguimos aplicar essas implemntações de forma cotínua
-    \cite{TheDevOpsHandbook}. Com o conceito de CD, podemos realizar a criação
-    de um \textit{pipeline}, para cada implementação conseguimos realizar o
-    diversos testes, verificar cobertura de código, realizar o \textit{deploy}
-    de forma automatizada, diminuindo as ações que o time teria que realizar
-    para cada demanda, consequentemente otimizando o tempo de entrega
-    \cite{ContinuousDelivery}. Quando aplicamos CD para o nosso sistema,
-    para cada automatização precisamos implementar uma ferramenta diferente,
-    como por exemplo, uma ferramenta de gerenciamento de dependências
-    (Nexus por exemplo), para verificarmos as dependências entre as implementações,
-    uma ferramenta para a elaboração de testes automatizados (Selenium por exemplo),
-    entre outras ferramentas, para cada necessidade que o seu produto necessite
-    é interessante pequisar alguma ferramenta para realizar esta automatização
-    e aplicá-la ao seu \textit{pipeline}. \newline
-    Com o auxilio do \textit{pipeline} podemos aplicar estratégias de criação
-    de ambientes separados para o processo de desenvolvimento. Com o intuíto de
-    possibilitar que os desenvolvedores consigam testar as funcionalidades que
-    já eles estão desenvolvendo e os \textit{testers} testarem as funcionalidades
-    que já foram desenvolvidas sem que os testes e as alterações dos desenvolvedores
-    atrapalhem, é interessante criar ambientes separados para estes propósitos.
-    Cada projeto possui uma combinação diferente de ambientes, cada combinação
-    sendo a estratégia tomada pela equipe do projeto, onde o mais importante com
-    nessa criação é a de realizar entregas rápidas garantido a qualidade daquilo
-    que foi desenvolvido e caso venha a acontecer algum immacto negativo na
-    implementação, podemos utilizar os ambientes para mitigar os erros
-    \cite{TheDevOpsHandbook}. \newline
-    Para assegurar a qualidade do nosso \textit{software}, é necessário realizar
-    diversos testes antes que uma funcionalidade seja disponibilizada em produção,
-    os testes ser levados em consideração durante o período de desenvolvimento,
-    todas as nossas funcionalidades devem ser testadas e os testes não devem
-    somente cobrir o código criado, mas deve garantir que a os requisitos da
-    funcionalidade esteja sendo cumpridos, todos os testes montados devem verificar
-    se o código está funcionando \cite{CleanCode}. \newline
-    Pensando nisso, foi criado a prática do TDD (test driven development)
-    \cite{TestDrivenDevelopment}, que consite em primeiro criar os testes, ver
-    eles falharam pois, a funcionalidade ainda não foi desenvolvida, e conforme
-    o desenvolvimento, ir verificando se os testes estão passando e se é necessário
-    mais testes. Conforme vamos criando cenários de teste e verificando o resultado
-    do nosso desenvolvimento, nos deparamos com diversos requisitos, e para
-    garantir que eles estão sendo cumpridos, devemos adaptar os nossos testes para
-    que estes requisitos sejam verificados e caso haja uma mudança nos requisitos
-    podemos alterar algum teste que desenvolvemos e verificar se a funcionalidade
-    que foi desenvolvida está contemplando o cenário da mudança, caso o teste
-    continue passando, ou se teremos que ajustar o nosso desenvolvimento, caso o
-    teste falhe. \newline
-    A utilização dos testes nos garante uma segurança na hora do desenvolvimento,
-    como confiamos nos testes que desenvolvemos, se realizarmos alguma alteração
-    conseguimos verificar nos testes se nossa alteração gerou um erro em alguma
-    funcionalidade e com base nos testes conseguimos tratar este erro antes de
-    liberar esta alteração para os membros do time, já que estamos utilizando um
-    sistema versionador de código. Os testes também conseguem demonstrar como
-    determinado código funciona \cite{martin2007agile}, como os requisitos estão
-    sendo representados através dos testes que realizamos, a descrição de como
-    a funciona a nossa funcionalidade, quais são os parametros que ela receba e
-    qual é o seu objetivo pode ser compreendida através dos testes montados, com
-    eles conseguimos enxergar o cenário que a funcionalidade está sendo executado
-    e o que deve acontecer com o sistema após a sua execução. \newline
-    A execução dos testes deve ser automatizada, um trabalho executado pelo
-    \textit{pipeline}, desta forma conseguimos que todas as nossas funcionalidades
-    sejam testadas e os erros a cada alteração que realizamos no código e caso
-    aconteça dessa alteração ocasionar em algum erro, podemos verificar este
-    ocorrido, corrigir e rodar novamente o \textit{pipeline} para verificar se
-    a nossa implementação está passando nos nossos testes \cite{ContinuousDelivery}.
-    Uma das formas de automatizarmos os nossos testes é através das classes de
-    teste, onde cada classe desenvolvida vai ter uma classe de teste em que
-    devemos verificar se o objetivo da classe está sendo atingido e os requisitos
-    que estámos trabalhando na classe está sendo cumprido. Outra forma é de criar
-    testes que executem automáticamente operações no sistema, desta forma podemos
-    construir \textit{scripts} de testes afim de validar que o que foi desenvolvido
-    está funcionando da maneira esperada. \newline
-    Agora que implementamos o nosso sistema com qualidade em produção, devemos
-    nos assegurar que o nosso sistema continue em funcionamento. Como a utilização
-    de um sistema varía muito com a época em que ele está sendo utilizado, muitas
-    vezes não conseguimos prever quais os impactos que uma grande quantidade de
-    acessos pode causar, um ataque a segurança do nosso sistema pode causar,
-    um servidor que se encontrou fora do ar pode causar, há diversos imprevistos
-    que podem ocorrer em produção que pode impactar negativamente o nosso
-    produto. \newline
-    Para nos prepararmos para esses imprevistos devemos nos preocupar com que
-    o nosso sistema tenha escalabilidade, esteja disponível, se mantenha
-    seguro, que sua manutenção seja simples de ser realizada, mas para isso
-    devemos investir na sustentação do nosso sistema. Através da utilização
-    de méticas, conseguimos verificar como o nosso sistema está funcionando e
-    onde está apresentando sinais de problemas \cite{TheDevOpsHandbook}, desta
-    forma conseguimos nos preparar para problemas que possam ocorrer em produção.
-    Os problemas que ocorrerem em produção e os dados que coletarmos no nosso
-    sistema, deverão servir como meio de aprendizagem para que possamos descobrir
-    como podemos nos preparar para eventuais ocorrências em produção e manter
-    nosso sistema disponível e confiável \cite{SiteReliabilityEngineering}.
+    \chapter{DevOps}
+      Através dos valores e das práticas ágeis e com o surgimento de novas
+      tecnologias, mais práticas foram sendo criadas e novas ferramentas surgiram
+      para auxiliar o desenvolvimento de \textit{software}, já com a perspectiva
+      ágil. Desta forma surgiu o conjunto de práticas denominado \textit{DevOps},
+      que consiste auxiliar a equipe de desenvolvimento e de operação, trabalharem de
+      forma unida \cite{TheDevOpsHandbook}. Conforme o tempo de desenvolvimento
+      dos produtos foi encurtando, surgiu a necessidade de realizar o \textit{deploy}
+      em produção, diversas vezes ao longo do dia, pois como trabalhamos de forma
+      adaptativa e valorizamos o produto sendo estregue de forma rápida, para gerar
+      valor o mais rápido possível, a infraestrutura montada e a equipe de operações,
+      precisam estar preparados. Embora seja importante realizar entregas rápidas,
+      ainda é necessário avaliar a qualidade do que está sendo entregue, para
+      evitar erros em produção e não tornar nada que deveria gerar valor se
+      tornar um problema para o negócio. \newline
+      As práticas de \textit{DevOps}, nos fornece um conjunto de ações que podemos
+      realizar para que consigamos evitar que os erros aconteçam e que caso venham
+      a acontecer, teremos as informações necessárias para avaliar o ocorrido e
+      resolver da melhor forma o mais rápido possível. \newline
+      Entre as principais práticas está o de \textit{code review}, que consiste
+      que antes de um \textit{deploy} ocorrer, o código que foi produzido será
+      verificado em busca de falhas, má qualidade de código, erros de lógica,
+      brechas de segurança, ou seja, qualquer coisa que possa causar algum erro
+      em produção. Outra prática importante é a de estratégias de ambientes,
+      quando estamos produzindo um \textit{software} não é aconselhável realizar
+      alterações direto em produção, sem antes ela ter sido testada e o código
+      ter sido avaliado, desta forma, é importante ter um ambiente separado de
+      produção, onde seja possível os desenvolvedores realizarem testes das
+      funcionalidades que estão sendo produzidas, para assegurar a qualidade do
+      que foi desenvolvido e conseguir avaliar se está aderente a necessidade do
+      negócio. \newline
+      O \textit{DevOps} apresenta que o processo de desenvolvimento de levar em
+      consideração todos os processos de verificação de qualidade e efetivamente
+      o \textit{deploy} em produção. A equipe de operação, que é responsável por
+      realizar o \textit{deploy}, faz parte do equipe de desenvolvimento e o tempo
+      que será utilizado para realizar o \textit{deploy} considerando o
+      \textit{code review}, alterações na infraestrutura do sistema, o tempo do
+      \textit{deploy}, análises de segurança, entre outro qualquer processo que
+      deva ser realizado para assegurar um \textit{deploy} com qualidade, verificando
+      a presença de possíveis \textit{bugs}, deve ser considerado durante o
+      planejamento da iteração, e caso venha a aparecer algum ponto que deve ser
+      ajustado pelos desenvolvedores, eles devem ser notificados o mais rápido o
+      possível, para que seja realizado o ajuste e o \textit{deploy} possa acontecer. \newline
+      Para otimizar esta comunicação, e facilitar adicionar estes processos de
+      verificação do código e possibilitar o \textit{deploy}, foi criado os
+      conceitos de CI (\textit{continuous integration}) e CD
+      (\textit{continuous delivery}). \newline
+      CI, é a prática de integrar o código de todas as pessoas do equipe diariamente
+      de uma forma que os conflitos gerados entre os desenvolvimentos sejam
+      identificados e tradados. Quando estamos trabalhando em equipes, é natural
+      que em determinados momentos seja necessário que dois desenvolveres tenham
+      que alterar o mesmo arquivo, se não trabalharmos utilizando o conceito de
+      CI, só vamos descobrir houve esse conflito quando um dos dois desenvolvedores
+      perceberem que o seu código foi sobrescrito. Uma das principais ferramentas
+      utilizadas para auxiliar no CI são os sistemas de controle de versões
+      (Git, Mercurial, SVN, etc.) que consegue criar versões do seu
+      código em sua máquina local que pode ser compartilhada para um servidor,
+      chamado de repositório (GitHub, Bitbucket, GitLab, etc.) e compartilhado
+      com outras máquinas apresentando os conflitos nos arquivos e possibilitando
+      que o desenvolvedor realize as mudanças necessárias \cite{ProGit}. \newline
+      Com a utilização de um sistema de controle de versões, devemos separar o
+      nosso trabalho em \textit{branch} \cite{TheDevOpsHandbook}, que possibilita
+      separar as alterações que realizamos em outra linha de mudanças, onde
+      o que for realizado nesta \textit{branch} não terá impacto até na linha
+      principal do código até que seja solicitado realizar o \textit{merge}
+      (juntar às duas \textit{branch}) \cite{ProGit}, desta forma garantimos maior
+      controle sobre o que está sendo implementado em nossas funcionalidades, pois
+      cada \textit{branch} deve tratar somente de uma implementação, podendo ser
+      uma funcionalidade nova ou uma melhoria em uma funcionalidade já existente,
+      com as \textit{branch}, somente disponibilizamos que o nosso código seja
+      integrado com os desenvolvedores que estão atuando em outras \textit{branch}
+      somente depois de finalizado os nossos desenvolvimentos e realizar o \textit{merge}
+      para a \textit{branch} principal, desta forma evitamos integrar um código
+      que pode impactar o desenvolvimento de outras pessoas no nosso equipe por
+      cause dele estar inacabado. \newline
+      Agora que conseguimos integrar o nosso código de forma que os conflitos são
+      apresentados para nós e as implementações são realizadas em \textit{branch}
+      separadas, conseguimos aplicar essas implementações de forma contínua
+      \cite{TheDevOpsHandbook}. Com o conceito de CD, podemos realizar a criação
+      de um \textit{pipeline}, para cada implementação conseguimos realizar
+      diversos testes, verificar cobertura de código, fazer o \textit{deploy}
+      de forma automatizada, diminuindo as ações que a equipe teria que executar
+      para cada demanda, consequentemente otimizando o tempo de entrega
+      \cite{ContinuousDelivery}. Quando aplicamos CD para o nosso sistema,
+      para cada automatização precisamos implementar uma ferramenta diferente,
+      como, por exemplo, uma ferramenta de gerenciamento de dependências
+      (Nexus, por exemplo), para verificarmos as dependências entre as implementações,
+      uma ferramenta para a elaboração de testes automatizados (Selenium, por exemplo),
+      entre outras ferramentas, para cada necessidade que o seu produto necessite
+      é interessante pesquisar alguma ferramenta para realizar esta automatização
+      e aplicá-la ao seu \textit{pipeline}. \newline
+      Com o auxílio do \textit{pipeline} podemos aplicar estratégias de criação
+      de ambientes separados para o processo de desenvolvimento. Com o intuito de
+      possibilitar que os desenvolvedores consigam testar as funcionalidades que
+      já eles estão desenvolvendo e os \textit{testers} testarem as funcionalidades
+      que já foram desenvolvidas sem que os testes e as alterações dos desenvolvedores
+      atrapalhem, é interessante criar ambientes separados para estes propósitos.
+      Cada projeto possui uma combinação diferente de ambientes, cada combinação
+      sendo a estratégia tomada pela equipe do projeto, onde o mais importante com
+      nessa criação é a de realizar entregas rápidas garantido a qualidade daquilo
+      que foi desenvolvido e caso venha a acontecer algum impacto negativo na
+      implementação, podemos utilizar os ambientes para mitigar os erros
+      \cite{TheDevOpsHandbook}. \newline
+      Para assegurar a qualidade do nosso \textit{software}, é necessário realizar
+      diversos testes antes que uma funcionalidade seja disponibilizada em produção,
+      os testes ser considerados durante o período de desenvolvimento,
+      todas as nossas funcionalidades devem ser testadas e os testes não devem
+      somente cobrir o código criado, mas deve garantir que os requisitos da
+      funcionalidade esteja sendo cumpridos, todos os testes montados devem verificar
+      se o código está funcionando \cite{CleanCode}. \newline
+      Pensando nisso, foi criado a prática do TDD (test driven development)
+      \cite{TestDrivenDevelopment}, que consite em primeiro criar os testes, ver
+      eles falharam, pois, a funcionalidade ainda não foi desenvolvida, e conforme
+      o desenvolvimento, ir verificando se os testes estão passando e se é necessário
+      mais teste. Conforme vamos criando cenários de teste e verificando o resultado
+      do nosso desenvolvimento, nos deparamos com diversos requisitos, e para
+      garantir que eles estão sendo cumpridos, devemos adaptar os nossos testes para
+      que estes requisitos sejam verificados e caso haja uma mudança nos requisitos
+      podemos alterar algum teste que desenvolvemos e verificar se a funcionalidade
+      que foi desenvolvida está contemplando o cenário da mudança, caso o teste
+      continue passando, ou se teremos que ajustar o nosso desenvolvimento, caso o
+      teste falhe. \newline
+      A utilização dos testes garante segurança na hora do desenvolvimento,
+      como confiamos nos testes que desenvolvemos, se realizarmos alguma alteração
+      conseguimos verificar nos testes se nossa alteração gerou um erro em alguma
+      funcionalidade e com base nos testes conseguimos tratar este erro antes de
+      liberar esta alteração para os membros do equipe, já que estamos utilizando um
+      sistema versionador de código. Os testes também conseguem demonstrar como
+      determinado código funciona \cite{martin2007agile}, como os requisitos estão
+      sendo representados através dos testes que realizamos, a descrição de como
+      a funciona a nossa funcionalidade, quais são os parâmetros que ela receba e
+      qual é o seu objetivo pode ser compreendida através dos testes montados, com
+      eles, conseguimos enxergar o cenário que a funcionalidade está sendo executado
+      e o que deve acontecer com o sistema após a sua execução. \newline
+      A execução dos testes deve ser automatizada, um trabalho executado pelo
+      \textit{pipeline}, desta forma conseguimos que todas as nossas funcionalidades
+      sejam testadas e os erros a cada alteração que realizamos no código e caso
+      aconteça dessa alteração ocasionar em algum erro, podemos verificar este
+      ocorrido, corrigir e rodar novamente o \textit{pipeline} para verificar se
+      a nossa implementação está passando nos nossos testes \cite{ContinuousDelivery}.
+      Uma das formas de automatizarmos os nossos testes é através das classes de
+      teste, onde cada classe desenvolvida vai ter uma classe de teste em que
+      devemos verificar se o objetivo da classe está sendo atingido e os requisitos
+      que estamos trabalhando na classe está sendo cumprido. Outra forma é de criar
+      testes que executem automaticamente operações no sistema, desta forma podemos
+      construir \textit{scripts} de testes, afim de validar que o que foi desenvolvido
+      está funcionando da maneira esperada. \newline
+      Agora que implementamos o nosso sistema com qualidade em produção, devemos
+      nos assegurar que o nosso sistema continue em funcionamento. Como a utilização
+      de um sistema varia muito com a época em que ele está sendo utilizado, muitas
+      vezes não conseguimos prever quais os impactos que uma grande quantidade de
+      acessos pode causar, um ataque a segurança do nosso sistema pode causar,
+      um servidor que se encontrou fora do ar, pode causar diversos imprevistos
+      que podem ocorrer em produção que pode impactar negativamente o nosso
+      produto. \newline
+      Para nos prepararmos para esses imprevistos, devemos nos preocupar com que
+      o nosso sistema tenha escalabilidade, esteja disponível, se mantenha
+      seguro, que sua manutenção seja simples de ser realizada, mas para isso
+      devemos investir na sustentação do nosso sistema. Através da utilização
+      de métricas, conseguimos verificar como o nosso sistema está funcionando e
+      onde está apresentando sinais de problemas \cite{TheDevOpsHandbook}, desta
+      forma conseguimos nos preparar para problemas que possam ocorrer em produção.
+      Os problemas que ocorrerem em produção e os dados que coletarmos no nosso
+      sistema, deverão servir como meio de aprendizagem para que possamos descobrir
+      como podemos nos preparar para eventuais ocorrências em produção e manter
+      nosso sistema disponível e confiável \cite{SiteReliabilityEngineering}.

@@ -1,15 +1,15 @@
 \part{Introdução e motivações}
   \chapter{Introdução}
     Acreditamos que um produto escalável e uma equipe que se preocupe em aprender
-    com erros e manter o sistema sempre disponível, é capaz de criar produtos de
+    com erros e manter o sistema sempre disponível, pode criar produtos de
     alta qualidade e grande valor. \newline
     Como já é apresentado na Site Reliability Engineering \cite{SiteReliabilityEngineering},
     devemos esquecer a cultura de culpar as pessoas por erros cometidos e adquirir
     uma cultura de aprendizado, utilizar do erro para entender como ele ocorreu e
     assim produzir um produto com maior qualidade e adquirir o conhecimento para
-    que o erro não ocorra novamente ou ocorra em outros produtos. Mas, adquirir essa
-    maturidade e esse \textit{mindset} é um processo, não é algo imediato, e é
-    necessário entender em qual momento está a equipe e como implementar estes
+    que o erro não ocorra novamente ou ocorra em outros produtos. Adquirir essa
+    maturidade e esse \textit{mindset} é um processo, não é nada imediato, e é
+    necessário entender em qual momento a equipe está e como implementar estes
     processos. \newline
     De acordo com o The DevOps Handbook \cite{TheDevOpsHandbook}, esse processo de
     transformação é divido em três partes, o fluxo, \textit{feedback} e, aprendizado
@@ -22,27 +22,27 @@
     uma reunião com todos os envolvidos e interessados para adquirir entender o que
     ocorreu, quais foram as medidas tomadas e o que fazer para não ocorrer novamente,
     sempre lembrando que o objetivo não é encontrar um culpado, mas sim aprender com
-    o ocorrido. Outro fator importante é o de investir tempo em melhorar a telemtria
+    o ocorrido. Outro fator importante é o de investir tempo em melhorar a telemetria
     que temos sobre o sistema, trabalhar em quais informações precisamos para
     supervisionar o funcionamento do sistema e evitarmos que problemas ocorram,
-    como por exemplo, manter o controle da performance de cada servidor utilizado
+    como, por exemplo, manter o controle da desempenho de cada servidor utilizado
     para o funcionamento da aplicação, quando um deles estiver com o nível de
     processamento abaixo do esperado, podemos analisar se ele não está sendo aproveitado,
     e assim realocar recursos para melhorar o desempenho do sistema, ou se ele está
     apresentando sinais de mau funcionamento. A terceira parte é o de aprendizado
     continuo e experimentação, ela nos incentiva a realizar experimentos no nosso
-    produto afim de adapta-lo e gerarmos conhecimento para o negócio, um exemplo de
-    experimento, unificar três telas em uma só e vêr como o usuário reage a esta
+    produto de modo a adapta-lo e gerarmos conhecimento para o negócio, um exemplo de
+    experimento, unificar três telas em uma só e ver como o usuário reage a esta
     mudança, dependendo do resultado, podemos aumentar a produtividade do usuário
-    no sistema, ou descobrir que ele isso o deixou mais confuso, em ambos os casos
+    no sistema, ou descobrir que ele isso o deixou mais confuso, em ambos os casos,
     aprendemos sobre o comportamento do nosso usuário e isso pode ser utilizado para
     futuras demandas e resoluções de erros. Outro ponto importante sobre essa parte
     é a de gerar conhecimento, assim que algo é descoberto, devemos apresentar para
-    todos do time e caso seja algo que possa ser utilizados em outros projetos,
-    escalar esse aprendizado para a empresa, onde devemos considerar que devemos
-    demonstrar todo tipo de conhecimento, seja uma descoberta comportamental do usuário,
+    todos da equipe e caso seja algo que possa ser utilizados em outros projetos,
+    escalar esse aprendizado para a empresa, onde devemos considerar demonstrar
+    tudo como conhecimento, seja uma descoberta comportamental do usuário,
     a resolução de algum defeito, um erro cometido durante o projeto, qualquer
-    aprendisado deve ser levado em consideração e, devido a isso, não podemos culpar
+    aprendizado deve ser considerado e, devido a isso, não podemos culpar
     as pessoas por erros cometidos. Quando culpamos alguém, inibimos a pessoa de
     demonstrar o erro, consequentemente, perdemos uma importante fonte de aprendizagem,
     desta forma, perdemos a oportunidade de melhorarmos nosso produto, nossa equipe
@@ -53,38 +53,38 @@
     necessitam dele, acabam se estressando por não poder fazer nada. Lidar com a
     disponibilidade do sistema está diretamente relacionada com assumir riscos,
     entender que haverá momentos críticos no sistema que precisamos nos preparar e
-    que sempre há a chance de falharmos e do sistema cair. Precisamos através das
+    que sempre há a hipótese de falharmos e do sistema cair. Precisamos através das
     necessidades do negócio e da utilização do usuário aprender como podemos manter
     a disponibilidade. Primeiramente, disponibilidade não pode ser considerado
-    simplesmente como "no ar ou fora do ar", uma funcionalidade que demore para ser
+    simplesmente como “no ar ou fora do ar”, uma funcionalidade que demore para ser
     executada, pode motivar o usuário a não utiliza-la, o que prova que ela não está
-    disponível, vamos supor, que estamos em um sistema que sejam realizdas negociações,
+    disponível, vamos supor, que estamos em um sistema que sejam realizadas negociações,
     o usuário está negociando com um cliente e propõe um desconto para o produto que
     ele está tentando vender, nosso sistema tem uma função de simulação de desconto,
     então nosso vendedor logo tenta simular, porem, como é um produto grande, essa
     simulação está sendo processada já a cinco minutos, e o cliente já está cansado
-    de esperar, como o ele não teve a simulação em tempo hábil e o vendedor dependia
+    de esperar, como o ele não teve o resultado em tempo hábil e o vendedor dependia
     desse valor para continuar a negociação, decidiram continuar a conversa outro dia,
     já com o valor em mãos. Após este episódio, nosso vendedor perdeu a confiança
     no sistema e decidiu não mais utilizar a funcionalidade de negociação, embora a
     simulação tenha funcionado muito bem para produtos pequenos, quando o nosso
-    vendedor mais precisou, ele não atendeu as expectivas. Cinco minutos foi o
-    suficiente para indisponibilizar essa funcionalidade para esse usuário, que
+    vendedor mais precisou, ele não atendeu as expectativas. Cinco minutos foi o
+    suficiente para não disponibilizar essa funcionalidade para esse usuário, que
     como está aborrecido, vai passar esta frustração para outros usuários. Se não
     tivermos a informação de que há este problema no sistema, seja por \textit{feedback}
     ou por alguma métrica, jamais saberemos deste erro e com o passar do tempo
     esta funcionalidade será esquecida. \newline
     Outro ponto a ser considerado é o preço do \textit{software}, podemos manter
     nosso sistema sempre disponível se tivermos uma grande quantidade de servidores,
-    armazenamento infinito, e vário dominios de redundancia, o custo para manter
+    armazenamento infinito, e vário domínios de redundância, o custo para manter
     todos esses recursos é inviável, precisamos sempre controlar o que o sistema
     precisa e o que a empresa pode pagar. Controlar os custos é uma tarefa
     desafiadora, precisamos ver o qual o retorno que estamos recebendo com a aplicação
-    e quais são os riscos que podemos enfrentar. Não adaianta montar um sistema
+    e quais são os riscos que podemos enfrentar. Não adianta montar um sistema
     indestrutível se ele não gera valor para o negócio, e não adianta deixar o
-    sistema vulnerável para controlar custos, a queda de um produto deve ser
-    considerado como uma descredibilidade da empresa, pois é uma se torna um
-    simbolo de falta de qualidade. O meio termo seria montar um produto escalável,
+    sistema vulnerável para controlar custos, a queda de um produto acaba
+    por descredibilizar a empresa, pois este erro se torna um símbolo de falta
+    de qualidade. O meio-termo seria montar um produto escalável,
     conseguir controlar o quanto de recurso disponibilizar, saber quais são as
     épocas em que precisamos do sistema funcionando, quais são as funcionalidades
     mais críticas e quais riscos podemos aceitar. Tomar as nossas decisões com
@@ -110,29 +110,29 @@
       controle de qualidade. \newline
       Pretendemos demonstrar técnicas para a identificação de erros e como
       aprender com eles, possibilitando que o seu produto evolua e que os
-      aprendizados auxilia na criação de outros produtos. Desta forma, a busca
+      aprendizados auxiliam na criação de outros produtos. Desta forma, a busca
       por valor não se limita a apenas a um sistema, beneficiando o negócio com
       outras visões e ampliando a inteligência de mercado na empresa. A abordagem
       apresentada não tem como objetivo criar produtos perfeitos, sem erros, e
-      que vão conluir todos os objetivos da empresa, mas utilizar do produto e da
-      interação do usuáiro para montar \textit{sfotware} de qualidade aproveitando
+      que vão concluir todos os objetivos da empresa, mas utilizar do produto e da
+      interação do usuário para montar \textit{sfotware} de qualidade aproveitando
       o aprendizado obtido para auxiliar na evolução do negócio, gerar valor para
       a empresa e auxiliar na criação de novos produtos.
 
   \chapter{Metodologia de pesquisa}
     Para a realização deste trabalho foi utilizado livros, artigos, \textit{papers}
     e notas técnicas para a criação de sistemas com qualidade. Procuramos por trabalhos
-    que descrevescem o que é qualidade de \textit{softwares} e como construir os
-    produtos com qualidade. Durante a pesquisa foi identificado a immportância dos
+    que descrevessem o que é qualidade de \textit{softwares} e como construir os
+    produtos com qualidade. Durante a pesquisa foi identificado a importância dos
     requisitos não-funcionais o que nos levou a procurar por trabalhos que os
-    apresentassem e demonstrassem técnicas para assegurarar que eles fossem
+    apresentassem e demonstrassem técnicas para assegurar que eles fossem
     cumpridos. \newline
     Foi utilizado como ferramenta de pesquisa o Google Scholar, ResearchGate e o
     Software Engenieering Institute da Carnegie Mellon University.
 
   \chapter{Objetivo}
-    Este trabalho tem como objetivo apresentar uma aborgagem de como construir
-    sistemas escaláveis, com foco em assegurar performance e detecção de falhas.
+    Este trabalho tem como objetivo apresentar uma abordagem de como construir
+    sistemas escaláveis, com foco em assegurar desempenho e detecção de falhas.
     Criando \textit{softwares} com qualidade, gerando valor e que com base nos
     retornos do sistema, possibilitando novas visões de negócio e ocasionando no
     desenvolvimento de novos produtos.

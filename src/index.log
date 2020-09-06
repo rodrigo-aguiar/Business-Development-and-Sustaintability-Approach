@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  6 SEP 2020 02:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  6 SEP 2020 03:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -898,7 +898,7 @@ Underfull \hbox (badness 1701) in paragraph at lines 251--254
 
 
 Underfull \hbox (badness 1668) in paragraph at lines 258--259
-\OT1/cmr/m/n/12 como princ^^S^^Ppal meio
+\OT1/cmr/m/n/12 como prin-ci-pal meio
  []
 
 
@@ -938,7 +938,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 614--622
 
  []
 
-<images/functionalityStructure.jpeg, id=133, 614.295pt x 271.0125pt>
+<images/functionalityStructure.jpeg, id=134, 614.295pt x 271.0125pt>
 File: images/functionalityStructure.jpeg Graphic file (type jpg)
 <use images/functionalityStructure.jpeg>
 Package pdftex.def Info: images/functionalityStructure.jpeg  used on input line 625.
@@ -952,7 +952,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 630--698
  []
 
 [39] [40 </home/rodrigo/Desktop/monografia/Trabalho/src/images/functionalityStructure.jpeg>]
-<images/enviromentStream.jpeg, id=140, 650.43pt x 90.3375pt>
+<images/enviromentStream.jpeg, id=141, 650.43pt x 90.3375pt>
 File: images/enviromentStream.jpeg Graphic file (type jpg)
 <use images/enviromentStream.jpeg>
 Package pdftex.def Info: images/enviromentStream.jpeg  used on input line 701.
@@ -981,7 +981,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [44]
-<images/enviromentStream_CHAOSPROD.jpeg, id=154, 650.43pt x 171.7617pt>
+<images/enviromentStream_CHAOSPROD.jpeg, id=155, 650.43pt x 171.7617pt>
 File: images/enviromentStream_CHAOSPROD.jpeg Graphic file (type jpg)
 <use images/enviromentStream_CHAOSPROD.jpeg>
 Package pdftex.def Info: images/enviromentStream_CHAOSPROD.jpeg  used on input line 865.
@@ -997,7 +997,7 @@ Overfull \hbox (0.11467pt too wide) in paragraph at lines 936--974
  []
 
 [47]
-<images/deliveryStream.jpeg, id=165, 650.43pt x 359.09157pt>
+<images/deliveryStream.jpeg, id=166, 650.43pt x 359.09157pt>
 File: images/deliveryStream.jpeg Graphic file (type jpg)
 <use images/deliveryStream.jpeg>
 Package pdftex.def Info: images/deliveryStream.jpeg  used on input line 977.
@@ -1058,18 +1058,18 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 
 ] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.aux (/home/rodrigo/Desktop/monografia/Trabalho/src/content/agradecimentos/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/resumo/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/fundamentos/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/conclusao/index.aux)) ) 
 Here is how much of TeX's memory you used:
- 5006 strings out of 492982
- 70036 string characters out of 6134896
- 167938 words of memory out of 5000000
+ 5007 strings out of 492982
+ 70047 string characters out of 6134896
+ 167944 words of memory out of 5000000
  8389 multiletter control sequences out of 15000+600000
- 10757 words of font info for 40 fonts, out of 8000000 for 9000
+ 11116 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,45p,318b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on /home/rodrigo/Desktop/monografia/Trabalho/src/index.pdf (63 pages, 382276 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on /home/rodrigo/Desktop/monografia/Trabalho/src/index.pdf (63 pages, 390829 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
+ 236 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
