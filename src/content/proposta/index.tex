@@ -619,6 +619,14 @@
       cada produto deve disparar obrigatóriamente uma notificação, desta forma, se
       eu criar nove produtos de uma vez, deve ser gerada uma notificação para os
       nove produtos. \newline
+
+      \begin{figure}[!h]
+        \centering
+        \includegraphics[width=15cm]{functionalityStructure.jpeg}
+        \caption{Estrutura de funcionalidade}
+        \label{Imagem:1}
+      \end{figure}
+
       Agora que definimos como nosso requisito será desenvolvido e como ele será
       testado, precisamos definir em qual momento cada uma dessas ações deverá ser
       realizada e em qual ambiente. Quando estamos desenvolvendo uma funcionalidade
@@ -692,7 +700,7 @@
         \centering
         \includegraphics[width=15cm]{enviromentStream.jpeg}
         \caption{Fluxo de ambientes}
-        \label{Imagem:1}
+        \label{Imagem:2}
       \end{figure}
 
     \section{Automatizando testes de qualidade}
@@ -825,25 +833,38 @@
         \label{Tabela:10}
       \end{table}
 
-      As análises devem ser feitas em um ambiente que seja uma cópia perfeita de
-      produção, sempre que algo for entregue em produção, deve ser automaticamente
-      replicado para este ambiente, vamos chamá-lo de \textbf{CHAOSPROD} (produção
-      caótica). \newline
+      As análises devem ser feitas em um ambiente que seja uma cópia de produção,
+      sempre que algo for entregue em produção, deve ser automaticamente replicado
+      para este ambiente, vamos chamá-lo de \textbf{CHAOSPROD} (produção caótica).
+      Os dados deste ambiente devem ser uma representação dos dados que contém
+      as estruturas mais complexas, neste ambiente deve ser possível simular
+      cenários que complexos para o nosso sistema, que force as nossas funcionalidades
+      a situações que consideramos difíceis de ocorrer, praticamente impossíveis.
+      Este ambiente deve nos forncer a possibilidade de testar situações em que
+      não estamos preparados, identificar riscos que não mapeamos e anlisar erros
+      que ainda não aconteceram em produção. \newline
       Estas análises são prevendo cenários adversos, imaginando situações inesperadas,
-      por este motivo, é interessante realizar estas análises sempre após que um
-      requisito for entregue em produção, desta forma, conseguimos maior produtividade
-      na entrega dos requisitos em desenvolvimento, e uma vez que ele tenha sido
-      homologado, e temos o retorno de como os usuários estão utilizando o sistema,
-      conseguimos realizar as análises nos baseando não somente no que mapeamos como
-      risco, mas também com base em como o usuário está utilizando o sistema e no
-      \textit{feedback} que estamos tendo com eles, seja esse \textit{feedback} dito
-      diretamente pelo usuário ou através de alguma análise realizada em produção.
+      neste ambiente devemos nos concentrar nos requisitos não-funcinais pois,
+      é através das situações que vamos simular nestes ambientes que vamos conseguir
+      avaliar se os limites que aceitamos em nosso sistema realmente está aderente
+      as necessidades do negócio, e caso comece a aparecer situações semelhante
+      as que simulamos neste ambiente, conseguimos nos preparar com antêcedencia
+      e criar um plano para que o erro que foi gerado em \textbf{CHAOSPROD} não
+      ocorra em produção e por este motivo, é interessante realizar estas análises
+      sempre após que um requisito for entregue em produção, desta forma, conseguimos
+      maior produtividade na entrega dos requisitos em desenvolvimento, e uma vez
+      que ele tenha sido homologado, e temos o retorno de como os usuários estão
+      utilizando o sistema, conseguimos realizar as análises nos baseando não somente
+      no que mapeamos como risco, mas também com base em como o usuário está
+      utilizando o sistema e no \textit{feedback} que estamos tendo com eles,
+      seja esse \textit{feedback} dito diretamente pelo usuário ou através de
+      alguma análise realizada em produção.
 
       \begin{figure}[!h]
         \centering
         \includegraphics[width=15cm]{enviromentStream_CHAOSPROD.jpeg}
         \caption{Fluxo de ambientes com CHAOSPROD}
-        \label{Imagem:2}
+        \label{Imagem:3}
       \end{figure}
 
     \section{Desenvolvendo estratégias de escalabilidade}
@@ -929,7 +950,34 @@
       desenvolvimentos ou pode se tornar mais uma análise a ser feita em
       \textbf{CHASOPROD}. De toda forma, ele se tornou um aprendizado para o produto
       e agora faz parte de um cenário que estamos prevendo, pode ser que ele
-      aconteça novamente mas desta vez estaremos preparados.
+      aconteça novamente mas desta vez estaremos preparados. \newline
+      Para evitar que os cenários que identificamos em \textbf{CHAOSPROD} aconteçam
+      em produção e conseguirmos monitorar problemas que não mapeamos é importante
+      monitorar se os critérios que definimos para cada requisito de cada funcionalidade
+      continua assegurado, precisamos criar métricas em produção para monitorar
+      o sistema e verificar se nossas funcionalidaes continuam funcionando como o
+      esperado, é importante destacar que precisamos verificar se a funcionalidade
+      está sendo utilizada, se o tempo de resposta continua sendo o que tinhamos
+      mapeado em nosso requisito não-funcional, se a atividade que o usuário está
+      executando, está levando o sistema à algum limite que definimos, se este
+      cenário foi testado em \textbf{CHAOSPROD}, precisamos averiguar se o
+      produto continua gerando valor ou se vamos precisar implementar alguma
+      melhoria. Para realizar está análise, precisamos voltar para as funcionalidade
+      e rever tudo o que haviamos definidos para elas, voltando para a fase de
+      sua escrita, desta forma, vamos rever sua importância, os objetivo que ela
+      está atrelada e consequentemente identificar novos requisitos e ajustar
+      requisitos já existentes, modificando critérios e adicionando novos e
+      assim que a funcionalidade for redefinida para as novas necessidades do
+      negócio, voltamos para a fase de desenvolvimento, testes, comunicação,
+      testes em \textbf{CHAOSPROD} e criamos novas métricas para garantir que
+      os critérios continuem garantidos.
+
+      \begin{figure}[!h]
+        \centering
+        \includegraphics[width=15cm]{deliveryStream.jpeg}
+        \caption{Fluxo de entrega}
+        \label{Imagem:4}
+      \end{figure}
 
   \chapter{Como manter o seu produto?}
     Para assegurar que o produto continue disponível, gerando valor, confiável
@@ -1120,6 +1168,72 @@
       uma nova lei, redefinição de processo, fusão ou aquisição de alguma empresa,
       possa ocasionar em uma mudança, onde nesses casos os requirementos mudaram
       de repente.
+
+      \section{Utilizando os dados adquiridos}
+        Agora que sabemos quais dados precisamos procurar para garantir a qualidade
+        do nosso produto, no processo de desenvolvimento, no monitoramento que
+        realizamos em produção e nos testes em \textbf{CHAOPROD}, precisamos
+        armazenar estes dados em um local que todas os membros do projeto tenham
+        visibilidade para utilizar as informações que eles trazem e com base neles
+        agregar valor ao negócio. As especificações das funcionalidades podemos
+        controlar através de um sistema de gerenciamento de projetos (Jira, Trello,
+        Gituhub, etc.), que nos permite desenhar todo o nosso fluxo de entrega e
+        acompahar a funcionalidade fase a fase, sempre adicionando os novos requisitos
+        e alterando os requisitos que já foram concluídos, sempre que uma alteração
+        for necessária, podemos voltar a funcionalidade para a fase de escrita e
+        iniciar o fluxo novamente. Devemos também possuir um sistema que possamos
+        mapear as \textit{issues} que venham a ocorrer com o monitoramento do sistema
+        e com os testes em \textbf{CHAOSPROD}, o ideal é que este sistema seja o
+        mesmo que o de gerenciamento de projeto pois, conseguimos consolidar no
+        mesmo sistema, as funcionalidades, os requisitos, os critérios e as
+        ocorrências, facilitando a nossa análise e tomada de decisões. É importante
+        registrarmos as ocorrências e marcar as \textit{issues} geradas, é
+        através destas informações que conseguimos identificar melhorias no nosso
+        produto, conseguindo especificar uma funcionalidade nova, melhorar uma
+        funcionalidade já existente, identificar mais métricas para supervisionarmos
+        o nosso produto, é através das \textit{issues} que conseguimos iniciar o
+        nosso fluxo de entrega. \newline
+        Todo o código gerado, qualquer documentação que auxiliou o desenvolvimento
+        (lembrando re respeitar a política de proteção de dados da empresa e do
+        país), e os dados gerados através dos testes automaitzados em conjunto
+        com a cobertura do código, desta forma, todos os membros do projeto tem
+        acesso ao código que foi desenvolvido, as informações que auxiliaram na
+        contrução da informação e os resultados dos testes automatizados, podendo
+        através dos \textit{pull requests} realizar diversas análises para aferir
+        a qualidade da solução implementada. Através do \textit{pull request}
+        devemos classificar o que estamos implementando se o que estamos implementando
+        se trata de um \textit{bug fix}, uma melhoria, uma nova funcionalidade,
+        um novo monitoramento, e além desta classificação, devemos realcionar
+        o nosso \textit{pull request} com as \textit{issues}, os requisitos que
+        solucionamos, os critérios que garantimos, desta forma, podemos mapear
+        exatamente o motivo desta implementação e assegurar que os testes que
+        foram realizados foram suficientes para assegurar que a funcionalidade
+        continua em funcionamento e aderente ao negócio pois, neste \textit{pull
+        reques} é importante não só adicionar o código desenvolvido mas tambem os
+        resultados dos testes automatizados. \newline
+        Os dados provenientes do nosso monitoramento em produção e dos testes
+        realizados em \textbf{CHAOSPROD}, devem ser armazenados em alguma ferramenta
+        de \textit{analytics} (Google Analitycs, Grafana, etc.), estes dados
+        devem ser armazenados afim de identificarmos como está a saúde de nosso
+        ambiente, ou seja, se estamos nos aproximando dos limites que identificamos
+        ou se o sistema está apesentando sinais que vai ocorrer algum defeito, e
+        tambem devemos utilizar estes dados para analisar o histórico do passado
+        afim de definirmos nossas estratégias para assegurar o funcionamento do
+        sistema e a qualidade de nossas funcionalidades. É através destes dados
+        que conseguimos visualizar o que pecisamos melhorar e o que podemos
+        "piorar", como conseguimos ver quais funcionalidades estão utilizando
+        mais processamento, quais páginas os usuários estão mais utilizando, qual
+        o tempo de resposta médio de cada operação, conseguimos tomar decisões
+        se devemos aumentar a quantidade de recursos computacionais para determinda
+        funcionalidade que está sendo muito utilizada pelos usuários e diminuir
+        de uma funcionalidade não está sendo muito utilizada. Podemos através
+        destes dados identificar como melhorar o processo que os usuários estão
+        executando, automatizando alguma operação e diminuindo a quantidade de
+        acessos de uma determinada página. Através da análise destes dados
+        identificamos novas \textit{issues}, construir mais planos para manter
+        a nossa escalabiliade e iniciar novamente o nosso fluxo de entrega para
+        rever alguma funcionalidade e desenvolver uma melhoria que baseado em
+        dados, vai gerar valor para o negócio.
 
   \chapter{Resultados da proposta}
      Ao desenvolver um produto, muitas vezes focamos apenas em requisitos

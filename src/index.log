@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  4 SEP 2020 00:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  6 SEP 2020 02:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -934,25 +934,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 557--591
  []
 
 [38]
-Underfull \hbox (badness 10000) in paragraph at lines 614--690
+Underfull \hbox (badness 10000) in paragraph at lines 614--622
 
  []
 
-[39] [40]
-<images/enviromentStream.jpeg, id=139, 650.43pt x 90.3375pt>
+<images/functionalityStructure.jpeg, id=133, 614.295pt x 271.0125pt>
+File: images/functionalityStructure.jpeg Graphic file (type jpg)
+<use images/functionalityStructure.jpeg>
+Package pdftex.def Info: images/functionalityStructure.jpeg  used on input line 625.
+(pdftex.def)             Requested size: 426.79134pt x 188.29317pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 630--698
+
+ []
+
+[39] [40 </home/rodrigo/Desktop/monografia/Trabalho/src/images/functionalityStructure.jpeg>]
+<images/enviromentStream.jpeg, id=140, 650.43pt x 90.3375pt>
 File: images/enviromentStream.jpeg Graphic file (type jpg)
 <use images/enviromentStream.jpeg>
-Package pdftex.def Info: images/enviromentStream.jpeg  used on input line 693.
+Package pdftex.def Info: images/enviromentStream.jpeg  used on input line 701.
 (pdftex.def)             Requested size: 426.79134pt x 59.2783pt.
- [41 </home/rodrigo/Desktop/monografia/Trabalho/src/images/enviromentStream.jpeg>] [42]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[41] [42 </home/rodrigo/Desktop/monografia/Trabalho/src/images/enviromentStream.jpeg>]
 Cap\'{\i }tulo 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 747--791
+Underfull \hbox (badness 10000) in paragraph at lines 755--799
 
  []
 
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 791.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 799.
 
 [43
 
@@ -964,44 +981,55 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [44]
-<images/enviromentStream_CHAOSPROD.jpeg, id=153, 650.43pt x 171.7617pt>
+<images/enviromentStream_CHAOSPROD.jpeg, id=154, 650.43pt x 171.7617pt>
 File: images/enviromentStream_CHAOSPROD.jpeg Graphic file (type jpg)
 <use images/enviromentStream_CHAOSPROD.jpeg>
-Package pdftex.def Info: images/enviromentStream_CHAOSPROD.jpeg  used on input line 844.
+Package pdftex.def Info: images/enviromentStream_CHAOSPROD.jpeg  used on input line 865.
 (pdftex.def)             Requested size: 426.79134pt x 112.70784pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 850--893
+ [45]
+Underfull \hbox (badness 10000) in paragraph at lines 871--914
 
  []
 
-[45 </home/rodrigo/Desktop/monografia/Trabalho/src/images/enviromentStream_CHAOSPROD.jpeg>] [46] [47]
+[46 </home/rodrigo/Desktop/monografia/Trabalho/src/images/enviromentStream_CHAOSPROD.jpeg>]
+Overfull \hbox (0.11467pt too wide) in paragraph at lines 936--974
+\OT1/cmr/m/n/12 Para evi-tar que os cen^^Sarios que iden-ti-fi-ca-mos em \OT1/cmr/bx/n/12 CHA-OS-PROD \OT1/cmr/m/n/12 aconte^^Xcam em produ^^Xc~ao
+ []
+
+[47]
+<images/deliveryStream.jpeg, id=165, 650.43pt x 359.09157pt>
+File: images/deliveryStream.jpeg Graphic file (type jpg)
+<use images/deliveryStream.jpeg>
+Package pdftex.def Info: images/deliveryStream.jpeg  used on input line 977.
+(pdftex.def)             Requested size: 426.79134pt x 235.63133pt.
+ [48 </home/rodrigo/Desktop/monografia/Trabalho/src/images/deliveryStream.jpeg>]
 Cap\'{\i }tulo 8.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 1003.
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 1051.
 
-[48
+[49
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1005--1034
+Underfull \hbox (badness 10000) in paragraph at lines 1053--1082
 
  []
 
-[49]
+[50]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[50] [51] [52]
+[51] [52] [53] [54] [55]
 Cap\'{\i }tulo 9.
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 51.
 
-[53
+[56
 
-] [54]
+] [57]
 \openout2 = `content/conclusao/index.aux'.
 
- (/home/rodrigo/Desktop/monografia/Trabalho/src/content/conclusao/index.tex [55
+ (/home/rodrigo/Desktop/monografia/Trabalho/src/content/conclusao/index.tex [58
 
 
 
@@ -1010,7 +1038,7 @@ Cap\'{\i }tulo 10.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 30.
 
-[56
+[59
 
 ]
 Cap\'{\i }tulo 11.
@@ -1018,30 +1046,30 @@ Cap\'{\i }tulo 11.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 53.
 
-[57
+[60
 
 ] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.bbl)
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is useless on input line 59.
 
-[58
+[61
 
 
 
 ] (/home/rodrigo/Desktop/monografia/Trabalho/src/index.aux (/home/rodrigo/Desktop/monografia/Trabalho/src/content/agradecimentos/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/resumo/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/introducao/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/fundamentos/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/proposta/index.aux) (/home/rodrigo/Desktop/monografia/Trabalho/src/content/conclusao/index.aux)) ) 
 Here is how much of TeX's memory you used:
- 4993 strings out of 492982
- 69678 string characters out of 6134896
- 167920 words of memory out of 5000000
- 8378 multiletter control sequences out of 15000+600000
+ 5006 strings out of 492982
+ 70036 string characters out of 6134896
+ 167938 words of memory out of 5000000
+ 8389 multiletter control sequences out of 15000+600000
  10757 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,45p,318b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on /home/rodrigo/Desktop/monografia/Trabalho/src/index.pdf (60 pages, 237042 bytes).
+Output written on /home/rodrigo/Desktop/monografia/Trabalho/src/index.pdf (63 pages, 382276 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 232 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
