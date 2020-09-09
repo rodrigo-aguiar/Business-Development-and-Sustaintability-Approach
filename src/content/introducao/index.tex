@@ -1,52 +1,51 @@
 \part{Introdução e motivações}
   \chapter{Introdução}
     Acreditamos que um produto escalável e uma equipe que se preocupe em aprender
-    com erros e manter o sistema sempre disponível, pode criar produtos de
-    alta qualidade e grande valor. \newline
-    Como já é apresentado na Site Reliability Engineering \cite{SiteReliabilityEngineering},
-    devemos esquecer a cultura de culpar as pessoas por erros cometidos e adquirir
-    uma cultura de aprendizado, utilizar do erro para entender como ele ocorreu e
-    assim produzir um produto com maior qualidade e adquirir o conhecimento para
-    que o erro não ocorra novamente ou ocorra em outros produtos. Adquirir essa
-    maturidade e esse \textit{mindset} é um processo, não é nada imediato, e é
-    necessário entender em qual momento a equipe está e como implementar estes
-    processos. \newline
-    De acordo com o The DevOps Handbook \cite{TheDevOpsHandbook}, esse processo de
+    com erros e manter o sistema sempre disponível, pode criar produtos de alta
+    qualidade e grande valor. Como já apresentado no Site Reliability Engineering
+    \cite{SiteReliabilityEngineering}, devemos esquecer a cultura de culpar as
+    pessoas por erros cometidos e adquirir uma cultura de aprendizado, utilizar
+    do erro para entender como ele ocorreu e assim produzir um produto com maior
+    qualidade e adquirir o conhecimento para que o erro não ocorra novamente no
+    nosso produto ou em outros. Adquirir essa maturidade e esse \textit{mindset}
+    é um processo, não é nada imediato, e é necessário entender em qual momento
+    a equipe está e como implementar estes processos. \newline
+    De acordo com o The DevOps Handbook \cite{TheDevOpsHandbook}, o processo de
     transformação é divido em três partes, o fluxo, \textit{feedback} e, aprendizado
-    continuo e experimentação. A primeira parte é sobre definirmos o nosso fluxo de
-    trabalho, os nossos processos e com isso automatiza-los, com a criação do
+    continuo e experimentação. A primeira parte é sobre definirmos o nosso fluxo
+    de trabalho, os nossos processos e com isso automatiza-los com a criação do
     \textit{pipeline}, realização de testes automatizados, estruturação da arquitetura
-    do \textit{software} e conseguindo realizar entregas de baixo risco. A segunda
-    parte é adquirir a prática do \textit{feedback}, cujo objetivo é o de aprender
-    com os nossos erros, tentar solucionar o mais rápido possível e logo após, realizar
-    uma reunião com todos os envolvidos e interessados para adquirir entender o que
-    ocorreu, quais foram as medidas tomadas e o que fazer para não ocorrer novamente,
-    sempre lembrando que o objetivo não é encontrar um culpado, mas sim aprender com
-    o ocorrido. Outro fator importante é o de investir tempo em melhorar a telemetria
-    que temos sobre o sistema, trabalhar em quais informações precisamos para
-    supervisionar o funcionamento do sistema e evitarmos que problemas ocorram,
-    como, por exemplo, manter o controle da desempenho de cada servidor utilizado
-    para o funcionamento da aplicação, quando um deles estiver com o nível de
-    processamento abaixo do esperado, podemos analisar se ele não está sendo aproveitado,
-    e assim realocar recursos para melhorar o desempenho do sistema, ou se ele está
-    apresentando sinais de mau funcionamento. A terceira parte é o de aprendizado
-    continuo e experimentação, ela nos incentiva a realizar experimentos no nosso
-    produto de modo a adapta-lo e gerarmos conhecimento para o negócio, um exemplo de
-    experimento, unificar três telas em uma só e ver como o usuário reage a esta
-    mudança, dependendo do resultado, podemos aumentar a produtividade do usuário
-    no sistema, ou descobrir que ele isso o deixou mais confuso, em ambos os casos,
-    aprendemos sobre o comportamento do nosso usuário e isso pode ser utilizado para
-    futuras demandas e resoluções de erros. Outro ponto importante sobre essa parte
-    é a de gerar conhecimento, assim que algo é descoberto, devemos apresentar para
-    todos da equipe e caso seja algo que possa ser utilizados em outros projetos,
-    escalar esse aprendizado para a empresa, onde devemos considerar demonstrar
-    tudo como conhecimento, seja uma descoberta comportamental do usuário,
-    a resolução de algum defeito, um erro cometido durante o projeto, qualquer
-    aprendizado deve ser considerado e, devido a isso, não podemos culpar
-    as pessoas por erros cometidos. Quando culpamos alguém, inibimos a pessoa de
-    demonstrar o erro, consequentemente, perdemos uma importante fonte de aprendizagem,
-    desta forma, perdemos a oportunidade de melhorarmos nosso produto, nossa equipe
-    e nosso trabalho. \newline
+    do \textit{software} e desta forma, conseguindo realizar entregas de baixo
+    risco. A segunda parte é adquirir a prática do \textit{feedback}, cujo objetivo
+    é o de aprender com os nossos erros, tentar solucionar o mais rápido possível
+    e logo após, realizar uma reunião com todos os envolvidos e interessados para
+    entender o que ocorreu, quais foram as medidas tomadas e o que fazer para não
+    ocorrer novamente, sempre lembrando que o objetivo não é encontrar um culpado,
+    mas sim aprender com o ocorrido. Outro fator importante é o de investir tempo
+    em melhorar a telemetria que temos sobre o sistema, trabalhar em quais informações
+    precisamos para supervisionar o funcionamento do sistema e evitarmos que
+    problemas ocorram, como, por exemplo, manter o controle do desempenho de cada
+    servidor utilizado para o funcionamento da aplicação, quando um deles estiver
+    com o nível de processamento abaixo do esperado, podemos analisar se ele não
+    está sendo aproveitado, e assim realocar recursos para melhorar o desempenho
+    do sistema, ou se ele está apresentando sinais de mau funcionamento. A terceira
+    parte é o de aprendizado continuo e experimentação, ela nos incentiva a realizar
+    experimentos no nosso produto de modo a adapta-lo e gerarmos conhecimento para
+    o negócio, um exemplo de experimento, unificar três telas em uma só e ver como
+    o usuário reage a esta mudança, dependendo do resultado, podemos aumentar a
+    produtividade do usuário no sistema, ou descobrir que ele isso o deixou mais
+    confuso, em ambos os casos, aprendemos sobre o comportamento do nosso usuário
+    e isso pode ser utilizado para futuras demandas e resoluções de erros. Outro
+    ponto importante sobre essa parte é a de gerar conhecimento, assim que algo
+    é descoberto, devemos apresentar para todos da equipe e caso seja algo que
+    possa ser utilizados em outros projetos, escalar esse aprendizado para a
+    empresa, onde devemos considerar demonstrar tudo como conhecimento, seja uma
+    descoberta comportamental do usuário, a resolução de algum defeito, um erro
+    cometido durante o projeto, qualquer aprendizado deve ser considerado e,
+    devido a isso, não podemos culpar as pessoas por erros cometidos. Quando
+    culpamos alguém, inibimos a pessoa de demonstrar o erro, consequentemente,
+    perdemos uma importante fonte de aprendizagem, desta forma, perdemos a
+    oportunidade de melhorarmos nosso produto, nossa equipe e nosso trabalho. \newline
     Um dos problemas mais urgentes em nosso sistema e que precisamos procurar evitar
     o máximo possível são os de disponibilidade. Um sistema que não está disponível,
     perde credibilidade, o negócio é impactado de forma direta e os usuários que
@@ -66,62 +65,56 @@
     de esperar, como o ele não teve o resultado em tempo hábil e o vendedor dependia
     desse valor para continuar a negociação, decidiram continuar a conversa outro dia,
     já com o valor em mãos. Após este episódio, nosso vendedor perdeu a confiança
-    no sistema e decidiu não mais utilizar a funcionalidade de negociação, embora a
+    no sistema e decidiu não utilizar mais a funcionalidade de negociação, embora a
     simulação tenha funcionado muito bem para produtos pequenos, quando o nosso
     vendedor mais precisou, ele não atendeu as expectativas. Cinco minutos foi o
     suficiente para não disponibilizar essa funcionalidade para esse usuário, que
     como está aborrecido, vai passar esta frustração para outros usuários. Se não
     tivermos a informação de que há este problema no sistema, seja por \textit{feedback}
-    ou por alguma métrica, jamais saberemos deste erro e com o passar do tempo
-    esta funcionalidade será esquecida. \newline
+    ou por alguma métrica, jamais saberemos deste erro e com o passar do tempo esta
+    funcionalidade será esquecida. \newline
     Outro ponto a ser considerado é o preço do \textit{software}, podemos manter
     nosso sistema sempre disponível se tivermos uma grande quantidade de servidores,
     armazenamento infinito, e vário domínios de redundância, o custo para manter
     todos esses recursos é inviável, precisamos sempre controlar o que o sistema
-    precisa e o que a empresa pode pagar. Controlar os custos é uma tarefa
-    desafiadora, precisamos ver o qual o retorno que estamos recebendo com a aplicação
-    e quais são os riscos que podemos enfrentar. Não adianta montar um sistema
-    indestrutível se ele não gera valor para o negócio, e não adianta deixar o
-    sistema vulnerável para controlar custos, a queda de um produto acaba
-    por descredibilizar a empresa, pois este erro se torna um símbolo de falta
-    de qualidade. O meio-termo seria montar um produto escalável,
-    conseguir controlar o quanto de recurso disponibilizar, saber quais são as
-    épocas em que precisamos do sistema funcionando, quais são as funcionalidades
-    mais críticas e quais riscos podemos aceitar. Tomar as nossas decisões com
-    base nos riscos, nos dá segurança e preparo para as mais adversas situações,
-    como planejamos que pode acontecer erros, conseguimos nos antecipar e solucionar
-    o mais rápido possível, gerando pouco impacto para o negócio. Sabendo onde estão
-    os pontos fracos do nosso produto, podemos prever que um problema ocorra antes
-    que ele aconteça, e acompanhando as métricas diariamente, quando os primeiros
-    sinais de que vai ocorrer um erro, podemos reavaliar os riscos e assumir uma
-    postura de mitigação ou solução. Admitindo que nosso produto não é perfeito e
-    aceitando falhas, podemos trabalhar na melhora continua. Com a possibilidade
-    de controlar os riscos, podemos investir financeiramente conforme a necessidade
-    do negócio, muitas vezes é mais viável comunicar que determinada funcionalidade
-    vai para de funcionar por um período, do que realocar recursos para manter em
-    funcionamento.
+    precisa e o que a empresa pode pagar. Controlar os custos é uma tarefa desafiadora,
+    precisamos ver qual o retorno que estamos recebendo com a aplicação e quais
+    são os riscos que podemos enfrentar. Não adianta montar um sistema indestrutível
+    se ele não gera valor para o negócio, e não adianta deixar o sistema vulnerável
+    para controlar custos, a queda de um produto acaba por descredibilizar a empresa,
+    pois este erro se torna um símbolo de falta de qualidade. O que devemos fazer
+    é montar um produto escalável, conseguir controlar o quanto de recurso disponibilizar,
+    saber quais são as épocas em que precisamos do sistema funcionando, quais são
+    as funcionalidades mais críticas e quais riscos podemos aceitar. Tomar as
+    nossas decisões com base nos riscos, nos dá segurança e preparo para as mais
+    adversas situações, como planejamos que pode acontecer erros, conseguimos nos
+    antecipar e solucionar estes error o mais rápido possível, gerando pouco impacto
+    para o negócio. Sabendo onde estão os pontos fracos do nosso produto, podemos
+    prever que um problema ocorra antes que ele aconteça acompanhando as métricas
+    diariamente, quando os primeiros sinais de que vai ocorrer um erro surgirem,
+    podemos reavaliar os riscos e assumir uma postura de mitigação ou solução.
+    Admitindo que nosso produto não é perfeito e aceitando falhas, podemos trabalhar
+    de forma a melhorar o nosso produto continuamente.
 
     \section{Motivações}
       Nossas motivações se definem em criar e manter produtos escaláveis,
       possibilitando o controle de seu custo com base na utilização
       dos usuários e na situação da empresa, demonstrando como utilizar a interação
-      dos usuários para aprender como melhorar e engajando a criação de testes
-      automatizados como um processo de aprendizagem, detecção de falhas e de
-      controle de qualidade. \newline
-      Pretendemos demonstrar técnicas para a identificação de erros e como
-      aprender com eles, possibilitando que o seu produto evolua e que os
-      aprendizados auxiliam na criação de outros produtos. Desta forma, a busca
-      por valor não se limita a apenas a um sistema, beneficiando o negócio com
-      outras visões e ampliando a inteligência de mercado na empresa. A abordagem
-      apresentada não tem como objetivo criar produtos perfeitos, sem erros, e
-      que vão concluir todos os objetivos da empresa, mas utilizar do produto e da
-      interação do usuário para montar \textit{sfotware} de qualidade aproveitando
-      o aprendizado obtido para auxiliar na evolução do negócio, gerar valor para
-      a empresa e auxiliar na criação de novos produtos.
+      dos usuários para aprender como melhorar e engajar a criação de testes
+      automatizados como um processo de aprendizagem e de controle de qualidade. \newline
+      Pretendemos demonstrar técnicas para aprender com os erros possibilitando
+      que o seu produto evolua e que os aprendizados auxiliem na criação de outros
+      produtos. Desta forma, a busca por valor não se limita a apenas a um sistema,
+      beneficiando o negócio com outras visões e ampliando a inteligência de mercado
+      na empresa. A abordagem apresentada não tem como objetivo criar produtos perfeitos,
+      sem erros, e que vão concluir todos os objetivos da empresa, mas pretendemos
+      utilizar do produto e da interação do usuário para montar \textit{sfotware}
+      de qualidade, aproveitando o aprendizado obtido para auxiliar na evolução
+      do negócio, gerar valor para a empresa e auxiliar na criação de novos produtos.
 
   \chapter{Metodologia de pesquisa}
     Para a realização deste trabalho foi utilizado livros, artigos, \textit{papers}
-    e notas técnicas para a criação de sistemas com qualidade. Procuramos por trabalhos
+    e notas técnicas de criação de sistemas com qualidade. Procuramos por trabalhos
     que descrevessem o que é qualidade de \textit{software} e como construir
     produtos com qualidade. Durante a pesquisa foi identificado a importância dos
     requisitos não-funcionais o que nos levou a procurar por trabalhos que
@@ -134,8 +127,8 @@
 
   \chapter{Objetivo}
     Este trabalho tem como objetivo apresentar uma abordagem para a construção de
-    \textit{software} com qualidade, focando em sua escalabilidade onde, através
-    da sustentação do produto, definirmos melhorias baseadas nas métricas criadas
+    \textit{software} com qualidade, focando em sua escalabilidade. Através da
+    sustentação do produto, definirmos melhorias baseadas nas métricas criadas
     para supervisionar a saúde do sistema e para verificar como está sendo a
-    utilização do usuário. Com estes dados, pretendemos identificar as mudanças
-    no negócio e tornar as funcionalidades criadas mais aderentes a essas mudanças.
+    utilização do usuário e com estes dados, identificamos as mudanças no negócio
+    e conseguimos tornar as funcionalidades criadas mais aderentes a essas mudanças.
