@@ -14,20 +14,20 @@
 \contentsline {chapter}{Parte~III:~\MakeUppercase {Proposta}}{26}
 \contentsline {chapter}{\numberline {6}Como criar produtos com qualidade?}{27}
 \contentsline {section}{\numberline {6.1}Assumindo riscos}{28}
-\contentsline {section}{\numberline {6.2}Entendendo os requisitos de uma funcionalidade}{32}
+\contentsline {section}{\numberline {6.2}Entendendo os requisitos de uma funcionalidade}{31}
 \contentsline {section}{\numberline {6.3}Arquitetura evolutiva}{36}
-\contentsline {section}{\numberline {6.4}Estruturando o fluxo de entrega}{38}
-\contentsline {section}{\numberline {6.5}Automatizando testes de qualidade}{42}
-\contentsline {chapter}{\numberline {7}Como adquirir escalabilidade?}{43}
-\contentsline {section}{\numberline {7.1}Descobrindo os limites do sistema}{43}
-\contentsline {section}{\numberline {7.2}Desenvolvendo estrat\IeC {\'e}gias de escalabilidade}{46}
-\contentsline {chapter}{\numberline {8}Como manter o seu produto?}{49}
-\contentsline {section}{\numberline {8.1}Ouvindo os usu\IeC {\'a}rios}{50}
-\contentsline {section}{\numberline {8.2}Aprendendo com os erros}{51}
-\contentsline {section}{\numberline {8.3}Testes automatizados como ferramenta de aprendizado}{52}
-\contentsline {section}{\numberline {8.4}Utilizando os dados adquiridos}{53}
-\contentsline {chapter}{\numberline {9}Resultados da proposta}{56}
-\contentsline {chapter}{Parte~IV:~\MakeUppercase {Conclus\IeC {\~a}o}}{58}
-\contentsline {chapter}{\numberline {10}Resultados em rela\IeC {\c c}\IeC {\~a}o ao objetivo}{59}
-\contentsline {chapter}{\numberline {11}Trabalhos futuros}{60}
-\contentsline {chapter}{Refer\IeC {\^e}ncias}{61}
+\contentsline {section}{\numberline {6.4}Estruturando o fluxo de entrega}{37}
+\contentsline {section}{\numberline {6.5}Automatizando testes de qualidade}{41}
+\contentsline {chapter}{\numberline {7}Como adquirir escalabilidade?}{42}
+\contentsline {section}{\numberline {7.1}Descobrindo os limites do sistema}{42}
+\contentsline {section}{\numberline {7.2}Desenvolvendo estrat\IeC {\'e}gias de escalabilidade}{45}
+\contentsline {chapter}{\numberline {8}Como manter o seu produto?}{48}
+\contentsline {section}{\numberline {8.1}Ouvindo os usu\IeC {\'a}rios}{49}
+\contentsline {section}{\numberline {8.2}Aprendendo com os erros}{50}
+\contentsline {section}{\numberline {8.3}Testes automatizados como ferramenta de aprendizado}{51}
+\contentsline {section}{\numberline {8.4}Utilizando os dados adquiridos}{52}
+\contentsline {chapter}{\numberline {9}Resultados da proposta}{54}
+\contentsline {chapter}{Parte~IV:~\MakeUppercase {Conclus\IeC {\~a}o}}{56}
+\contentsline {chapter}{\numberline {10}Resultados em rela\IeC {\c c}\IeC {\~a}o ao objetivo}{57}
+\contentsline {chapter}{\numberline {11}Trabalhos futuros}{58}
+\contentsline {chapter}{Refer\IeC {\^e}ncias}{59}
