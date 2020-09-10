@@ -31,37 +31,37 @@ Warning--campo year vazio ou faltando em manifestoAgile
 +---------------------------------------------------------+
 You've used 12 entries,
             6714 wiz_defined-function locations,
-            1281 strings with 11506 characters,
-and the built_in function-call counts, 12745 in all, are:
-= -- 1430
+            1282 strings with 11528 characters,
+and the built_in function-call counts, 12771 in all, are:
+= -- 1434
 > -- 319
 < -- 163
 + -- 345
 - -- 96
-* -- 801
-:= -- 1694
-add.period$ -- 47
+* -- 802
+:= -- 1696
+add.period$ -- 48
 call.type$ -- 12
-change.case$ -- 113
+change.case$ -- 114
 chr.to.int$ -- 24
 cite$ -- 12
-duplicate$ -- 893
-empty$ -- 719
+duplicate$ -- 896
+empty$ -- 720
 format.name$ -- 463
-if$ -- 2859
+if$ -- 2865
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 217
-newline$ -- 63
+missing$ -- 218
+newline$ -- 64
 num.names$ -- 50
-pop$ -- 293
+pop$ -- 297
 preamble$ -- 1
 purify$ -- 47
 quote$ -- 0
-skip$ -- 1079
+skip$ -- 1075
 stack$ -- 1
-substring$ -- 411
-swap$ -- 337
+substring$ -- 413
+swap$ -- 339
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
@@ -69,5 +69,5 @@ type$ -- 10
 warning$ -- 1
 while$ -- 67
 width$ -- 0
-write$ -- 175
+write$ -- 176
 (There was 1 warning)
