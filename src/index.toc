@@ -6,10 +6,10 @@
 \contentsline {chapter}{\numberline {3}Objetivo}{17}
 \contentsline {chapter}{Parte~II:~\MakeUppercase {Fundamentos conceituais}}{18}
 \contentsline {chapter}{\numberline {4}Manifesto \IeC {\'A}gil}{19}
-\contentsline {chapter}{\numberline {5}DevOps}{21}
-\contentsline {section}{\numberline {5.1}\textit {Continuous integration}}{22}
-\contentsline {section}{\numberline {5.2}\textit {Continuous delivery}}{23}
-\contentsline {section}{\numberline {5.3}\textit {Test-driven development}}{24}
+\contentsline {chapter}{\numberline {5}\textit {DevOps}}{21}
+\contentsline {section}{\numberline {5.1}\textit {Continuous Integration}}{22}
+\contentsline {section}{\numberline {5.2}\textit {Continuous Delivery}}{23}
+\contentsline {section}{\numberline {5.3}\textit {Test-Driven Development}}{23}
 \contentsline {section}{\numberline {5.4}Escalabilidade}{25}
 \contentsline {chapter}{Parte~III:~\MakeUppercase {Proposta}}{26}
 \contentsline {chapter}{\numberline {6}Como criar produtos com qualidade?}{27}
