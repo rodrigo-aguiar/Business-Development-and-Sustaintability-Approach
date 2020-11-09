@@ -1120,9 +1120,11 @@
 %% TCC
 \newcommand{\mba}[1]{%
   \renewcommand{\PoliTipoDocData}{Trabalho de Conclusão de Curso}
-  \comentario{Trabalho apresentado à Escola
-    Politécnica da Universidade de
-    São Paulo para a conclusão do MBA de #1.}%
+  \comentario{
+    Monografia apresentada ao \PoliDepartamentoData \space
+    da Universidade de São Paulo, como parte dos requisitos para a obtenção do
+    título de MBA em #1.
+  }%
 }
 
 %% TCC
