@@ -12,16 +12,16 @@
 \contentsline {subsection}{\numberline {2.2.3}\textit {Test-Driven Development}}{19}%
 \contentsline {subsection}{\numberline {2.2.4}Sustentabilidade}{20}%
 \contentsline {chapter}{\numberline {3}Proposta}{22}%
-\contentsline {section}{\numberline {3.1}Como criar produtos com qualidade?}{22}%
+\contentsline {section}{\numberline {3.1}Como criar produtos com qualidade}{22}%
 \contentsline {subsection}{\numberline {3.1.1}Assumindo riscos}{23}%
 \contentsline {subsection}{\numberline {3.1.2}Entendendo os requisitos de uma funcionalidade}{27}%
 \contentsline {subsection}{\numberline {3.1.3}Arquitetura evolutiva}{32}%
 \contentsline {subsection}{\numberline {3.1.4}Estruturando o fluxo de entrega}{34}%
 \contentsline {subsection}{\numberline {3.1.5}Automatizando testes de qualidade}{37}%
-\contentsline {section}{\numberline {3.2}Como adquirir escalabilidade?}{38}%
+\contentsline {section}{\numberline {3.2}Como adquirir escalabilidade}{38}%
 \contentsline {subsection}{\numberline {3.2.1}Descobrindo os limites do sistema}{39}%
 \contentsline {subsection}{\numberline {3.2.2}Desenvolvendo estratégias de escalabilidade}{41}%
-\contentsline {section}{\numberline {3.3}Como manter o seu produto?}{44}%
+\contentsline {section}{\numberline {3.3}Como manter o seu produto}{44}%
 \contentsline {subsection}{\numberline {3.3.1}Ouvindo os usuários}{45}%
 \contentsline {subsection}{\numberline {3.3.2}Aprendendo com os erros}{46}%
 \contentsline {subsection}{\numberline {3.3.3}Testes automatizados como ferramenta de aprendizado}{47}%
