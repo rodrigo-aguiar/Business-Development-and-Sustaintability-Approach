@@ -1,33 +1,33 @@
 \babel@toc {brazil}{}
-\contentsline {chapter}{Parte~I:~\MakeUppercase {Introdução e motivações}}{11}%
-\contentsline {chapter}{\numberline {1}Introdução}{12}%
-\contentsline {section}{\numberline {1.1}Motivações}{14}%
-\contentsline {chapter}{\numberline {2}Metodologia de pesquisa}{16}%
-\contentsline {chapter}{\numberline {3}Objetivo}{17}%
-\contentsline {chapter}{Parte~II:~\MakeUppercase {Fundamentos conceituais}}{18}%
-\contentsline {chapter}{\numberline {4}Manifesto Ágil}{19}%
-\contentsline {chapter}{\numberline {5}\textit {DevOps}}{21}%
-\contentsline {section}{\numberline {5.1}\textit {Continuous Integration}}{22}%
-\contentsline {section}{\numberline {5.2}\textit {Continuous Delivery}}{23}%
-\contentsline {section}{\numberline {5.3}\textit {Test-Driven Development}}{24}%
-\contentsline {section}{\numberline {5.4}Sustentabilidade}{25}%
-\contentsline {chapter}{Parte~III:~\MakeUppercase {Proposta}}{26}%
-\contentsline {chapter}{\numberline {6}Como criar produtos com qualidade?}{27}%
-\contentsline {section}{\numberline {6.1}Assumindo riscos}{28}%
-\contentsline {section}{\numberline {6.2}Entendendo os requisitos de uma funcionalidade}{31}%
-\contentsline {section}{\numberline {6.3}Arquitetura evolutiva}{36}%
-\contentsline {section}{\numberline {6.4}Estruturando o fluxo de entrega}{38}%
-\contentsline {section}{\numberline {6.5}Automatizando testes de qualidade}{41}%
-\contentsline {chapter}{\numberline {7}Como adquirir escalabilidade?}{43}%
-\contentsline {section}{\numberline {7.1}Descobrindo os limites do sistema}{43}%
-\contentsline {section}{\numberline {7.2}Desenvolvendo estratégias de escalabilidade}{46}%
-\contentsline {chapter}{\numberline {8}Como manter o seu produto?}{49}%
-\contentsline {section}{\numberline {8.1}Ouvindo os usuários}{50}%
-\contentsline {section}{\numberline {8.2}Aprendendo com os erros}{51}%
-\contentsline {section}{\numberline {8.3}Testes automatizados como ferramenta de aprendizado}{52}%
-\contentsline {section}{\numberline {8.4}Utilizando os dados adquiridos}{53}%
-\contentsline {chapter}{\numberline {9}Resultados da proposta}{55}%
-\contentsline {chapter}{Parte~IV:~\MakeUppercase {Conclusão}}{57}%
-\contentsline {chapter}{\numberline {10}Resultados em relação ao objetivo}{58}%
-\contentsline {chapter}{\numberline {11}Trabalhos futuros}{59}%
-\contentsline {chapter}{Referências}{60}%
+\contentsline {chapter}{\numberline {1}Introdução e motivações}{11}%
+\contentsline {section}{\numberline {1.1}Introdução}{11}%
+\contentsline {subsection}{\numberline {1.1.1}Motivações}{13}%
+\contentsline {section}{\numberline {1.2}Metodologia de pesquisa}{14}%
+\contentsline {section}{\numberline {1.3}Objetivo}{14}%
+\contentsline {chapter}{\numberline {2}Fundamentos conceituais}{15}%
+\contentsline {section}{\numberline {2.1}Manifesto Ágil}{15}%
+\contentsline {section}{\numberline {2.2}\textit {DevOps}}{16}%
+\contentsline {subsection}{\numberline {2.2.1}\textit {Continuous Integration}}{17}%
+\contentsline {subsection}{\numberline {2.2.2}\textit {Continuous Delivery}}{18}%
+\contentsline {subsection}{\numberline {2.2.3}\textit {Test-Driven Development}}{19}%
+\contentsline {subsection}{\numberline {2.2.4}Sustentabilidade}{20}%
+\contentsline {chapter}{\numberline {3}Proposta}{22}%
+\contentsline {section}{\numberline {3.1}Como criar produtos com qualidade?}{22}%
+\contentsline {subsection}{\numberline {3.1.1}Assumindo riscos}{23}%
+\contentsline {subsection}{\numberline {3.1.2}Entendendo os requisitos de uma funcionalidade}{27}%
+\contentsline {subsection}{\numberline {3.1.3}Arquitetura evolutiva}{32}%
+\contentsline {subsection}{\numberline {3.1.4}Estruturando o fluxo de entrega}{34}%
+\contentsline {subsection}{\numberline {3.1.5}Automatizando testes de qualidade}{37}%
+\contentsline {section}{\numberline {3.2}Como adquirir escalabilidade?}{38}%
+\contentsline {subsection}{\numberline {3.2.1}Descobrindo os limites do sistema}{39}%
+\contentsline {subsection}{\numberline {3.2.2}Desenvolvendo estratégias de escalabilidade}{41}%
+\contentsline {section}{\numberline {3.3}Como manter o seu produto?}{44}%
+\contentsline {subsection}{\numberline {3.3.1}Ouvindo os usuários}{45}%
+\contentsline {subsection}{\numberline {3.3.2}Aprendendo com os erros}{46}%
+\contentsline {subsection}{\numberline {3.3.3}Testes automatizados como ferramenta de aprendizado}{47}%
+\contentsline {subsection}{\numberline {3.3.4}Utilizando os dados adquiridos}{48}%
+\contentsline {section}{\numberline {3.4}Resultados da proposta}{50}%
+\contentsline {chapter}{\numberline {4}Conclusão}{52}%
+\contentsline {section}{\numberline {4.1}Resultados em relação ao objetivo}{52}%
+\contentsline {section}{\numberline {4.2}Trabalhos futuros}{53}%
+\contentsline {chapter}{Referências}{54}%

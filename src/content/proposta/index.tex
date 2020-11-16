@@ -1,5 +1,5 @@
-\part{Proposta}
-  \chapter{Como criar produtos com qualidade?}
+\chapter{Proposta}
+  \section{Como criar produtos com qualidade?}
     Quando produzimos um \textit{software}, focamos sempre nas funcionalidades que
     o sistema deve conter, pretendemos entregar o mais rápido possível e respeitar
     as datas alinhadas com o negócio. Porém, na pressa de colocar as funcionalidades
@@ -40,7 +40,7 @@
     mais frequência do que as necessidades de um avião, se utilizarmos tanto tempo
     para planejar como podemos acompanhar as mudanças do negócio?
 
-    \section{Assumindo riscos}
+    \subsection{Assumindo riscos}
       Para conseguirmos acompanhar o negócio e gerar valor para a empresa, devemos
       escolher os riscos que vamos enfrentar. Mesmo um avião encara riscos no seu
       projeto, por isso que são implementados diversas redundâncias nas funcionalidades
@@ -58,23 +58,28 @@
 
       \begin{table}[h!]
         \centering
-        \begin{tabular}{|c|p{10cm}|}
+        \label{Tabela:1}
+        \caption{Definição da classificação de funcionalidades}
+        \begin{tabular}{c p{9cm}}
           \hline
-          \textbf{Funcionalidade} &
-          Nome da funcionalidade que será desenvolvida. \\ \hline
-          \textbf{Importância} &
+          \textbf{Característica} &
+          \textbf{Descrição} \\
+          \hline
+          Funcionalidade &
+          Nome da funcionalidade que será desenvolvida. \\
+          Importância &
           A importância que a funcionalidade representa para o negócio, separada
-          entre, alta, média e baixa. \\ \hline
-          \textbf{Objetivos} &
-          Os objetivos que a funcionalidade irá auxiliar a alcançar. \\ \hline
-          \textbf{Riscos} &
-          Quais os riscos que essa funcionalidade pode gerar para o negócio. \\ \hline
-          \textbf{Dependências} &
+          entre, alta, média e baixa. \\
+          Objetivos &
+          Os objetivos que a funcionalidade irá auxiliar a alcançar. \\
+          Riscos &
+          Quais os riscos que essa funcionalidade pode gerar para o negócio. \\
+          Dependências &
           Quais são as dependências para a utilização e desenvolvimento dessa
           funcionalidade. \\ \hline
+          \newline
+          \small{Fonte: do próprio autor}
         \end{tabular}
-        \caption{Definição da classificação de funcionalidades}
-        \label{Tabela:1}
       \end{table}
 
       Toda funcionalidade deve ter um nome que represente o que será desenvolvido,
@@ -151,7 +156,9 @@
 
       \begin{table}[h!]
         \centering
-        \begin{tabular}{|c|c|p{8cm}|}
+        \label{Tabela:2}
+        \caption{Exemplo de levantamento de funcionalidades}
+        \begin{tabular}{c c p{5cm}}
           \hline
           \textbf{Funcionalidade} &
           \textbf{Importância}  &
@@ -163,7 +170,7 @@
           %Objetivos
           Padronização na criação de produtos; \newline
           Reduzir o cadastro incorreto de produtos.
-          \\ \hline
+          \\
           %Funcionalidade
           Venda de produtos &
           %Importância
@@ -172,7 +179,7 @@
           Venda faseada do produto; \newline
           Melhor rastreabilidade da venda; \newline
           Padronização da negociação.
-          \\ \hline
+          \\
           %Funcionalidade
           \textit{Chat} interno &
           %Importância
@@ -180,9 +187,9 @@
           %Objetivos
           Otimização da comunicação entre a área técnica e os vendedores.
           \\ \hline
+          \newline
+          \small{Fonte: do próprio autor}
         \end{tabular}
-        \caption{Exemplo de levantamento de funcionalidades}
-        \label{Tabela:2}
       \end{table}
 
       Na tabela dois, representamos três funcionalidades: o cadastro de produtos,
@@ -218,8 +225,9 @@
       exemplo, na tabela três. \newline
 
       \begin{table}[h!]
-        \centering
-        \begin{tabular}{|c|p{4cm}|p{6cm}|}
+        \label{Tabela:3}
+        \caption{Exemplo de levantamento dos riscos e dependências por funcionalidade}
+        \begin{tabular}{c p{4cm} p{4cm}}
           \hline
           \textbf{Funcionalidade} &
           \textbf{Riscos}  &
@@ -233,7 +241,7 @@
           %Dependências
           Treinamento para cadastrar os produtos no sistema;\newline
           Explicação das regras utilizadas para o cadastro dos produtos.
-          \\ \hline
+          \\
           %Funcionalidade
           Venda de produtos &
           %Riscos
@@ -243,7 +251,7 @@
           Funcionalidade de cadastro de produtos; \newline
           Treinamento para realizar vendas no sistema; \newline
           Explicação das fases na venda.
-          \\ \hline
+          \\
           %Funcionalidade
           \textit{Chat} para clientes &
           %Riscos
@@ -253,12 +261,12 @@
           Treinamento para a utilização do \textit{chat}; \newline
           Treinamento sobre como se comunicar por \textit{chat}.
           \\ \hline
+          \newline
+          \small{Fonte: do próprio autor}
         \end{tabular}
-        \caption{Exemplo de levantamento dos riscos e dependências por funcionalidade}
-        \label{Tabela:3}
       \end{table}
 
-      \section{Entendendo os requisitos de uma funcionalidade}
+      \subsection{Entendendo os requisitos de uma funcionalidade}
         Após entendermos os riscos, escolher quais vamos aceitar e definir a prioridade
         das funcionalidades que queremos desenvolver, devemos começar a refinar cada
         uma e definir quais são seus requisitos. É importante salientar que os
@@ -323,23 +331,28 @@
 
       \begin{table}[h!]
         \centering
-        \begin{tabular}{|c|p{10cm}|}
-          \hline
-          \textbf{Funcionalidade} &
-          Nome da funcionalidade que o requisito faz parte. \\ \hline
-          \textbf{Requisito} &
-          Nome do requisito que faz parte da funcionalidade. \\ \hline
-          \textbf{Importância} &
-          O nível de importância do requisito separado em baixo, médio e alto. \\ \hline
-          \textbf{Mutabilidade} &
-          O quanto este requisito pode sofrer alterações em porcentagem. \\ \hline
-          \textbf{Stakeholders} &
-          Quais áreas são impactadas com esta funcionalidade. \\ \hline
-          \textbf{Descrição} &
-          A descrição do requisito da funcionalidade. \\ \hline
-        \end{tabular}
-        \caption{Definição da classificação de requisitos}
         \label{Tabela:4}
+        \caption{Definição da classificação de requisitos}
+        \begin{tabular}{c p{9cm}}
+          \hline
+          \textbf{Característica} &
+          \textbf{Descrição} \\
+          \hline
+          Funcionalidade &
+          Nome da funcionalidade que o requisito faz parte. \\
+          Requisito &
+          Nome do requisito que faz parte da funcionalidade. \\
+          Importância &
+          O nível de importância do requisito separado em baixo, médio e alto. \\
+          Mutabilidade &
+          O quanto este requisito pode sofrer alterações em porcentagem. \\
+          Stakeholders &
+          Quais áreas são impactadas com esta funcionalidade. \\
+          Descrição &
+          A descrição do requisito da funcionalidade. \\ \hline
+          \newline
+          \small{Fonte: do próprio autor}
+        \end{tabular}
       \end{table}
 
       Agora que temos mapeado os processos que fazem parte de determinada funcionalidade,
@@ -379,69 +392,84 @@
 
       \begin{table}[h!]
         \centering
-        \begin{tabular}{|c|p{10cm}|}
+        \label{Tabela:5}
+        \caption{Exemplo de classificação de requisito funcional}
+        \begin{tabular}{c p{9cm}}
           \hline
-          \textbf{Funcionalidade} &
-          Cadastro de produtos \\ \hline
-          \textbf{Requisito} &
-          Notificação de projeto de produto base \\ \hline
-          \textbf{Importância} &
-          Média \\ \hline
-          \textbf{Mutabilidade} &
-          45\% \\ \hline
-          \textbf{Stakeholders} &
-          Área técnica \\ \hline
-          \textbf{Descrição} &
+          \textbf{Característica} &
+          \textbf{Descrição} \\
+          \hline
+          Funcionalidade &
+          Cadastro de produtos \\
+          Requisito &
+          Notificação de projeto de produto base \\
+          Importância &
+          Média \\
+          Mutabilidade &
+          45\% \\
+          Stakeholders &
+          Área técnica \\
+          Descrição &
           Quando um projeto de produto base for cadastrado, o sistema deve
           enviar uma notificação para a área técnica, que um novo produto
           foi cadastro e aguarda aprovação. \\ \hline
+          \newline
+          \small{Fonte: do próprio autor}
         \end{tabular}
-        \caption{Exemplo de classificação de requisito funcional}
-        \label{Tabela:5}
       \end{table}
 
       \begin{table}[h!]
         \centering
-        \begin{tabular}{|c|p{10cm}|}
+        \label{Tabela:6}
+        \caption{Exemplo de classificação de requisito não-funcional}
+        \begin{tabular}{c p{9cm}}
           \hline
-          \textbf{Funcionalidade} &
-          Cadastro de produtos \\ \hline
-          \textbf{Requisito} &
-          A notificação deve ser enviada imediatamente para a área técnica \\ \hline
-          \textbf{Importância} &
-          Média \\ \hline
-          \textbf{Mutabilidade} &
-          10\% \\ \hline
-          \textbf{Stakeholders} &
-          \textit{Marketing}, área técnica \\ \hline
-          \textbf{Descrição} &
+          \textbf{Característica} &
+          \textbf{Descrição} \\
+          \hline
+          Funcionalidade &
+          Cadastro de produtos \\
+          Requisito &
+          A notificação deve ser enviada imediatamente para a área técnica \\
+          Importância &
+          Média \\
+          Mutabilidade &
+          10\% \\
+          Stakeholders &
+          \textit{Marketing}, área técnica \\
+          Descrição &
           A notificação da criação do projeto deve ser enviada em um intervalo de
           menos de um segundo para a área técnica. \\ \hline
+          \newline
+          \small{Fonte: do próprio autor}
         \end{tabular}
-        \caption{Exemplo de classificação de requisito não-funcional}
-        \label{Tabela:6}
       \end{table}
 
       \begin{table}[h!]
         \centering
-        \begin{tabular}{|c|p{10cm}|}
+        \label{Tabela:7}
+        \caption{Exemplo de classificação de requisito inverso}
+        \begin{tabular}{c p{9cm}}
           \hline
-          \textbf{Funcionalidade} &
-          Cadastro de produtos \\ \hline
-          \textbf{Requisito} &
-          O cadastro é destinado somente para produtos base \\ \hline
-          \textbf{Importância} &
-          Alta \\ \hline
-          \textbf{Mutabilidade} &
-          7\% \\ \hline
-          \textbf{Stakeholders} &
-          Vendas \\ \hline
-          \textbf{Descrição} &
+          \textbf{Característica} &
+          \textbf{Descrição} \\
+          \hline
+          Funcionalidade &
+          Cadastro de produtos \\
+          Requisito &
+          O cadastro é destinado somente para produtos base \\
+          Importância &
+          Alta \\
+          Mutabilidade &
+          7\% \\
+          Stakeholders &
+          Vendas \\
+          Descrição &
           Os produtos que serão cadastrados nesta funcionalidade deve somente ser
           produtos base, customizações serão feitas durante a venda. \\ \hline
+          \newline
+          \small{Fonte: do próprio autor}
         \end{tabular}
-        \caption{Exemplo de classificação de requisito inverso}
-        \label{Tabela:7}
       \end{table}
 
       Embora a funcionalidade de “Cadastro de produtos” tenha muitos outros requisitos,
@@ -476,7 +504,7 @@
       somente por causa das customizações é uma mudança muito grande no processo
       de como é realizada a venda.
 
-    \section{Arquitetura evolutiva}
+    \subsection{Arquitetura evolutiva}
       Após especificarmos as nossas funcionalidades e os nossos requisitos, precisamos
       construir o nosso sistema, lembrando que conforme o produto vai evoluindo,
       mudanças deverão ser feitas para acompanhar as necessidades do negócio. Para
@@ -541,7 +569,7 @@
       empresa e definir estratégias não tradicionais, para adquirir uma possível
       vantagem no mercado.
 
-    \section{Estruturando o fluxo de entrega}
+    \subsection{Estruturando o fluxo de entrega}
       Para alcançarmos nossos objetivos e desenvolvermos as nossas funcionalidades
       em tempo ágil, com qualidade e se preocupando em manter nossa arquitetura
       simples e evolutiva, precisamos estruturar o nosso fluxo de entrega, ou seja,
@@ -572,24 +600,29 @@
 
       \begin{table}[h!]
         \centering
-        \begin{tabular}{|c|p{10cm}|}
+        \label{Tabela:8}
+        \caption{Exemplo de especificação de critérios de aceite}
+        \begin{tabular}{c p{9cm}}
           \hline
-          \textbf{Funcionalidade} &
-          Cadastro de produtos \\ \hline
-          \textbf{Requisito} &
-          A notificação deve ser enviada imediatamente para a área técnica \\ \hline
-          \textbf{Critério} &
-          Deve ser disparado a notificação para todos os produtos que forem criados. \\ \hline
-          \textbf{Critério} &
-          Na notificação deve conter o nome do produto e quando ele foi criado. \\ \hline
-          \textbf{Critério} &
-          A área técnica deverá identificar se uma notificação já foi lida ou não. \\ \hline
-          \textbf{Critério} &
+          \textbf{Característica} &
+          \textbf{Descrição} \\
+          \hline
+          Funcionalidade &
+          Cadastro de produtos \\
+          Requisito &
+          A notificação deve ser enviada imediatamente para a área técnica \\
+          Critério &
+          Deve ser disparado a notificação para todos os produtos que forem criados. \\
+          Critério &
+          Na notificação deve conter o nome do produto e quando ele foi criado. \\
+          Critério &
+          A área técnica deverá identificar se uma notificação já foi lida ou não. \\
+          Critério &
           A notificação somente deve ser marcada como lida caso o usuário da área
           técnica acesse a notificação. \\ \hline
+          \newline
+          \small{Fonte: do próprio autor}
         \end{tabular}
-        \caption{Exemplo de especificação de critérios de aceite}
-        \label{Tabela:8}
       \end{table}
 
       Na tabela oito, podemos verificar os critérios de aceite para o requisito de
@@ -602,11 +635,12 @@
       representada a estrutura que uma funcionalidade possui depois de ser
       especificada. \newline
 
-      \begin{figure}[!h]
-        \centering
-        \includegraphics[width=15cm]{functionalityStructure.jpeg}
-        \caption{Estrutura de funcionalidade}
+      \begin{figure}[h!]
         \label{Imagem:1}
+        \caption{Estrutura de funcionalidade}
+        \includegraphics[width=16cm]{functionalityStructure.jpeg}
+        \newline
+        \small{Fonte: do próprio autor}
       \end{figure}
 
       Agora que definimos como nosso requisito será desenvolvido e como ele será
@@ -678,14 +712,15 @@
       identificar melhorias para as próximas iterações. Na figura dois está
       representada o fluxo dos ambientes que uma entrega passa. \newline
 
-      \begin{figure}[!h]
-        \centering
-        \includegraphics[width=15cm]{enviromentStream.jpeg}
-        \caption{Fluxo de ambientes}
+      \begin{figure}[h!]
         \label{Imagem:2}
+        \caption{Fluxo de ambientes}
+        \includegraphics[width=16cm]{enviromentStream.jpeg}
+        \newline
+        \small{Fonte: do próprio autor}
       \end{figure}
 
-    \section{Automatizando testes de qualidade}
+    \subsection{Automatizando testes de qualidade}
       Para otimizar a execução dos testes, e facilitar o trabalho dos testadores,
       podemos automatizar os testes que realizamos no sistema, para que sempre que
       uma funcionalidade nova, uma melhoria, uma alteração ou uma correção for
@@ -709,7 +744,7 @@
       com base nos impactos que a alteração gerou, podemos identificar o nível de
       abstração das funcionalidades e suas dependências.
 
-  \chapter{Como adquirir escalabilidade?}
+  \section{Como adquirir escalabilidade?}
     Conforme o nosso sistema vai aumentando, mais usuários vão utilizando ele,
     mais funcionalidades ele possui, e mais poder computacional ele necessita.
     Garantir que um sistema se mantenha no ar é uma tarefa complicada. Embora
@@ -734,7 +769,7 @@
     Agora o momento para a produção dos produtos base se perdeu, este conflito
     abalou as duas áreas e a confiança com o sistema pelos usuários diminuiu.
 
-    \section{Descobrindo os limites do sistema}
+    \subsection{Descobrindo os limites do sistema}
       Para nos prepararmos para este tipo de situações, precisamos descobrir os
       limites do nosso sistema, precisamos tentar fazer o sistema falhar em um
       ambiente controlado, antes que ele falhe em produção quando os nossos usuários
@@ -779,38 +814,48 @@
 
       \begin{table}[h!]
         \centering
-        \begin{tabular}{|c|p{10cm}|}
+        \label{Tabela:9}
+        \caption{Exemplo de análise de limite de sistema — limite de processamento}
+        \begin{tabular}{c p{9cm}}
           \hline
-          \textbf{Funcionalidade} &
-          Cadastro de produtos \\ \hline
-          \textbf{Cenário} &
+          \textbf{Característica} &
+          \textbf{Descrição} \\
+          \hline
+          Funcionalidade &
+          Cadastro de produtos \\
+          Cenário &
           O processamento do servidor utilizado para a funcionalidade se encontra
-          com 95\% de uso. \\ \hline
-          \textbf{Resultado} &
+          com 95\% de uso. \\
+          Resultado &
           Em 89\% do cadastro de novos projetos, a notificação demorou cerca de
-          três segundos para aparecer. \\ \hline
-          \textbf{Resultado} &
+          três segundos para aparecer. \\
+          Resultado &
           Em 96\% do cadastro dos novos projetos, levou cerca de dois
           segundos para realizar a criação do projeto. \\ \hline
+          \newline
+          \small{Fonte: do próprio autor}
         \end{tabular}
-        \caption{Exemplo de análise de limite de sistema — limite de processamento}
-        \label{Tabela:9}
       \end{table}
 
       \begin{table}[h!]
         \centering
-        \begin{tabular}{|c|p{10cm}|}
+        \label{Tabela:10}
+        \caption{Exemplo de análise de limite de sistema — limite de requisições}
+        \begin{tabular}{c p{9cm}}
           \hline
-          \textbf{Funcionalidade} &
-          Cadastro de produtos \\ \hline
-          \textbf{Cenário} &
-          Realizado 500 criações de novos projetos ao mesmo tempo. \\ \hline
-          \textbf{Resultado} &
+          \textbf{Característica} &
+          \textbf{Descrição} \\
+          \hline
+          Funcionalidade &
+          Cadastro de produtos \\
+          Cenário &
+          Realizado 500 criações de novos projetos ao mesmo tempo. \\
+          Resultado &
           Em 98\% dos cadastros a conexão com o banco de dados foi perdida ao tentar
           inserir os produtos. \\ \hline
+          \newline
+          \small{Fonte: do próprio autor}
         \end{tabular}
-        \caption{Exemplo de análise de limite de sistema — limite de requisições}
-        \label{Tabela:10}
       \end{table}
 
       Estas análises devem ser feitas em um ambiente que seja uma cópia de produção.
@@ -839,14 +884,15 @@
       não-funcionais. Na figura três, representamos o fluxo de ambientes incluindo
       o ambiente de \textbf{CHAOSPROD}.
 
-      \begin{figure}[!h]
-        \centering
-        \includegraphics[width=15cm]{enviromentStream_CHAOSPROD.jpeg}
-        \caption{Fluxo de ambientes com CHAOSPROD}
+      \begin{figure}[h!]
         \label{Imagem:3}
+        \caption{Fluxo de ambientes com CHAOSPROD}
+        \includegraphics[width=16cm]{enviromentStream_CHAOSPROD.jpeg}
+        \newline
+        \small{Fonte: do próprio autor}
       \end{figure}
 
-    \section{Desenvolvendo estratégias de escalabilidade}
+    \subsection{Desenvolvendo estratégias de escalabilidade}
       Uma vez identificado os nossos limites, devemos criar estratégias para lidar
       com elas, podendo ser aumentar o poder de processamento dos nossos servidores,
       migrar a nossa aplicação para um banco de dados mais robusto, melhorar o
@@ -891,23 +937,28 @@
 
       \begin{table}[h!]
         \centering
-        \begin{tabular}{|c|p{10cm}|}
-          \hline
-          \textbf{Funcionalidades} &
-          Nome das funcionalidades que foram impactadas \\ \hline
-          \textbf{Cenário} &
-          Descrição do cenário em que ocorreram os erros. \\ \hline
-          \textbf{Stakeholders} &
-          Quais são as áreas de negócio que serão impactadas no cenário descrito. \\ \hline
-          \textbf{Times} &
-          Quais são os equipes relacionadas para a execução deste plano. \\ \hline
-          \textbf{Plano} &
-          O que deverá ser feito caso produção se encontre neste cenário. \\ \hline
-          \textbf{Tempo de Execução} &
-          Tempo para a execução do plano. \\ \hline
-        \end{tabular}
-        \caption{Especificação para estruturação de estratégias}
         \label{Tabela:11}
+        \caption{Especificação para estruturação de estratégias}
+        \begin{tabular}{c p{9cm}}
+          \hline
+          \textbf{Característica} &
+          \textbf{Descrição} \\
+          \hline
+          Funcionalidades &
+          Nome das funcionalidades que foram impactadas \\
+          Cenário &
+          Descrição do cenário em que ocorreram os erros. \\
+          Stakeholders &
+          Quais são as áreas de negócio que serão impactadas no cenário descrito. \\
+          Times &
+          Quais são os equipes relacionadas para a execução deste plano. \\
+          Plano &
+          O que deverá ser feito caso produção se encontre neste cenário. \\
+          Tempo de Execução &
+          Tempo para a execução do plano. \\ \hline
+          \newline
+          \small{Fonte: do próprio autor}
+        \end{tabular}
       \end{table}
 
       Com o ambiente de \textbf{CHAOSPROD}, conseguimos descobrir os limites do
@@ -928,6 +979,15 @@
       \textbf{CHAOSPROD}. De toda forma, ele se tornou um aprendizado para o produto
       e agora faz parte de um cenário que estamos prevendo, pode ser que ele
       aconteça novamente, mas desta vez estaremos preparados. \newline
+
+      \begin{figure}[h!]
+        \label{Imagem:4}
+        \caption{Fluxo de entrega}
+        \includegraphics[width=16cm]{deliveryStream.jpeg}
+        \newline
+        \small{Fonte: do próprio autor}
+      \end{figure}
+
       Para evitar que os cenários que identificamos em \textbf{CHAOSPROD} aconteçam
       em produção e conseguirmos monitorar problemas que não mapeamos é importante
       monitorar se os critérios que definimos para cada requisito de cada funcionalidade
@@ -947,17 +1007,10 @@
       assim que a funcionalidade for redefinida para as novas necessidades do
       negócio, voltamos para a fase de desenvolvimento, testes, comunicação,
       testes em \textbf{CHAOSPROD} e criamos métricas para garantir que
-      os critérios continuem garantidos. Ma figura quatro, está ilustrado o fluxo
+      os critérios continuem garantidos. Na figura quatro, está ilustrado o fluxo
       que uma entrega deve passar para ser entregue com qualidade.
 
-      \begin{figure}[!h]
-        \centering
-        \includegraphics[width=15cm]{deliveryStream.jpeg}
-        \caption{Fluxo de entrega}
-        \label{Imagem:4}
-      \end{figure}
-
-  \chapter{Como manter o seu produto?}
+  \section{Como manter o seu produto?}
     Para assegurar que o produto continue disponível, gerando valor, seja confiável
     para o usuário e que continue evoluindo com o negócio, nós precisamos enxergar
     a saúde do produto. Isso não quer dizer apenas analisar questões do sistema
@@ -986,7 +1039,7 @@
     e mais testes serão necessários para garantir que o sistema continue disponível
     e aderente ao negócio.
 
-    \section{Ouvindo os usuários}
+    \subsection{Ouvindo os usuários}
       Há diversas ações que podemos realizar para conseguirmos captar as percepções
       do usuário. A primeira delas é perguntar diretamente para eles, utilizar
       a opinião de cada usuário para tentar identificar as suas opiniões, buscando
@@ -1025,7 +1078,7 @@
       do problema, antes mesmo que o usuário perceba, conseguindo assegurar que
       o sistema se mantenha disponível e manter a confiança do usuário no produto.
 
-    \section{Aprendendo com os erros}
+    \subsection{Aprendendo com os erros}
       Com o frequente acompanhamento das funcionalidades, vamos identificar
       diversos erros cometidos no produto. O fato de estarmos monitoramento o nosso
       produto e de desenvolvermos as funcionalidades centradas no negócio, é o que
@@ -1054,29 +1107,34 @@
 
       \begin{table}[h!]
         \centering
-        \begin{tabular}{|c|p{10cm}|}
+        \label{Tabela:12}
+        \caption{Especificação para documentação de resolução de problemas}
+        \begin{tabular}{c p{9cm}}
           \hline
-          \textbf{Funcionalidades} &
-          Nome das funcionalidades que foram impactadas. \\ \hline
-          \textbf{Cenário} &
-          Descrição do cenário em que ocorreram os erros. \\ \hline
-          \textbf{Stakeholders} &
-          Quais são as áreas de negócio que foram impactadas no cenário descrito. \\ \hline
-          \textbf{Problema} &
-          Descrição do problema que ocorreu. \\ \hline
-          \textbf{Origem do Problema} &
-          O que foi que causou o problema descrito. \\ \hline
-          \textbf{Equipes Envolvidas} &
-          Quais equipes foram envolvidas para a resolução. \\ \hline
-          \textbf{Solução} &
-          O que foi realizado para resolver o problema. \\ \hline
-          \textbf{Novos Desenvolvimentos} &
+          \textbf{Característica} &
+          \textbf{Descrição} \\
+          \hline
+          Funcionalidades &
+          Nome das funcionalidades que foram impactadas. \\
+          Cenário &
+          Descrição do cenário em que ocorreram os erros. \\
+          Stakeholders &
+          Quais são as áreas de negócio que foram impactadas no cenário descrito. \\
+          Problema &
+          Descrição do problema que ocorreu. \\
+          Origem do Problema &
+          O que foi que causou o problema descrito. \\
+          Equipes Envolvidas &
+          Quais equipes foram envolvidas para a resolução. \\
+          Solução &
+          O que foi realizado para resolver o problema. \\
+          Novos Desenvolvimentos &
           O que deve ser desenvolvido para monitorar o cenário descrito com o
           objetivo de nos alertar ou facilitar a análise caso o erro volte a
           acontecer. \\ \hline
+          \newline
+          \small{Fonte: do próprio autor}
         \end{tabular}
-        \caption{Especificação para documentação de resolução de problemas}
-        \label{Tabela:12}
       \end{table}
 
       Vale lembrar que um erro não é somente um mau funcionamento de alguma
@@ -1089,7 +1147,7 @@
       e a arquitetura construída terá que se adaptar a estas mudanças, podendo ter
       que mudar um componente inteiro para garantir a aderência ao negócio.
 
-    \section{Testes automatizados como ferramenta de aprendizado}
+    \subsection{Testes automatizados como ferramenta de aprendizado}
       Conforme vamos realizando mudanças no produto, seja proveniente de algum erro,
       por mudanças no negócio ou na implementação de alguma melhoria, devemos produzir
       novos testes automatizados para garantir que os novos requisitos dessas mudanças
@@ -1133,7 +1191,7 @@
       exatamente o que mudou no negócio e podemos focar na criação de um novo
       produto, mantendo os ensinamentos do produto passado.
 
-    \section{Utilizando os dados adquiridos}
+    \subsection{Utilizando os dados adquiridos}
       Agora que sabemos quais dados precisamos procurar para garantir a qualidade
       do nosso produto, precisamos armazenar estes dados em um local que todos os
       membros do projeto tenham visibilidade para utilizar as informações e com
@@ -1194,7 +1252,7 @@
       desenvolver uma melhoria que foi identificada e será especificada baseada
       em dados.
 
-  \chapter{Resultados da proposta}
+  \section{Resultados da proposta}
     Conforme apresentado no trabalho Quality Attributes and Service-Oriented Architectures
     \cite{O'BrienQualityAttributes2005}, os requisitos não-funcionais estão diretamente
     ligados com a qualidade de nosso \textit{software}. Questões como desempenho,
