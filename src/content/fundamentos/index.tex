@@ -108,7 +108,7 @@
       das práticas de \textit{DevOps}, vamos explicar somente os conceitos para
       auxiliar no entendimento da proposta do trabalho.
 
-      \subsection{\textit{Continuous Integration}}
+      \subsection{\textit{Continuous Integration (CI)}}
         Quando estamos trabalhando em equipes, é natural que em determinados momentos
         seja necessário que dois desenvolveres tenham que alterar o mesmo arquivo,
         se não trabalharmos utilizando o conceito de CI, só vamos descobrir esse
@@ -139,7 +139,7 @@
         que pode impactar o desenvolvimento de outras pessoas na nossa equipe por
         causa de estar inacabado. \newline
 
-      \subsection{\textit{Continuous Delivery}}
+      \subsection{\textit{Continuous Delivery (CD)}}
         Agora que conseguimos integrar o nosso código de forma que os conflitos são
         apresentados para nós e as implementações são realizadas em \textit{branchs}
         separadas, conseguimos aplicar essas implementações de forma contínua
@@ -170,7 +170,7 @@
         implementação, podemos utilizar os ambientes para identificar e mitigar
         os erros antes que entre em produção \cite{TheDevOpsHandbook}. \newline
 
-      \subsection{\textit{Test-Driven Development}}
+      \subsection{\textit{Test-Driven Development (TDD)}}
         Para assegurar a qualidade do nosso \textit{software}, é necessário realizar
         diversos testes antes que uma funcionalidade seja disponibilizada em produção,
         eles devem ser considerados durante o período de desenvolvimento, todas
@@ -238,3 +238,84 @@
         aprendizagem para que possamos descobrir como nos preparar para eventuais
         ocorrências em produção e manter nosso sistema disponível e confiável \cite{
         SiteReliabilityEngineering}.
+
+  \section{Compreendendo Requisitos}
+    Agora que explicamos das principais práticas de \textit{DevOps} para nos
+    auxiliar na implementação das nossas funcionalidades. Vamos explorar como
+    levantar os requisitos necessários para desenvolver a nossa funcionalidade. \newline
+    Conforme apresentado no \textit{The DevOps Handbook}, as nossas funcionalidades
+    devem ser criadas para cumprir objetivos de negócio \cite{TheDevOpsHandbook}.
+    O sistema e suas funcionalidades devem ter um objetivo claro sobre o negócio,
+    desta forma, podemos verificar se a funcionalidade trouxe valor para o negócio
+    ou se precisamos melhorar ela, até que o objetivo seja cumprido. Os objetivos
+    podem ser desde questões financeiras como, aumentar o rendimento da empresa,
+    ou para trazer mais oportunidades como, aumentar a quantidade de \textit{leads}.
+    O mais importante quando for definir um objetivo é buscar que quando ele for
+    cumprido, o negócio deverá se beneficiar de alguma forma, deverá ser gerado
+    valor. \newline
+    Após descobrirmos o nosso objetivo, devemos começar desenhar como o sistema
+    vai auxiliar na resolução desse objetivo. Devemos entender como o negócio
+    funciona e pensar em uma forma de implementar ou melhorar uma funcionalidade
+    no sistema que auxilie o negócio a cumprir o objetivo. Conforme apresentado
+    no \textit{Domain-Driven Development}, nesta etapa é importante que a área de
+    negócio e o desenvolver falem a mesma língua, ou seja, é importante que expressões,
+    siglas, jargões, tudo que venha a ser utilizado para desenvolver a funcionalidade,
+    seja de conhecimento de todos os envolvidos no desenvolvimento \cite{DomainDrivenDesign}.
+    Os desenvolvedores devem conseguir se expressar de uma forma que a equipe de
+    negócio compreenda e a equipe de negócio deve se expressar de uma forma que
+    os desenvolvedores possam compreender. O sistema que será construído é um
+    reflexo do que o negócio já realiza. Os desenvolvedores devem desenvolver as
+    funcionalidades com foco na visão do usuário. Através das conversas com o usuário,
+    descobrimos o que o sistema deve fazer. Através do que o sistema deve fazer,
+    nada mais é do que os seus requisitos funcionais. Cada detalhe discutido, cada
+    regra de negócio, cada conceito apresentado pela área de negócio, deverá ser
+    replicado para o sistema \cite{DomainDrivenDesign}. \newline
+    Outro fator que não podemos esquecer são os requisitos não-funcionais. Quando
+    construímos um sistema devemos levar em consideração questões como segurança,
+    escalabilidade, disponibilidade, entre outros requisitos. Cada requisito que
+    implementamos tem um impacto em sua usabilidade e devemos levar em consideração
+    o \textit{trade off} gerado através desta implementações \cite{KazmanTheArchitecture1998}.
+    É muito mais fácil para o usuário colocar somente o \textit{login} e senha,
+    ao invés de colocar \textit{login}, senha e um \textit{token} de autentificação
+    que muda a cada 30 segundos. Neste examplo, aumentamos a segurança do sistema
+    porém, dificultamos a autentificação do usuário, ou seja, dificultamos sua
+    usabilidade. \newline
+    Para descobrir quais requisitos não-funcionais devemos implementar, precisamos
+    analisar a funcionalidade e entender o que ela representa para o negócio. Por
+    exemplo, caso o usuário deva realizar uma operação financeira, é importante
+    exigir que ele sempre informe uma senha antes de realizar a operação. Mais uma
+    vez estamos dificultando sua usabilidade para garantir a segurança. Cada
+    funcionalidade terá diferentes tipos de requisitos não-funcionais, porém,
+    através das conversas que realizamos com os usuários, descobrimos o que devemos
+    implementar e quais \textit{trade off} devemos assumir.
+
+  \section{Trabalhando com Riscos}
+    Para auxiliar no levantamento dos requisitos e conseguirmos desenvolver nosso
+    sistema de forma à antecipar erros, devemos identificar os riscos de cada
+    implementação que vamos realizar. Cada funcionalidade tem os seus requisitos
+    e como já explicamos, os \textit{trade off}. Conforme apresentado no \textit{
+    Site Reliability Engineering}, identificarmos esses riscos nos permite
+    criar planos de ações para, caso algum dia aconteça algum problema, conseguimos
+    analisar e resolver de forma rápida \cite{SiteReliabilityEngineering}. \newline
+    Devemos considerar risco tudo que pode impactar negativamente o negócio ou o
+    sistema. Conforme já apresentado, uma funcionalidade está ligada a um objetivo
+    de negócio, por este motivo, não atingir o objetivo levantado, já é um risco.
+    Quando não atingimos este objetivo, o negócio será impactado, por exemplo,
+    não vai atingir uma certa quantidade de receita, não vai gerar uma certa
+    quantidade de \textit{leads}, não vai possibilitar um aumento na quantidade
+    de vendas de um determinado produto. Há diversos impactos que a não obtenção
+    de um objetivo pode causar e cada impacto deve ser considerado um risco para
+    o negócio. \newline
+    Outro risco que devemos considerar é o risco para o sistema. Quantas vendas
+    podem ser realizadas por segundo? Se realizarmos 100 vendas, o sistema é
+    derrubado? O que acontece se perdermos um servidor? Com base na forma que
+    construímos a funcionalidade e em como o sistema está sendo executado, há
+    diversos riscos que devemos considerar. Devemos levar em consideração o que
+    acontece se uma funcionalidade para de funcionar e o que pode fazer ela parar
+    de funcionar. Um servidor que envelheceu e parou de funcionar, pode fazer com
+    que diminua a quantidade de requisições que o sistema aguenta. Uma vez que
+    que essa quantidade seja reduzida, em um horário de maior acesso ao seu sistema
+    ele pare de funcionar. \newline
+    Durante a proposta vamos apresentar práticas para facilitar a identificação
+    de riscos e como podemos nos preparar para os erros que possam der gerados a
+    partir deles.
