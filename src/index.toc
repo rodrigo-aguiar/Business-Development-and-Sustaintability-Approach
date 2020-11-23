@@ -14,22 +14,22 @@
 \contentsline {section}{\numberline {2.3}Compreendendo Requisitos}{21}%
 \contentsline {section}{\numberline {2.4}Trabalhando com Riscos}{22}%
 \contentsline {chapter}{\numberline {3}Proposta}{24}%
-\contentsline {section}{\numberline {3.1}Como criar produtos com qualidade}{24}%
-\contentsline {subsection}{\numberline {3.1.1}Assumindo riscos}{25}%
-\contentsline {subsection}{\numberline {3.1.2}Entendendo os requisitos de uma funcionalidade}{29}%
-\contentsline {subsection}{\numberline {3.1.3}Arquitetura evolutiva}{34}%
-\contentsline {subsection}{\numberline {3.1.4}Estruturando o fluxo de entrega}{36}%
-\contentsline {subsection}{\numberline {3.1.5}Automatizando testes de qualidade}{39}%
-\contentsline {section}{\numberline {3.2}Como adquirir escalabilidade}{40}%
-\contentsline {subsection}{\numberline {3.2.1}Descobrindo os limites do sistema}{41}%
-\contentsline {subsection}{\numberline {3.2.2}Desenvolvendo estratégias de escalabilidade}{43}%
-\contentsline {section}{\numberline {3.3}Como manter o seu produto}{46}%
-\contentsline {subsection}{\numberline {3.3.1}Ouvindo os usuários}{47}%
-\contentsline {subsection}{\numberline {3.3.2}Aprendendo com os erros}{48}%
-\contentsline {subsection}{\numberline {3.3.3}Testes automatizados como ferramenta de aprendizado}{49}%
-\contentsline {subsection}{\numberline {3.3.4}Utilizando os dados adquiridos}{50}%
-\contentsline {section}{\numberline {3.4}Resultados da proposta}{52}%
-\contentsline {chapter}{\numberline {4}Conclusão}{54}%
-\contentsline {section}{\numberline {4.1}Resultados em relação ao objetivo}{54}%
-\contentsline {section}{\numberline {4.2}Trabalhos futuros}{55}%
-\contentsline {chapter}{Referências}{56}%
+\contentsline {section}{\numberline {3.1}Como criar produtos com qualidade}{25}%
+\contentsline {subsection}{\numberline {3.1.1}Assumindo riscos}{26}%
+\contentsline {subsection}{\numberline {3.1.2}Entendendo os requisitos de uma funcionalidade}{31}%
+\contentsline {subsection}{\numberline {3.1.3}Arquitetura evolutiva}{35}%
+\contentsline {subsection}{\numberline {3.1.4}Estruturando o fluxo de entrega}{37}%
+\contentsline {subsection}{\numberline {3.1.5}Automatizando testes de qualidade}{40}%
+\contentsline {section}{\numberline {3.2}Como adquirir escalabilidade}{41}%
+\contentsline {subsection}{\numberline {3.2.1}Descobrindo os limites do sistema}{42}%
+\contentsline {subsection}{\numberline {3.2.2}Desenvolvendo estratégias de escalabilidade}{45}%
+\contentsline {section}{\numberline {3.3}Como manter o seu produto}{48}%
+\contentsline {subsection}{\numberline {3.3.1}Ouvindo os usuários}{48}%
+\contentsline {subsection}{\numberline {3.3.2}Aprendendo com os erros}{49}%
+\contentsline {subsection}{\numberline {3.3.3}Testes automatizados como ferramenta de aprendizado}{51}%
+\contentsline {subsection}{\numberline {3.3.4}Utilizando os dados adquiridos}{52}%
+\contentsline {section}{\numberline {3.4}Resultados da proposta}{53}%
+\contentsline {chapter}{\numberline {4}Conclusão}{55}%
+\contentsline {section}{\numberline {4.1}Resultados em relação ao objetivo}{55}%
+\contentsline {section}{\numberline {4.2}Trabalhos futuros}{56}%
+\contentsline {chapter}{Referências}{57}%

@@ -1,4 +1,58 @@
 \chapter{Proposta}
+  Conforme apresentado no trabalho Quality Attributes and Service-Oriented Architectures
+  \cite{O'BrienQualityAttributes2005}, os requisitos não-funcionais estão diretamente
+  ligados com a qualidade de nosso \textit{software}. Questões como desempenho,
+  usabilidade, segurança e entre outros, são requisitos que garantem que o nosso
+  produto funciona e que as nossas funcionalidades desenvolvidas, estão aderentes
+  com o negócio. \newline
+  Um produto de qualidade deve estar sempre aderente, os usuários devem conseguir
+  utilizar o sistema e sentir que as necessidades deles estão sendo atendidas,
+  eles devem sentir segurança ao utilizar o sistema e as funcionalidades devem
+  ter um tempo de resposta razoável, para que a experiência do usuário não se
+  torne frustrante. É importante sabermos que não vamos conseguir atender todos
+  os requisitos e que teremos que enfrentar riscos no nosso produto. Conforme
+  apresentado no The Architecture Tradeoff Analysis Method \cite{KazmanTheArchitecture1998},
+  com base nos riscos que analisamos, devemos buscar remodelar a arquitetura que
+  desenvolvemos para o nosso produto para que continuemos com a qualidade e possamos
+  mitigar ou extinguir esses riscos. A experiência do usuário e o valor que o
+  produto está gerando para o negócio estão diretamente atrelados à qualidade
+  que cada funcionalidade foi desenvolvida e quais os riscos que estamos convivendo.
+  É importante sempre revalidar com o negócio se o que está desenvolvido continua
+  aderente, se algum risco que estamos convivendo deveria ser mitigado e com essas
+  análises, se devemos investir em reformular a arquitetura montada para se
+  adaptar as novas definições, ou se devemos começar a desenvolver um produto
+  novo, pois, se o negócio está sofrendo diversas alterações que estão descaracterizando
+  o nosso produto, o objetivo do sistema que construímos foi cumprido e agora
+  a empresa possui um novo objetivo. \newline
+  Quando desenvolvemos nosso produto em conjunto com o negócio, conforme apresentado
+  no Domain Driven Design \cite{DomainDrivenDesign} conseguimos criar uma linguagem
+  que será utilizada para que as áreas de negócio e a equipe de desenvolvimento
+  consigam se comunicar e que desta forma, a equipe de desenvolvimento consiga
+  captar melhor os requisitos das funcionalidades e os usuários consigam
+  compreender mais facilmente como o sistema funciona. Com este entendimento
+  entre as duas partes, é mais fácil criar um código mais limpo, pois os padrões
+  e os nomes dos objetos e das entidades serão nomeados baseado em um entendimento
+  que todos na equipe adquiriram ao se comunicar com o negócio, padrões e estilo de
+  desenvolvimento bem definidos entre os membros do equipe de desenvolvimento facilita
+  a compreensão e manutenção do código. Como apresentado no Clean Code \cite{CleanCode},
+  a maior parte de nosso tempo utilizamos lendo o nosso código do que escrevendo
+  linhas novas, e se o código estiver representando o negócio, tanto em sua
+  funcionalidade quanto em sua escrita, ele se torna a documentação do projeto,
+  demonstrando como cada parte do sistema funciona e quais requisitos ele está
+  atendendo. \newline
+  Precisamos garantir que o nosso produto continue em funcionamento em todas as
+  situações, com a utilização de métricas, produzindo \textit{logs}, conversando
+  com o usuário. Caso um problema venha a acontecer, conseguimos supervisionar
+  a saúde do ambiente e encontrar a raiz do problema de forma rápida. Após a
+  sua resolução, aprendemos com ele e desenvolvemos novas formas de supervisão,
+  para que consigamos verificar se o sistema está apresentando sinais que o erro
+  vai voltar a ocorrer. Com esse aprendizado podemos elaborar estratégias para
+  nos preparar para futuras situações, redefinindo a nossa arquitetura e
+  adquiririndo maior consciência sobre o negócio na totalidade, pois desta forma
+  estamos utilizando o negócio para definir o sistema e o sistema para aprender
+  sobre o negócio. Com esta mentalidade, conseguimos começar a produzir um produto
+  que atenda as necessidades dos usuários e auxilie o negócio a crescer.
+
   \section{Como criar produtos com qualidade}
     Quando produzimos um \textit{software}, focamos sempre nas funcionalidades que
     o sistema deve conter, pretendemos entregar o mais rápido possível e respeitar
@@ -53,7 +107,7 @@
       funcionalidades que iremos desenvolver. Para realizar este levantamento é
       importante considerar o nome da funcionalidade, a sua importância, os objetivos
       em que ela vai auxiliar a alcançar, os riscos que vamos enfrentar e as dependências
-      para disponibilizar a funcionalidade ao usuário. Na tabela um você encontra
+      para disponibilizar a funcionalidade ao usuário. Na tabela 1 você encontra
       como classificar uma funcionalidade. \newline
 
       \begin{table}[h!]
@@ -192,7 +246,7 @@
         \end{tabular}
       \end{table}
 
-      Na tabela dois, representamos três funcionalidades: o cadastro de produtos,
+      Na tabela 2, representamos três funcionalidades: o cadastro de produtos,
       a venda de produtos, e o \textit{chat} interno. Podemos notar que a maior necessidade
       da empresa é a de padronizar a venda do produto, onde a negociação deve ser
       feita de forma uniforme e que facilite os vendedores a venderem produtos
@@ -222,7 +276,7 @@
       treinamentos e das apresentações que podemos pegar o \textit{feedback} dos
       usuário e começar a mapear novas funcionalidades e melhorias. Podemos ver
       o mapeamento dos riscos e das dependências das funcionalidades criadas no
-      exemplo, na tabela três. \newline
+      exemplo, na tabela 3. \newline
 
       \begin{table}[h!]
         \label{Tabela:3}
@@ -326,7 +380,7 @@
         forma trabalhar em uma transformação na empresa para atender as novas
         necessidades do mercado, assim evoluindo o sistema ou até mesmo desenvolvendo
         um novo, garantindo que a empresa se mantenha sempre atualizada com as
-        tendências do mercado. Na tabela quatro estão os atributos que devem ser
+        tendências do mercado. Na tabela 4 estão os atributos que devem ser
         considerados quando classificamos um requisito. \newline
 
       \begin{table}[h!]
@@ -473,8 +527,8 @@
       \end{table}
 
       Embora a funcionalidade de “Cadastro de produtos” tenha muitos outros requisitos,
-      vamos exemplificar somente os que estão nas tabelas cinco, seis e sete.
-      O requisito da tabela cinco se trata de um requisito funcional, o requisito de
+      vamos exemplificar somente os que estão nas tabelas 5, 6 e 7.
+      O requisito da tabela 5 se trata de um requisito funcional, o requisito de
       enviar a notificação para a área técnica quando um projeto for criado. Podemos
       notar que sua mutabilidade é de 45 porcento. Embora o processo dificilmente possa mudar,
       a área técnica sempre deve ser informada quando um projeto for criado, pois,
@@ -487,14 +541,14 @@
       vendas pode ser incluída no recebimento da requisição. Embora os vendedores
       também participem desse processo, a notificação é destinada somente para a área
       técnica, desta forma, somente esta área é \textit{stakeholder} desse
-      requisito. Na tabela seis, temos um requisito não-funcional, é um requisito
+      requisito. Na tabela 6, temos um requisito não-funcional, é um requisito
       que está atrelado diretamente à qualidade da funcionalidade, que está definindo
       que a notificação deve ser disparada com no máximo um \textit{delay} de um
       segundo da criação do produto. Para o negócio é importante que a área seja
       informada que um novo projeto foi criado imediatamente após sua criação. Este
       requisito deve ser utilizado como critério de qualidade e utilizado como cenário
       de teste, não somente da criação de um projeto, mas para a criação de vários
-      projetos de uma vez só. Na tabela sete, possuímos um requisito inverso, algo
+      projetos de uma vez só. Na tabela 7, possuímos um requisito inverso, algo
       que o sistema não deve fazer, que no caso, é que a funcionalidade de “Cadastro
       de produtos” se destina somente para produtos base, ou seja, as customizações
       dos vendedores não estão incluídas nessa funcionalidade. Como a customização
@@ -596,7 +650,7 @@
       vai se comportar nestes cenários, e desta forma, conseguimos antes de disponibilizar
       a funcionalidade para o usuário, averiguar se realmente faz sentido correr
       o risco mapeado. Para exemplificar a escrita dos critérios de aceite, vamos
-      utilizar o requisito da tabela seis. \newline
+      utilizar o requisito da tabela 6. \newline
 
       \begin{table}[h!]
         \centering
@@ -625,7 +679,7 @@
         \end{tabular}
       \end{table}
 
-      Na tabela oito, podemos verificar os critérios de aceite para o requisito de
+      Na tabela 8, podemos verificar os critérios de aceite para o requisito de
       notificação da funcionalidade de “Cadastro de produtos”. Podemos notar que cada
       requisito descreve como a funcionalidade deve funcionar, assim como auxilia
       como este requisito deve ser testado. Deve ser testado de forma massiva.
@@ -643,11 +697,11 @@
         \small{Fonte: do próprio autor}
       \end{figure}
 
-      Agora que definimos como nosso requisito será desenvolvido e como ele será
+      Agora que definimos como nossa funcionalidade será desenvolvida e como ele será
       testado, precisamos definir em qual momento cada uma dessas ações deverá ser
       realizada e em qual ambiente. Quando estamos desenvolvendo uma funcionalidade
       devemos sempre testar ela por completo, mas para sermos ágeis, não podemos
-      esperar todos os requisitos serem desenvolvidos para iniciarmos os testes,
+      esperar que todas as funcionalidades sejam desenvolvidas para iniciarmos os testes,
       da mesma forma que os desenvolvedores não podem ficar aguardando todos os
       testes serem realizados para iniciarem um novo desenvolvimento. Enquanto os
       testadores só podem iniciar um teste assim que um desenvolvedor finalizar
@@ -809,7 +863,7 @@
       problemas e uma vez que produção comece a trabalhar no limite do sistema,
       já sabemos o que pode ocorrer. Para armazenarmos os testes que ocorreram,
       é importante anotar a funcionalidade que testamos, o cenário que estava o
-      sistema e quais foram resultados com as porcentagens. Nas tabelas nove e dez,
+      sistema e quais foram resultados com as porcentagens. Nas tabelas 9 e 10,
       exemplificamos esta análise utilizando a funcionalidade, “Cadastro de produtos”.
 
       \begin{table}[h!]
@@ -933,7 +987,7 @@
       importante sempre lembrar, que devemos gerar as nossas métricas e basear a
       nossa supervisão com base em como o sistema está sendo utilizado, ou seja,
       é através das necessidades do negócio, que aprendemos onde devemos olhar.
-      Na tabela onze, especificamos como estruturar uma estratégia.\newline
+      Na tabela 11, especificamos como estruturar uma estratégia.\newline
 
       \begin{table}[h!]
         \centering
@@ -1102,7 +1156,7 @@
       para resolver o ocorrido. Após resolvido o problema, devemos mapear o que
       podemos desenvolver para supervisionar o sistema, com o objetivo de identificar
       sinais que o erro vai voltar a ocorrer e que facilite a nossa análise para
-      a sua resolução. Na tabela doze especificamos como realizar a documentação
+      a sua resolução. Na tabela 12 especificamos como realizar a documentação
       da resolução do problema. \newline
 
       \begin{table}[h!]
@@ -1253,55 +1307,34 @@
       em dados.
 
   \section{Resultados da proposta}
-    Conforme apresentado no trabalho Quality Attributes and Service-Oriented Architectures
-    \cite{O'BrienQualityAttributes2005}, os requisitos não-funcionais estão diretamente
-    ligados com a qualidade de nosso \textit{software}. Questões como desempenho,
-    usabilidade, segurança e entre outros, são requisitos que garantem que o nosso
-    produto funciona e que as nossas funcionalidades desenvolvidas, estão aderentes
-    com o negócio. \newline
-    Um produto de qualidade deve estar sempre aderente, os usuários devem conseguir
-    utilizar o sistema e sentir que as necessidades deles estão sendo atendidas,
-    eles devem sentir segurança ao utilizar o sistema e as funcionalidades devem
-    ter um tempo de resposta razoável, para que a experiência do usuário não se
-    torne frustrante. É importante sabermos que não vamos conseguir atender todos
-    os requisitos e que teremos que enfrentar riscos no nosso produto. Conforme
-    apresentado no The Architecture Tradeoff Analysis Method \cite{KazmanTheArchitecture1998},
-    com base nos riscos que analisamos, devemos buscar remodelar a arquitetura que
-    desenvolvemos para o nosso produto para que continuemos com a qualidade e possamos
-    mitigar ou extinguir esses riscos. A experiência do usuário e o valor que o
-    produto está gerando para o negócio estão diretamente atrelados à qualidade
-    que cada funcionalidade foi desenvolvida e quais os riscos que estamos convivendo.
-    É importante sempre revalidar com o negócio se o que está desenvolvido continua
-    aderente, se algum risco que estamos convivendo deveria ser mitigado e com essas
-    análises, se devemos investir em reformular a arquitetura montada para se
-    adaptar as novas definições, ou se devemos começar a desenvolver um produto
-    novo, pois, se o negócio está sofrendo diversas alterações que estão descaracterizando
-    o nosso produto, o objetivo do sistema que construímos foi cumprido e agora
-    a empresa possui um novo objetivo. \newline
-    Quando desenvolvemos nosso produto em conjunto com o negócio, conforme apresentado
-    no Domain Driven Design \cite{DomainDrivenDesign} conseguimos criar uma linguagem
-    que será utilizada para que as áreas de negócio e a equipe de desenvolvimento
-    consigam se comunicar e que desta forma, a equipe de desenvolvimento consiga
-    captar melhor os requisitos das funcionalidades e os usuários consigam
-    compreender mais facilmente como o sistema funciona. Com este entendimento
-    entre as duas partes, é mais fácil criar um código mais limpo, pois os padrões
-    e os nomes dos objetos e das entidades serão nomeados baseado em um entendimento
-    que todos na equipe adquiriram ao se comunicar com o negócio, padrões e estilo de
-    desenvolvimento bem definidos entre os membros do equipe de desenvolvimento facilita
-    a compreensão e manutenção do código. Como apresentado no Clean Code \cite{CleanCode},
-    a maior parte de nosso tempo utilizamos lendo o nosso código do que escrevendo
-    linhas novas, e se o código estiver representando o negócio, tanto em sua
-    funcionalidade quanto em sua escrita, ele se torna a documentação do projeto,
-    demonstrando como cada parte do sistema funciona e quais requisitos ele está
-    atendendo. \newline
-    Precisamos garantir que o nosso produto continue em funcionamento em todas as
-    situações, com a utilização de métricas, produzindo \textit{logs}, conversando
-    com o usuário. Caso um problema venha a acontecer, conseguimos supervisionar
-    a saúde do ambiente e encontrar a raiz do problema de forma rápida. Após a
-    sua resolução, aprendemos com ele e desenvolvemos novas formas de supervisão,
-    para que consigamos verificar se o sistema está apresentando sinais que o erro
-    vai voltar a ocorrer. Com esse aprendizado podemos elaborar estratégias para
-    nos preparar para futuras situações, redefinindo a nossa arquitetura e
-    adquiririndo maior consciência sobre o negócio na totalidade, pois desta forma
-    estamos utilizando o negócio para definir o sistema e o sistema para aprender
-    sobre o negócio.
+    Com a elaboração desta abordagem, buscamos atingir o objetivo de construir
+    produtos de qualidade que estejam aderentes ao negócio. Com a utilização das
+    práticas apresetadas, é possível através dos objetivos da empresa levantar os
+    requisitos do sistema. Através dos objetivos levantados, podemos implementar
+    métricas no sistema para verificar se estamos alcançando eles com as funcionalidades
+    que implementamos. \newline
+    A qualidade das funcionalidades são asseguradas com testes automatizados,
+    simulações e o acompanhamento em produção. Cada uma sendo executada ao longo
+    do desenvolvimento do produto, com o intuíto de corrigir erros e buscar melhorias.
+    Através dos processos apresentados e dos dados coletados com as simulações e
+    o acompanhamento em produção, podemos alcançar mais objetivos para o negócio
+    implementando novas funcionalidades e melhorias. Todo o processo desenhado foi
+    pensado para que cada ação realizada seja com base em uma necessidade da empresa.
+    Para cada necessidade de negócio, analisamos as funcionalidades e relacionamos
+    com os objetivos. Caso não haja uma funcionalidade que atenda algum objetivo,
+    uma nova é pensada. Desta forma, conseguimos entender o propósito de cada
+    implementação. Com estes propósitos, conseguimos criar métricas mais acertivas
+    para identificar se realmente estamos atingindo os objetivos do negócio. \newline
+    Outro ponto importante que definos em nossa abordagem é a detecção de riscos.
+    Cada funcinalidade implementada possui riscos. Através das práticas sugeridas,
+    identificamos estes riscos durante o desenvolvimento das funcionalidades. Como
+    sabemos da existência desses riscos. Podemos nos antecipar aos erros que possam
+    ocorrer por causa deles através de simulações e testes realizados durante a
+    etapa de \textit{quality assurance}. \newline
+    Cada prática sugerida durante a abordagem foi apresentada com o objetivo de
+    produzir produtos com qualidade e que estejam aderentes ao negócio. Acreditamos
+    que a utilização desta abordagem possibilite uma melhor visão sobre o negócio,
+    através dos dados coletados com a utilização do sistema. Através dos objetivos
+    podemos verificar se o retorno com o cumprimento do objetivo realmente trouxe
+    o valor esperado ao negócio. Com base nesse entendimento, conseguimos levantar
+    novos objetivos mais acertivos com as necessidades do negócio.
